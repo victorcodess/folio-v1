@@ -1,21 +1,22 @@
+"use client";
 import React from "react";
 
 const NavBar = () => {
   return (
-    <nav className="bg-[#16161a] flex fixed z-50 bottom-10 left-[50%] items-center justify-center ml-[-200px] px-1 py-1 gap-1 rounded-lg">
-      <div className="hover:bg-[#7f5af0]/10 px-4 rounded cursor-pointer">
+    <ul className="bg-[#16161a] flex fixed z-50 bottom-20 left-[50%] items-center justify-center ml-[-220px] md:ml-[-275px] px-1 py-1 md:p-2 gap-1 rounded-lg">
+      <li className=" px-6 md:px-8 rounded ">
         <h1 className="text-stone-300 text-[16px]">Home</h1>
-      </div>
-      <div className="hover:bg-[#7f5af0]/10 px-4 rounded cursor-pointer">
+      </li>
+      <li className=" px-6 md:px-8 rounded ">
         <h1 className="text-stone-300 text-[16px]">About</h1>
-      </div>
-      <div className="hover:bg-[#7f5af0]/10 px-4 rounded cursor-pointer">
+      </li>
+      <li className=" px-6 md:px-8 rounded ">
         <h1 className="text-stone-300 text-[16px]">Work</h1>
-      </div>
-      <div className="hover:bg-[#7f5af0]/10 px-4 rounded cursor-pointer">
+      </li>
+      <li className=" px-6 md:px-8 rounded ">
         <h1 className="text-stone-300 text-[16px]">Contact</h1>
-      </div>
-    </nav>
+      </li>
+    </ul>
   );
 };
 
