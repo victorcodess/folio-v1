@@ -1,8 +1,7 @@
 "use client";
 
 import Image from "next/image";
-// import profileImg from ".//../public/profile.png";
-import { monaSans } from "./layout";
+import { monaSans } from "./fonts/monaSans";
 
 const Hero = () => {
   return (
