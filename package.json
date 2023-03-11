@@ -15,7 +15,8 @@
     "eslint-config-next": "13.2.3",
     "next": "13.2.3",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "touch-cli": "^0.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
