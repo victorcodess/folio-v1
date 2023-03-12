@@ -29,9 +29,9 @@ const ProjectCard = ({
           position: "relative",
         } as React.CSSProperties
       }
-      className={`w-full md:w-[100%] relative  items-stretch z-10 justify-center py-0 h-[500px] md:h-[600px] lg:h-[800px] bg-center rounded-3xl`}
+      className={`w-full md:w-[100%] relative  items-stretch z-10 justify-center py-0 h-[500px] md:h-[600px] lg:h-[732px] bg-center rounded-3xl`}
     >
-      <div className="absolute left-0 top-0 right-0 bottom-0 w-full h-full bg-[#0E1016]/60 mix-blend-multiply hover:bg-[#0E1016]/100 transition-colors ease-linear delay-100"></div>
+      <div className="absolute left-0 top-0 right-0 bottom-0 w-full h-full bg-[#0E1016]/80 mix-blend-multiply hover:bg-[#0E1016]/100 transition-colors ease-linear delay-100"></div>
 
       <div className="text-black absolute top-0 right-0 mt-8 mr-8 flex items-center justify-center gap-4">
         {available ? (
@@ -39,13 +39,13 @@ const ProjectCard = ({
             <Link href={github} target="_blank">
               <FontAwesomeIcon
                 icon={faGithub}
-                className=" bg-[#e4ded7] p-5 lg:text-[28px] lg:w-[30px] rounded-full"
+                className=" bg-[#e4ded7] p-5 text-[20px] md:text-[24px] lg:text-[28px] w-[20px] md:w-[25px] lg:w-[30px] rounded-full"
               />
             </Link>
             <Link href={demo} target="_blank">
               <FontAwesomeIcon
                 icon={faLink}
-                className=" bg-[#e4ded7] p-5 lg:text-[28px] lg:w-[30px] rounded-full"
+                className=" bg-[#e4ded7] p-5 text-[20px] md:text-[24px] lg:text-[28px] w-[20px] md:w-[25px] lg:w-[30px] rounded-full"
               />
             </Link>
           </>
@@ -55,7 +55,7 @@ const ProjectCard = ({
           </div>
         )}
       </div>
-      <div className="text-white absolute bottom-0 left-0 mb-10 ml-8 lg:mb-16 lg:ml-14">
+      <div className="text-white absolute bottom-0 left-0 mb-10 ml-8 md:mb-16 md:ml-12 lg:mb-16 lg:ml-14">
         <div className="mb-4 flex gap-4">
           {technologies.map((tech, id) => (
             <span
@@ -66,7 +66,7 @@ const ProjectCard = ({
             </span>
           ))}
         </div>
-        <h3 className="text-[40px] lg:text-[48px] lg:leading-none text-[#e4ded7] max-w-[90%] lg:max-w-[500px]">
+        <h3 className="text-[40px] md:text-[44px] lg:text-[48px] md:leading-none lg:leading-none text-[#e4ded7] max-w-[90%] lg:max-w-[500px]">
           {name}
         </h3>
         <p className="mt-4 text-[16px] font-normal max-w-[90%] hidden ">
