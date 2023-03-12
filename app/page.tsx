@@ -1,5 +1,6 @@
 "use client";
 import Hero from "./Hero";
+import Work from "./Work";
 import useBlobity from "blobity/lib/react/useBlobity";
 import { useEffect } from "react";
 
@@ -24,8 +25,6 @@ export default function Home() {
     magnetic: true,
   });
 
-  // console.log(useBlobity());
-
   useEffect(() => {
     if (blobity.current) {
       // @ts-ignore for debugging purposes or playing around
@@ -34,8 +33,9 @@ export default function Home() {
   }, [blobity]);
 
   return (
-    <main className="flex items-center justify-center">
+    <main className="flex flex-col items-center justify-center">
       <Hero />
+      <Work />
     </main>
   );
 }
