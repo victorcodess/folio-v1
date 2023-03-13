@@ -4,8 +4,6 @@ import { faLink } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { ProjectProps } from "./projectDetails";
 import Link from "next/link";
-import Image from "next/image";
-import carpool from "../public/carpool.png";
 
 const ProjectCard = ({
   id,
@@ -29,14 +27,14 @@ const ProjectCard = ({
           position: "relative",
         } as React.CSSProperties
       }
-      className={`w-full md:w-[100%] relative  items-stretch z-10 justify-center py-0 h-[500px] md:h-[600px] lg:h-[732px] bg-center rounded-3xl`}
+      className={`w-full md:w-[100%] relative  items-stretch z-10 justify-center py-0 h-[500px] md:h-[600px] lg:h-[680px] bg-center rounded-3xl`}
     >
-      <div className="absolute left-0 top-0 right-0 bottom-0 w-full h-full bg-[#0E1016]/80 mix-blend-multiply hover:bg-[#0E1016]/100 transition-colors ease-linear delay-100"></div>
+      <div className="absolute left-0 top-0 right-0 bottom-0 w-full h-full bg-[#0E1016]/80 mix-blend-multiply hover:bg-[#0E1016]/100 transition-colors ease-linear delay-100 "></div>
 
       <div className="text-black absolute top-0 right-0 mt-8 mr-8 flex items-center justify-center gap-4">
         {available ? (
           <>
-            <Link href={github} target="_blank">
+            <Link href={github} target="_blank" className="rounded-full">
               <FontAwesomeIcon
                 icon={faGithub}
                 className=" bg-[#e4ded7] p-5 text-[20px] md:text-[24px] lg:text-[28px] w-[20px] md:w-[25px] lg:w-[30px] rounded-full"
@@ -50,8 +48,8 @@ const ProjectCard = ({
             </Link>
           </>
         ) : (
-          <div className=" bg-[#e4ded7] px-4 py-2 rounded-xl">
-            <h3 className="text-[16px] ">Coming soon</h3>
+          <div className=" bg-[#e4ded7] px-4 py-2 md:px-5 md:py-3 lg:px-6 lg:py-3 rounded-xl">
+            <h3 className="text-[16px] md:text-[18px] lg:text-[20px] ">Coming soon</h3>
           </div>
         )}
       </div>

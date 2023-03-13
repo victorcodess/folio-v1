@@ -1,23 +1,42 @@
 "use client";
-
+import Link from "next/link";
 import Image from "next/image";
 import { monaSans } from "./fonts/monaSans";
 
 const Hero = () => {
   return (
-    <section className="bg-[url('.//../public/hero.jpg')] bg-cover w-full relative flex items-stretch z-10 justify-center py-0  h-[70vh] md:h-[100vh]  bg-center" id="home">
+    <section
+      className="bg-[url('.//../public/hero.jpg')] bg-cover w-full relative flex items-stretch z-10 justify-center py-0  h-[80vh] md:h-[100vh]  bg-center"
+      id="home"
+    >
       <div className="absolute left-0 top-0 right-0 bottom-0 w-full h-full bg-[#0E1016] mix-blend-color "></div>
 
-      <div className=" lg:w-[90%] lg:max-w-[1440px] flex justify-end  absolute top-10">
-        <ul className="flex gap-10 md:gap-8 lg:gap-10 text-[#e4ded7] hover:text-white text-[16px] md:text-[20px] font-normal">
-          <li className=" ">GH</li>
-          <li className=" ">LN</li>
-          <li className=" ">TW</li>
-          <li className=" ">IG</li>
+      <div className=" lg:w-[90%] lg:max-w-[1440px] flex justify-between  absolute top-10">
+        <div>
+          <button className="text-[#e4ded7] text-[16px] md:text-[16px] font-semibold rounded-md border-2 border-[#e4ded7] py-2 px-4 hidden lg:block">
+            VIEW RESUME
+          </button>
+        </div>
+        <ul className="flex gap-10 md:gap-8 lg:gap-14 text-[#e4ded7]  text-[16px] md:text-[20px] font-normal">
+          <Link href="https://github.com/victorcodess" target="_blank">
+            <li className=" ">GH</li>
+          </Link>
+          <Link
+            href="https://www.linkedin.com/in/victor-williams-chukwudi/"
+            target="_blank"
+          >
+            <li className=" ">LN</li>
+          </Link>
+          <Link href="https://twitter.com/victorwill__" target="_blank">
+            <li className=" ">TW</li>
+          </Link>
+          {/* <Link href="https://www.instagram.com/victorr_w22/" target="_blank">
+            <li className=" ">IG</li>
+          </Link> */}
         </ul>
       </div>
 
-      <div className="flex flex-col items-center justify-center -mt-40 lg:py-40 lg:my-40 lg:-mt-2 z-20">
+      <div className="flex flex-col items-center justify-center -mt-36 lg:py-40 lg:my-40 lg:-mt-2 z-20">
         <div
           className={`flex flex-col items-center justify-center relative ${monaSans.className}   `}
         >
@@ -39,12 +58,14 @@ const Hero = () => {
       <div
         className="flex items-center justify-center lg:justify-between 
       lg:w-[90%]
-      lg:max-w-[1440px] absolute bottom-32 md:bottom-10"
+      lg:max-w-[1440px] absolute bottom-10 md:bottom-10"
       >
         <div className="  max-w-[300px] md:max-w-[400px] lg:max-w-[400px] ">
           <p className="text-[#e4ded7] text-[16px] text-center lg:text-left md:text-[20px] font-normal">
-            Frontend Engineer and Product Designer, currently at Crown Branding
-            Agency.
+            Frontend Engineer and Product Designer, currently at{" "}
+            <Link href="https://crownbrandingagency.com/ " target="_blank">
+              Crown Branding Agency.
+            </Link>
           </p>
         </div>
 
