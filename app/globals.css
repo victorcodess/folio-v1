@@ -20,7 +20,7 @@
     @apply font-semibold;
   }
   h5 {
-    @apply text-lg; /*or text-lg */
+    @apply text-lg;
     @apply font-semibold;
   }
   h6 {
