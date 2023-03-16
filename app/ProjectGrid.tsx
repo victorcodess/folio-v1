@@ -28,7 +28,7 @@ const ProjectGrid = () => {
       </div>
 
       {filter ? (
-        <div className="grid gap-y-6 gap-x-6 grid-cols-1 grid-rows-2 lg:grid-cols-2 w-[90%] lg:max-w-[1200px]">
+        <div className="grid gap-y-6 gap-x-6 grid-cols-1 grid-rows-2 lg:grid-cols-1 w-[90%] lg:max-w-[1200px]">
           {devProjects.map((project: ProjectProps) => (
             <ProjectCard
               id={project.id}
@@ -39,12 +39,13 @@ const ProjectGrid = () => {
               github={project.github}
               demo={project.demo}
               image={project.image}
+              bgColor={project.bgColor}
               available={project.available}
             />
           ))}
         </div>
       ) : (
-        <div className="grid gap-y-6 gap-x-6 grid-cols-1 grid-rows-2 lg:grid-cols-2 w-[90%] lg:max-w-[1200px]">
+        <div className="grid gap-y-6 gap-x-6 grid-cols-1 grid-rows-2 lg:grid-cols-1 w-[90%] lg:max-w-[1200px]">
           {designProjects.map((project: ProjectProps) => (
             <ProjectCard
               id={project.id}
@@ -55,6 +56,7 @@ const ProjectGrid = () => {
               github={project.github}
               demo={project.demo}
               image={project.image}
+              bgColor={project.bgColor}
               available={project.available}
             />
           ))}

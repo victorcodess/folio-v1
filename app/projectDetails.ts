@@ -6,52 +6,60 @@ export type ProjectProps = {
   github: string;
   demo: string;
   image: string;
+  bgColor: string;
   available: boolean;
 };
 
 export const devProjects = [
   {
     id: 1,
-    name: "skyWatch",
+    name: "SkyWatch",
     description:
       "SkyWatch is a convenient and user-friendly tool that allows you to quickly and easily check the current weather and forecast for the next 2 days in any city.",
     technologies: ["React", "CSS", "Chart.js"],
     github: "https://github.com/victorcodess/weather-forecast-website",
     demo: "https://sky-watch.vercel.app/",
-    image: "/_next/image?url=%2F..%2Fpublic%2Fskywatch.png&w=1920&q=75",
+    image: "/_next/image?url=%2F..%2Fpublic%2Fskywatch-new.png&w=1920&q=100",
+    bgColor: "#5b6c5d",
     available: true,
   },
   {
     id: 2,
-    name: "Alpaca image generator website",
+    name: "Alpaca Image Generator",
     description:
       "An image generator website that allows users to generate, combine, and download images.",
     technologies: ["React", "CSS", "Merge Images"],
     github: "https://github.com/victorcodess/alpaca-image-generator",
     demo: "http://alpaca-image-generator-beta.vercel.app",
-    image: "/_next/image?url=%2F..%2Fpublic%2Falpaca.png&w=1920&q=75",
+    image: "/_next/image?url=%2F..%2Fpublic%2Falpaca-new.png&w=1920&q=100",
+    bgColor: "#A4778B",
+
     available: true,
   },
   {
     id: 3,
-    name: "URL Shortener",
+    name: "Link Shortener",
     description:
       "A website that reduces the length of your URL using Bit.ly's API",
     technologies: ["JavaScript", "CSS", "Bit.ly's API"],
     github: "https://github.com/victorcodess/url-shortener",
     demo: "https://url-shortener-nine-delta.vercel.app",
-    image: "/_next/image?url=%2F..%2Fpublic%2Fshortener.png&w=1920&q=75",
+    image: "/_next/image?url=%2F..%2Fpublic%2Fshortener-new.png&w=1920&q=100",
+    bgColor: "#9E2A2B",
+
     available: true,
   },
   {
     id: 4,
-    name: "TMTM - Carpooling Service",
+    name: "Carpooling Service",
     description:
-      "TMTM helps you find people who are headed to the same location as you, so you can share a ride and split the cost with them ",
+      "TMTM helps you find people who are headed to the same location as you, so you can share a ride and split the cost with them; I was responsible for bulding the frontend. ",
     technologies: ["Material UI", "React", "Formik"],
     github: "https://github.com/victorcodess/carpooling-service",
     demo: "",
-    image: "/_next/image?url=%2F..%2Fpublic%2Fcarpool.png&w=1920&q=75",
+    image: "/_next/image?url=%2F..%2Fpublic%2Fcarpool.png&w=1920&q=100",
+    bgColor: "#5b6c5d",
+
     available: false,
   },
 ];
@@ -61,11 +69,13 @@ export const designProjects = [
     id: 1,
     name: "Hebron Statup Lab Website",
     description:
-      "SkyWatch is a convenient and user-friendly tool that allows you to quickly and easily check the current weather and forecast for the next 2 days in any city.",
+      "SkyWatch is a convenient and user-friendly tool that allows you to quickly and easily check the current.",
     technologies: ["UX Research", "UI Design", "Prototyping"],
     github: "",
     demo: "",
     image: "/_next/image?url=%2F..%2Fpublic%2Fhsl.png&w=1920&q=75",
+    bgColor: "#9E2A2B",
+
     available: false,
   },
   {
@@ -77,6 +87,8 @@ export const designProjects = [
     github: "",
     demo: "",
     image: "/_next/image?url=%2F..%2Fpublic%2Frags.png&w=1920&q=75",
+    bgColor: "#A4778B",
+
     available: false,
   },
   {
@@ -88,6 +100,8 @@ export const designProjects = [
     github: "",
     demo: "",
     image: "/_next/image?url=%2F..%2Fpublic%2Fcrown.png&w=1920&q=75",
+    bgColor: "#9E2A2B",
+
     available: false,
   },
   {
@@ -99,6 +113,8 @@ export const designProjects = [
     github: "",
     demo: "",
     image: "/_next/image?url=%2F..%2Fpublic%2Ftiti.png&w=1920&q=75",
+    bgColor: "#9E2A2B",
+
     available: false,
   },
 ];

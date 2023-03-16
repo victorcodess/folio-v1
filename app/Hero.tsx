@@ -63,7 +63,7 @@ const Hero = () => {
         <div className="  max-w-[300px] md:max-w-[400px] lg:max-w-[400px] ">
           <p className="text-[#e4ded7] text-[16px] text-center lg:text-left md:text-[20px] font-normal">
             Frontend Engineer and Product Designer, currently at{" "}
-            <Link href="https://crownbrandingagency.com/ " target="_blank">
+            <Link href="https://crownbrandingagency.com/ " target="_blank" className="underline hover:no-underline">
               Crown Branding Agency.
             </Link>
           </p>
