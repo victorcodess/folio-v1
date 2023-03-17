@@ -1,0 +1,61 @@
+@keyframes marquee {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -350%;
+  }
+}
+.animate {
+  animation: marquee 20s linear infinite;
+  transform: translate(0, -50%);
+}
+
+.animate:hover {
+  animation-play-state: paused;
+}
+
+@screen sm {
+  @keyframes marquee {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: -320%;
+    }
+  }
+  .animate {
+    animation: marquee 30s linear infinite;
+    transform: translate(0, -50%);
+  }
+}
+
+@screen md {
+  @keyframes marquee {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: -355%;
+    }
+  }
+  .animate {
+    animation: marquee 40s linear infinite;
+    transform: translate(0, -50%);
+  }
+}
+
+@screen lg {
+  @keyframes marquee {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: -200%;
+    }
+  }
+  .animate {
+    animation: marquee 50s linear infinite;
+    transform: translate(0, -50%);
+  }
+}

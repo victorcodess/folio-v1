@@ -18,7 +18,7 @@ const SongCard = ({ id, title, artist, image, link }: SongProps) => {
             position: "relative",
           } as React.CSSProperties
         }
-        className={`w-[270px] h-[190px] relative  items-stretch z-10 justify-center py-0  bg-center rounded-xl overflow-hidden`}
+        className={`w-[150px] h-[100px] sm:w-[200px] sm:h-[140px] md:w-[250px] md:h-[160px] lg:w-[270px] lg:h-[190px] relative  items-stretch z-10 justify-center py-0  bg-center rounded-xl overflow-hidden`}
       >
         <p className="text-white hidden">{artist}</p>
         <h1 className="text-white hidden">{title}</h1>
