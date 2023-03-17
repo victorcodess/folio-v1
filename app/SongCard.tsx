@@ -10,18 +10,19 @@ const SongCard = ({ id, title, artist, image, link }: SongProps) => {
         style={
           {
             backgroundImage: `url(${image})`,
-            // height: "100vh",
-            //   backgroundColor: bgColor,
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center center",
-            position: "relative",
           } as React.CSSProperties
         }
-        className={`w-[150px] h-[100px] sm:w-[200px] sm:h-[140px] md:w-[250px] md:h-[160px] lg:w-[270px] lg:h-[190px] relative  items-stretch z-10 justify-center py-0  bg-center rounded-xl overflow-hidden`}
+        className={`w-[150px] h-[100px] sm:w-[2s00px] sm:h-[140px] md:w-[250px] md:h-[160px] lg:w-[270px] lg:h-[190px] relative  items-stretch z-10 justify-center py-0  bg-center rounded-xl overflow-hidden bg-gradient-to-t from-black to-transparent`}
       >
-        <p className="text-white hidden">{artist}</p>
-        <h1 className="text-white hidden">{title}</h1>
+        <div className=" w-full h-[150%] bg-gradient-to-t from-black to-transparent "></div>
+
+        <div className="absolute bottom-3 left-5">
+          <p className="text-white text-[14px]">{artist}</p>
+          <h1 className="text-white text-[30px]">{title}</h1>
+        </div>
       </div>
     </Link>
   );
