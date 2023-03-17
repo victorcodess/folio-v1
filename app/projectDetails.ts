@@ -57,7 +57,7 @@ export const devProjects = [
     technologies: ["Material UI", "React", "Formik"],
     github: "https://github.com/victorcodess/carpooling-service",
     demo: "",
-    image: "/_next/image?url=%2F..%2Fpublic%2Fcarpool.png&w=1920&q=100",
+    image: "/_next/image?url=%2F..%2Fpublic%2Fcarpool-new.png&w=1920&q=100",
     bgColor: "#5b6c5d",
 
     available: false,
