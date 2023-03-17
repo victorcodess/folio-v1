@@ -1,19 +1,29 @@
 import React from "react";
 import Image from "next/image";
+import { SongProps } from "./songDetails";
+import Link from "next/link";
 
-const SongCard = () => {
+const SongCard = ({ id, title, artist, image, link }: SongProps) => {
   return (
-    <div>
-      <Image
-        src="/../public/alpaca.png"
-        alt="Picture of the author"
-        width={1920}
-        height={987}
-        data-blobity-tooltip="Song"
-        data-blobity-invert="false"
-        className="w-[250px] rounded-2xl"
-      />
-    </div>
+    <Link href={link} target="_blank">
+      <div
+        style={
+          {
+            backgroundImage: `url(${image})`,
+            // height: "100vh",
+            //   backgroundColor: bgColor,
+            backgroundSize: "cover",
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "center center",
+            position: "relative",
+          } as React.CSSProperties
+        }
+        className={`w-[270px] h-[190px] relative  items-stretch z-10 justify-center py-0  bg-center rounded-xl overflow-hidden`}
+      >
+        <p className="text-white hidden">{artist}</p>
+        <h1 className="text-white hidden">{title}</h1>
+      </div>
+    </Link>
   );
 };
 

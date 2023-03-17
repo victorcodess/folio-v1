@@ -22,20 +22,24 @@ const About = () => {
 
           <p>
             I enjoy watching anime and I am very into the Marvel franchise. I
-            listen to lots of music and James Blake, Jon Bellion and Isak
-            Danielson are some of my favourite artists (for now). Let's not
-            forget the guys at Snarky Puppy, they are magical. I spend most of
-            my free time with my family and my cat.
+            listen to lots of music — RnB, UK Drill, and Chill Rap are some of
+            my favourite genres. Let's not forget the guys at Snarky Puppy, they
+            are magical. I spend most of my free time with my family and my cat.
+          </p>
+
+          <p>
+            You can find below, some of my favourite songs. I'll update them
+            periodically.
           </p>
         </div>
 
         <div className="flex flex-col gap-4 md:gap-10 w-[100%] lg:max-w-[30%] text-[#e4ded7]/80 lg:mt-24 mb-10 md:mb-16 lg:mb-16 text-[18px] md:text-[24px] lg:text-[18px] leading-snug md:leading-normal font-medium">
           <div className="flex flex-col gap-4 md:gap-6">
-            <h3 className="text-[24px] md:text-[30px] lg:text-[24px] text-[#e4ded7]">
+            <h3 className="text-[24px] md:text-[30px] lg:text-[24px] text-[#e4ded7] ">
               Frontend Tools
             </h3>
             <p className="">
-              JavaScript(ES6+), React, Next.js, TypeScript, Redux, Jest HTML5,
+              JavaScript(ES6+), React, Next.js, TypeScript, Redux, Jest, HTML5,
               Git/GitHub, NextAuth, Formik .
             </p>
           </div>
@@ -53,12 +57,16 @@ const About = () => {
               Design Tools
             </h3>
             <p className="">
-              Figma, FigJam, Adobe XD, ProtoPie, Adobe Photoshop, Adobe Illustrator, UX Research, UI Design, Prototyping.
+              Figma, FigJam, Adobe XD, ProtoPie, Adobe Photoshop, UX Research,
+              UI Design, Prototyping.
             </p>
           </div>
         </div>
       </div>
+      <div className="mt-16">
+        {" "}
         <SongCarousel />
+      </div>
     </section>
   );
 };
