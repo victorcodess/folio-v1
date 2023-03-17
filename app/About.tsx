@@ -25,7 +25,7 @@ const About = () => {
             I enjoy watching anime and I am very into the Marvel franchise. I
             listen to lots of music — RnB, UK Drill, and Chill Rap are some of
             my favourite genres. Let's not forget the guys at Snarky Puppy, they
-            are magical. I spend most of my free time with my family and my cat.
+            are magical. I spend most of my free time with my family.
           </p>
 
           <p>
