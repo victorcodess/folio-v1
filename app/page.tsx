@@ -36,9 +36,9 @@ export default function Home() {
 
   return (
     <main className="flex flex-col items-center justify-center">
-      {/* <Hero /> */}
-      {/* <Work /> */}
-      {/* <About /> */}
+      <Hero />
+      <Work />
+      <About />
       <Contact />
     </main>
   );

@@ -5,7 +5,7 @@ import "./animate.css";
 const About = () => {
   return (
     <section
-      className="bg-[#0E1016] bg-cover w-full relative items-center justify-center z-10 py-16 md:py-20 lg:pt-20 lg:pb-28 bg-center overflow-hidden"
+      className="bg-[#0E1016] bg-cover w-full relative items-center justify-center z-10 pt-16 pb-24 md:py-20 lg:pt-20 lg:pb-52 bg-center overflow-hidden"
       id="about"
     >
       <div className="flex flex-col lg:flex-row mx-auto w-[90%] lg:max-w-[1440] lg:gap-52">
