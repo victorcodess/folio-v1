@@ -3,6 +3,7 @@ import { ReactNode } from "react";
 import type { Metadata } from "next";
 import { Syne } from "@next/font/google";
 import NavBar from "./NavBar";
+import Footer from "./Footer";
 import {
   faB,
   faCheckSquare,
@@ -36,6 +37,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <body className={`${syne.className}`}>
         <NavBar />
         {children}
+        <Footer />
       </body>
     </html>
   );

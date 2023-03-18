@@ -2,6 +2,7 @@
 import Hero from "./Hero";
 import Work from "./Work";
 import About from "./About";
+import Contact from "./Contact";
 import useBlobity from "blobity/lib/react/useBlobity";
 import { useEffect } from "react";
 
@@ -35,9 +36,10 @@ export default function Home() {
 
   return (
     <main className="flex flex-col items-center justify-center">
-      <Hero />
-      <Work />
-      <About />
+      {/* <Hero /> */}
+      {/* <Work /> */}
+      {/* <About /> */}
+      <Contact />
     </main>
   );
 }
