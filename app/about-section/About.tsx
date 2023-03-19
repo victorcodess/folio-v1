@@ -1,6 +1,6 @@
 import React from "react";
 import SongCarousel from "./SongCarousel";
-import "./animate.css";
+import "../animate.css";
 
 const About = () => {
   return (

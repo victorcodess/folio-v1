@@ -1,8 +1,8 @@
 "use client";
-import Hero from "./Hero";
-import Work from "./Work";
-import About from "./About";
-import Contact from "./Contact";
+import Hero from "./hero-section/Hero";
+import Work from "./work-section/Work";
+import About from "./about-section/About";
+import Contact from "./contact-section/Contact";
 import useBlobity from "blobity/lib/react/useBlobity";
 import { useEffect } from "react";
 

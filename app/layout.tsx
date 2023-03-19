@@ -2,8 +2,8 @@ import "./globals.css";
 import { ReactNode } from "react";
 import type { Metadata } from "next";
 import { Syne } from "@next/font/google";
-import NavBar from "./NavBar";
-import Footer from "./Footer";
+import NavBar from "./navbar/NavBar";
+import Footer from "./footer/Footer";
 import {
   faB,
   faCheckSquare,

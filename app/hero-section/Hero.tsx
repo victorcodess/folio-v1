@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { monaSans } from "./fonts/monaSans";
+import { monaSans } from "../fonts/monaSans";
 
 const Hero = () => {
   return (
@@ -74,8 +74,8 @@ const Hero = () => {
 
         <div className="  hidden max-w-[500px] lg:block lg:max-w-[420px]">
           <p className="text-right text-[16px] font-semibold text-[#e4ded7] md:text-[20px]">
-             Focused on interfaces and experiences, working remotely
-            from Lagos, Nigeria.
+            Focused on interfaces and experiences, working remotely from Lagos,
+            Nigeria.
           </p>
         </div>
       </div>

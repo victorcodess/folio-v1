@@ -1,9 +1,9 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import Footer from "./Footer";
-import { monaSans } from "./fonts/monaSans";
-import "./animate.css";
+import Footer from "../footer/Footer";
+import { monaSans } from "../fonts/monaSans";
+import "../animate.css";
 
 const Contact = () => {
   return (
