@@ -32,7 +32,6 @@ const ProjectCard = ({
       }
       className={`w-full md:w-[100%] relative  items-stretch z-10 justify-center py-0 h-[550px] md:h-[650px] lg:h-[500px] bg-center rounded-3xl overflow-hidden`}
     >
-      {/* <div className="absolute left-0 top-0 right-0 bottom-0 w-full h-full bg-[#0E1016]/80 mix-blend-multiply hover:bg-[#0E1016]/100 transition-colors ease-linear delay-100 "></div> */}
       <Image
         src={image}
         alt={name}
@@ -87,7 +86,7 @@ const ProjectCard = ({
           {technologies.map((tech, id) => (
             <span
               key={id}
-              className="text-[16px] lg:text-[18px] uppercase font-bold "
+              className="text-[14px] md:text-[16px] lg:text-[18px] uppercase font-bold "
             >
               {tech}
             </span>

@@ -16,7 +16,7 @@ const Hero = () => {
             VIEW RESUME
           </button>
         </div>
-        <ul className="flex gap-10 md:gap-8 lg:gap-14 text-[#e4ded7]  text-[16px] md:text-[20px] font-normal">
+        <ul className="flex gap-10 md:gap-8 lg:gap-14 text-[#e4ded7]  text-[16px] md:text-[20px] font-bold">
           <Link href="https://github.com/victorcodess" target="_blank">
             <li className=" ">GH</li>
           </Link>
@@ -35,7 +35,7 @@ const Hero = () => {
         </ul>
       </div>
 
-      <div className="flex flex-col items-center justify-center -mt-36 lg:py-40 lg:my-40 lg:-mt-2 z-20">
+      <div className="flex flex-col items-center justify-center -mt-36 lg:py-40 lg:my-40 lg:-mt-2 ">
         <div
           className={`flex flex-col items-center justify-center relative ${monaSans.className}   `}
         >
@@ -60,9 +60,13 @@ const Hero = () => {
       lg:max-w-[1440px] absolute bottom-10 md:bottom-10"
       >
         <div className="  max-w-[300px] md:max-w-[400px] lg:max-w-[400px] ">
-          <p className="text-[#e4ded7] text-[16px] text-center lg:text-left md:text-[20px] font-normal">
+          <p className="text-[#e4ded7] text-[16px] z-50 text-center lg:text-left md:text-[20px] font-normal">
             Frontend Engineer and Product Designer, currently at{" "}
-            <Link href="https://crownbrandingagency.com/ " target="_blank" className="underline hover:no-underline">
+            <Link
+              href="https://crownbrandingagency.com/ "
+              target="_blank"
+              className="underline hover:no-underline"
+            >
               Crown Branding Agency.
             </Link>
           </p>

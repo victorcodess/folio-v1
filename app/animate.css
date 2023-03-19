@@ -3,7 +3,7 @@
     left: 0;
   }
   100% {
-    left: -350%;
+    left: -450%;
   }
 }
 .animate {
@@ -59,3 +59,34 @@
     transform: translate(0, -50%);
   }
 }
+
+.rotate {
+  animation: rotation 1s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate:hover {
+  animation-play-state: paused;
+}
+
+.heartbeat {
+  animation: beat .3s infinite alternate;
+	transform-origin: center;
+}
+
+@keyframes beat{
+	to { transform: scale(1.02); }
+}
+
+.heartbeat:hover {
+  animation-play-state: paused;
+}
+

@@ -15,11 +15,11 @@ const SongCard = ({ id, title, artist, image, link }: SongProps) => {
             backgroundPosition: "center center",
           } as React.CSSProperties
         }
-        className={`w-[150px] h-[100px] sm:w-[2s00px] sm:h-[140px] md:w-[250px] md:h-[160px] lg:w-[270px] lg:h-[190px] relative  items-stretch z-10 justify-center py-0  bg-center rounded-xl overflow-hidden bg-gradient-to-t from-black to-transparent`}
+        className={`w-[195px] h-[138px] sm:w-[200px] sm:h-[140px] md:w-[250px] md:h-[160px] lg:w-[270px] lg:h-[190px] relative  items-stretch z-10 justify-center py-0  bg-center rounded-xl overflow-hidden `}
       >
-        <div className=" w-full h-[150%] bg-gradient-to-t from-black to-transparent "></div>
+        <div className=" w-full h-[150%] bg-gradient-to-t from-black to-transparent hidden"></div>
 
-        <div className="absolute bottom-3 left-5">
+        <div className="absolute bottom-3 left-5 hidden">
           <p className="text-white text-[14px]">{artist}</p>
           <h1 className="text-white text-[30px]">{title}</h1>
         </div>
