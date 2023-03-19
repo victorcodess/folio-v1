@@ -8,33 +8,33 @@ import "./animate.css";
 const Contact = () => {
   return (
     <section
-      className=" bg-[#0E1016] bg-cover w-full relative items-center justify-center z-10 py-16 md:py-20 lg:pt-20 lg:pb-28 bg-center overflow-hidden h-[85vh] md:h-[80vh] lg:h-[90vh]"
+      className=" relative z-10 h-[85vh] w-full items-center justify-center overflow-hidden bg-[#0E1016] bg-cover bg-center py-16 md:h-[80vh] md:py-20 lg:h-[90vh] lg:pt-20 lg:pb-28"
       id="contact"
     >
-      <div className="w-[90%]  flex flex-col items-center justify-center pt-10 md:pt-0 mx-auto">
+      <div className="mx-auto  flex w-[90%] flex-col items-center justify-center pt-10 md:pt-0">
         <div
-          className={`flex flex-col items-start justify-center lg:justify-center relative ${monaSans.className}  w-full max-w-[1200px]`}
+          className={`relative flex flex-col items-start justify-center lg:justify-center ${monaSans.className}  w-full max-w-[1200px]`}
         >
           <div className="w-[340px] md:w-full lg:w-[1200px] ">
             {" "}
-            <h1 className="text-[150px] md:text-[200px] lg:text-[343.1px] font-extrabold text-[#e4ded7] max-w-[500px] md:max-w-full text-left md:text-center lg:text-center leading-[0.9em] uppercase ">
+            <h1 className="max-w-[500px] text-left text-[150px] font-extrabold uppercase leading-[0.9em] text-[#e4ded7] md:max-w-full md:text-center md:text-[200px] lg:text-center lg:text-[343.1px] ">
               Let's Talk
             </h1>
-            <p className="absolute -bottom-5 md:-bottom-24 right-10 md:right-56 lg:right-[37%] text-[120px] md:text-[150px] lg:text-[230px] heartbeat">
+            <p className="heartbeat absolute -bottom-5 right-10 text-[120px] md:-bottom-24 md:right-56 md:text-[150px] lg:right-[37%] lg:text-[230px]">
               🫶🏿
             </p>
           </div>
         </div>
 
-        <div className="mt-20 md:mt-40 lg:mt-40 w-full flex flex-col md:flex-row items-end justify-center md:items-start md:justify-between gap-8">
-          <div className=" text-[#e4ded7] text-[16px] md:text-[16px] lg:text-[18px] font-semibold md:w-[310px] lg:w-[350px] text-right md:text-left">
+        <div className="mt-20 flex w-full flex-col items-end justify-center gap-8 md:mt-40 md:flex-row md:items-start md:justify-between lg:mt-40">
+          <div className=" text-right text-[16px] font-semibold text-[#e4ded7] md:w-[310px] md:text-left md:text-[16px] lg:w-[350px] lg:text-[18px]">
             <p>
               Got a question, proposal or project or want to work together on
               something? Feel free to reach out.
             </p>
           </div>
 
-          <ul className="flex gap-10 md:gap-10 lg:gap-20 text-[#e4ded7]  text-[16px] md:text-[16px] lg:text-[28px] font-bold">
+          <ul className="flex gap-10 text-[16px] font-bold text-[#e4ded7]  md:gap-10 md:text-[16px] lg:gap-20 lg:text-[28px]">
             <Link href="https://github.com/victorcodess" target="_blank">
               <li className=" ">GH</li>
             </Link>

@@ -5,18 +5,18 @@ import { monaSans } from "./fonts/monaSans";
 const Hero = () => {
   return (
     <section
-      className="bg-[url('.//../public/hero.jpg')] bg-cover w-full relative flex items-stretch z-10 justify-center py-0  h-[80vh] md:h-[100vh]  bg-center"
+      className="relative z-10 flex h-[80vh] w-full items-stretch justify-center bg-[url('.//../public/hero.jpg')] bg-cover  bg-center py-0  md:h-[100vh]"
       id="home"
     >
-      <div className="absolute left-0 top-0 right-0 bottom-0 w-full h-full bg-[#0E1016] mix-blend-color "></div>
+      <div className="absolute left-0 top-0 right-0 bottom-0 h-full w-full bg-[#0E1016] mix-blend-color "></div>
 
-      <div className=" lg:w-[90%] lg:max-w-[1440px] flex justify-between  absolute top-10">
+      <div className=" absolute top-10 flex justify-between  lg:w-[90%] lg:max-w-[1440px]">
         <div>
-          <button className="text-[#e4ded7] text-[16px] md:text-[16px] font-semibold rounded-md border-2 border-[#e4ded7] py-2 px-4 hidden lg:block">
+          <button className="hidden rounded-md border-2 border-[#e4ded7] py-2 px-4 text-[16px] font-semibold text-[#e4ded7] md:text-[16px] lg:block">
             VIEW RESUME
           </button>
         </div>
-        <ul className="flex gap-10 md:gap-8 lg:gap-14 text-[#e4ded7]  text-[16px] md:text-[20px] font-bold">
+        <ul className="flex gap-10 text-[16px] font-bold text-[#e4ded7]  md:gap-8 md:text-[20px] lg:gap-14">
           <Link href="https://github.com/victorcodess" target="_blank">
             <li className=" ">GH</li>
           </Link>
@@ -35,11 +35,11 @@ const Hero = () => {
         </ul>
       </div>
 
-      <div className="flex flex-col items-center justify-center -mt-36 lg:py-40 lg:my-40 lg:-mt-2 ">
+      <div className="-mt-36 flex flex-col items-center justify-center lg:my-40 lg:-mt-2 lg:py-40 ">
         <div
-          className={`flex flex-col items-center justify-center relative ${monaSans.className}   `}
+          className={`relative flex flex-col items-center justify-center ${monaSans.className}   `}
         >
-          <h1 className="text-[96px] md:text-[155.5px] lg:text-[215px] font-extrabold text-[#e4ded7] max-w-[500px] md:max-w-[900px] text-center  leading-[0.8em] ">
+          <h1 className="max-w-[500px] text-center text-[96px] font-extrabold leading-[0.8em] text-[#e4ded7] md:max-w-[900px] md:text-[155.5px]  lg:text-[215px] ">
             VICTOR WILLIAMS
           </h1>
           <Image
@@ -49,31 +49,31 @@ const Hero = () => {
             height={600}
             data-blobity-tooltip="Fine boy"
             data-blobity-invert="false"
-            className="md:rounded-[32px] rounded-[16px] w-[150px] md:w-[200px] lg:w-[245px] absolute bottom-[-110px] md:bottom-[-130px] lg:bottom-[-150px] grayscale hover:grayscale-0"
+            className="absolute bottom-[-110px] w-[150px] rounded-[16px] grayscale hover:grayscale-0 md:bottom-[-130px] md:w-[200px] md:rounded-[32px] lg:bottom-[-150px] lg:w-[245px]"
           />
         </div>
       </div>
 
       <div
-        className="flex items-center justify-center lg:justify-between 
-      lg:w-[90%]
-      lg:max-w-[1440px] absolute bottom-10 md:bottom-10"
+        className="absolute bottom-10 flex items-center 
+      justify-center
+      md:bottom-10 lg:w-[90%] lg:max-w-[1440px] lg:justify-between"
       >
         <div className="  max-w-[300px] md:max-w-[400px] lg:max-w-[400px] ">
-          <p className="text-[#e4ded7] text-[16px] z-50 text-center lg:text-left md:text-[20px] font-normal">
+          <p className="z-50 text-center text-[16px] font-normal text-[#e4ded7] md:text-[20px] lg:text-left">
             Frontend Engineer and Product Designer, currently at{" "}
             <Link
               href="https://crownbrandingagency.com/ "
               target="_blank"
-              className="underline hover:no-underline"
+              className="underline underline-offset-2 hover:no-underline"
             >
               Crown Branding Agency.
             </Link>
           </p>
         </div>
 
-        <div className="  max-w-[500px] lg:max-w-[420px] hidden lg:block">
-          <p className="text-[#e4ded7] text-[16px] md:text-[20px] font-normal text-right">
+        <div className="  hidden max-w-[500px] lg:block lg:max-w-[420px]">
+          <p className="text-right text-[16px] font-normal text-[#e4ded7] md:text-[20px]">
             Strongly focused on interfaces and experiences, working remotely
             from Lagos, Nigeria.
           </p>

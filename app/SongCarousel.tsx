@@ -5,8 +5,8 @@ import "./animate.css";
 
 const SongCarousel = () => {
   return (
-    <div className="flex absolute animate w-[900%] sm:w-[640%] md:w-[710%] lg:w-[400%]">
-      <div className="flex justify-around gap-1 w-[50%] mx-auto">
+    <div className="animate absolute flex w-[900%] sm:w-[640%] md:w-[710%] lg:w-[400%]">
+      <div className="mx-auto flex w-[50%] justify-around gap-1">
         {songs.map((song: SongProps) => (
           <SongCard
             id={song.id}
@@ -18,7 +18,7 @@ const SongCarousel = () => {
           />
         ))}
       </div>
-      <div className="flex justify-around gap-1 w-[50%] mx-auto">
+      <div className="mx-auto flex w-[50%] justify-around gap-1">
         {songs.map((song: SongProps) => (
           <SongCard
             id={song.id}

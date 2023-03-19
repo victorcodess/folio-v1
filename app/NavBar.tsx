@@ -5,27 +5,27 @@ import ScrollLink from "./ScrollLink";
 
 const NavBar = () => {
   return (
-    <ul className="bg-[#16161a] flex fixed z-50 bottom-20 left-[50%] items-center justify-center ml-[-220px] md:ml-[-256.5px] px-1 py-1 md:p-2 gap-1 rounded-lg">
+    <ul className="fixed bottom-20 left-[50%] z-50 ml-[-220px] flex items-center justify-center gap-1 rounded-lg bg-[#16161a] px-1 py-1 md:ml-[-256.5px] md:p-2">
       <ScrollLink href="#home">
-        <li className=" px-6 md:px-8 rounded ">
-          <h1 className="text-stone-300 text-[16px]">Home</h1>
+        <li className=" rounded px-6 md:px-8 ">
+          <h1 className="text-[16px] text-stone-300">Home</h1>
         </li>
       </ScrollLink>
       <ScrollLink href="#work">
-        <li className=" px-6 md:px-8 rounded ">
-          <h1 className="text-stone-300 text-[16px]">Work</h1>
+        <li className=" rounded px-6 md:px-8 ">
+          <h1 className="text-[16px] text-stone-300">Work</h1>
         </li>
       </ScrollLink>
 
       <ScrollLink href="#about">
-        <li className=" px-6 md:px-8 rounded ">
-          <h1 className="text-stone-300 text-[16px]">About</h1>
+        <li className=" rounded px-6 md:px-8 ">
+          <h1 className="text-[16px] text-stone-300">About</h1>
         </li>
       </ScrollLink>
 
       <ScrollLink href="#contact">
-        <li className=" px-6 md:px-8 rounded ">
-          <h1 className="text-stone-300 text-[16px]">Contact</h1>
+        <li className=" rounded px-6 md:px-8 ">
+          <h1 className="text-[16px] text-stone-300">Contact</h1>
         </li>
       </ScrollLink>
     </ul>

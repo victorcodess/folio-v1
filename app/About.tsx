@@ -5,12 +5,12 @@ import "./animate.css";
 const About = () => {
   return (
     <section
-      className="bg-[#0E1016] bg-cover w-full relative items-center justify-center z-10 pt-16 pb-24 md:pt-20 md:pb-44 lg:pt-20 lg:pb-52 bg-center overflow-hidden"
+      className="relative z-10 w-full items-center justify-center overflow-hidden bg-[#0E1016] bg-cover bg-center pt-16 pb-24 md:pt-20 md:pb-44 lg:pt-20 lg:pb-52"
       id="about"
     >
-      <div className="flex flex-col lg:flex-row mx-auto w-[90%] lg:max-w-[1440] lg:gap-52">
-        <div className="flex flex-col gap-4 md:gap-6 w-[100%] lg:max-w-[70%] text-[#e4ded7]/80 mb-10 md:mb-16 lg:mb-16 text-[18px] md:text-[24px] lg:text-[24px] leading-snug md:leading-normal  font-normal">
-          <p className="text-[40px] md:text-[44px] lg:text-[48px] font-bold text-[#e4ded7]">
+      <div className="mx-auto flex w-[90%] flex-col lg:max-w-[1440] lg:flex-row lg:gap-52">
+        <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-normal leading-snug text-[#e4ded7]/80 md:mb-16 md:gap-6 md:text-[24px] md:leading-normal lg:mb-16 lg:max-w-[70%]  lg:text-[24px]">
+          <p className="text-[40px] font-bold text-[#e4ded7] md:text-[44px] lg:text-[48px]">
             Hi there!👋🏿
           </p>
           <p>
@@ -34,18 +34,19 @@ const About = () => {
           </p>
         </div>
 
-        <div className="flex flex-col gap-4 md:gap-10 w-[100%] lg:max-w-[30%] text-[#e4ded7]/80 lg:mt-24 mb-24 sm:mb-32 md:mb-40 lg:mb-16 text-[18px] md:text-[24px] lg:text-[18px] leading-snug md:leading-normal font-medium">
+        <div className="mb-24 flex w-[100%] flex-col gap-4 text-[18px] font-medium leading-snug text-[#e4ded7]/80 sm:mb-32 md:mb-40 md:gap-10 md:text-[24px] md:leading-normal lg:mt-24 lg:mb-16 lg:max-w-[30%] lg:text-[18px]">
           <div className="flex flex-col gap-4 md:gap-6">
-            <h3 className="text-[24px] md:text-[30px] lg:text-[24px] text-[#e4ded7] ">
+            <h3 className="text-[24px] text-[#e4ded7] md:text-[30px] lg:text-[24px] ">
               Frontend Tools
             </h3>
             <p className="">
-              JavaScript(ES6+), React, Next.js, TypeScript, Redux, Jest, HTML5,
-              Git/GitHub, NextAuth, Formik .
+              JavaScript(ES6+), React, Next.js, TypeScript, Redux, Redux
+              Toolkit, React Testing Library, Vitetest, HTML5, Git/GitHub,
+              NextAuth, Formik.
             </p>
           </div>
           <div className="flex flex-col gap-4">
-            <h3 className="text-[24px] md:text-[30px] lg:text-[24px] text-[#e4ded7]">
+            <h3 className="text-[24px] text-[#e4ded7] md:text-[30px] lg:text-[24px]">
               UI Libraries
             </h3>
             <p className="">
@@ -54,7 +55,7 @@ const About = () => {
             </p>
           </div>
           <div className="flex flex-col gap-4">
-            <h3 className="text-[24px] md:text-[30px] lg:text-[24px] text-[#e4ded7]">
+            <h3 className="text-[24px] text-[#e4ded7] md:text-[30px] lg:text-[24px]">
               Design Tools
             </h3>
             <p className="">
