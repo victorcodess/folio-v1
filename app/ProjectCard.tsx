@@ -23,7 +23,8 @@ const ProjectCard = ({
         {
           // backgroundImage: `url(${image})`,
           // height: "100vh",
-          backgroundColor: bgColor,
+          // backgroundColor: bgColor,
+          backgroundColor: "#212531",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center center",
@@ -42,7 +43,7 @@ const ProjectCard = ({
         }`}
       />
       <div
-        className={`absolute top-0 text-black ${
+        className={`absolute top-0 text-[#0E1016] ${
           id % 2 === 0 ? "left-0 ml-8 lg:ml-14" : "right-0 mr-8 lg:mr-14"
         } mt-6 flex  items-center justify-center gap-4 lg:mt-10`}
       >
@@ -79,7 +80,7 @@ const ProjectCard = ({
         <h3 className="max-w-[90%] text-[40px] leading-none text-white md:text-[44px] md:leading-none lg:max-w-[450px] lg:text-[48px] lg:leading-none">
           {name}
         </h3>
-        <p className="mt-4 w-[90%] max-w-[457px]  text-[16px] font-normal opacity-80 ">
+        <p className="mt-4 w-[90%] max-w-[457px]  text-[16px] font-semibold text-[#95979D] ">
           {description}
         </p>
         <div className="mt-9 flex gap-4">

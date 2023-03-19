@@ -34,7 +34,7 @@ type RootLayoutProps = {
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
-      <body className={`${syne.className}`}>
+      <body className={`${syne.className} scroll-smooth`}>
         <NavBar />
         {children}
         <Footer />

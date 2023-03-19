@@ -8,8 +8,8 @@ const About = () => {
       className="relative z-10 w-full items-center justify-center overflow-hidden bg-[#0E1016] bg-cover bg-center pt-16 pb-24 md:pt-20 md:pb-44 lg:pt-20 lg:pb-52"
       id="about"
     >
-      <div className="mx-auto flex w-[90%] flex-col lg:max-w-[1440] lg:flex-row lg:gap-52">
-        <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-normal leading-snug text-[#e4ded7]/80 md:mb-16 md:gap-6 md:text-[24px] md:leading-normal lg:mb-16 lg:max-w-[70%]  lg:text-[24px]">
+      <div className="mx-auto flex w-[90%] flex-col lg:max-w-[1200px] lg:flex-row lg:gap-36">
+        <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-medium  leading-relaxed text-[#e4ded7]/80 md:mb-16 md:gap-6 md:text-[24px] md:leading-relaxed lg:mb-16 lg:max-w-[70%]  lg:text-[24px]">
           <p className="text-[40px] font-bold text-[#e4ded7] md:text-[44px] lg:text-[48px]">
             Hi there!👋🏿
           </p>
@@ -34,7 +34,7 @@ const About = () => {
           </p>
         </div>
 
-        <div className="mb-24 flex w-[100%] flex-col gap-4 text-[18px] font-medium leading-snug text-[#e4ded7]/80 sm:mb-32 md:mb-40 md:gap-10 md:text-[24px] md:leading-normal lg:mt-24 lg:mb-16 lg:max-w-[30%] lg:text-[18px]">
+        <div className="mb-24 flex w-[100%] flex-col gap-4 text-[18px] font-medium leading-relaxed text-[#e4ded7]/80 sm:mb-32 md:mb-40 md:gap-10 md:text-[24px] md:leading-normal lg:mt-24 lg:mb-16 lg:max-w-[30%] lg:text-[18px]">
           <div className="flex flex-col gap-4 md:gap-6">
             <h3 className="text-[24px] text-[#e4ded7] md:text-[30px] lg:text-[24px] ">
               Frontend Tools

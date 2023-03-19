@@ -59,8 +59,8 @@ const Hero = () => {
       justify-center
       md:bottom-10 lg:w-[90%] lg:max-w-[1440px] lg:justify-between"
       >
-        <div className="  max-w-[300px] md:max-w-[400px] lg:max-w-[400px] ">
-          <p className="z-50 text-center text-[16px] font-normal text-[#e4ded7] md:text-[20px] lg:text-left">
+        <div className="  max-w-[350px] md:max-w-[400px] lg:max-w-[400px] ">
+          <p className="z-50 text-center text-[16px] font-medium text-[#e4ded7] md:text-[20px] lg:text-left">
             Frontend Engineer and Product Designer, currently at{" "}
             <Link
               href="https://crownbrandingagency.com/ "
@@ -73,8 +73,8 @@ const Hero = () => {
         </div>
 
         <div className="  hidden max-w-[500px] lg:block lg:max-w-[420px]">
-          <p className="text-right text-[16px] font-normal text-[#e4ded7] md:text-[20px]">
-            Strongly focused on interfaces and experiences, working remotely
+          <p className="text-right text-[16px] font-semibold text-[#e4ded7] md:text-[20px]">
+             Focused on interfaces and experiences, working remotely
             from Lagos, Nigeria.
           </p>
         </div>
