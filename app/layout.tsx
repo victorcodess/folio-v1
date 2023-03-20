@@ -4,17 +4,6 @@ import type { Metadata } from "next";
 import { Syne } from "@next/font/google";
 import NavBar from "./navbar/NavBar";
 import Footer from "./footer/Footer";
-import {
-  faB,
-  faCheckSquare,
-  faCoffee,
-  faDatabase,
-  faHouseLaptop,
-  faS,
-  faWindowMaximize,
-  faLink,
-} from "@fortawesome/free-solid-svg-icons";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const syne = Syne({
   subsets: ["latin"],
