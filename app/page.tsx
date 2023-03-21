@@ -7,10 +7,9 @@ import Contact from "./contact-section/Contact";
 import Footer from "./footer/Footer";
 import useBlobity from "blobity/lib/react/useBlobity";
 import { useEffect } from "react";
+import { ScrollerMotion } from "scroller-motion";
 
 export default function Home() {
-  
-
   const blobity = useBlobity({
     licenseKey: "gmrchk",
     focusableElementsOffsetX: 5,
@@ -39,14 +38,14 @@ export default function Home() {
   }, [blobity]);
 
   return (
-    <main
-      className="flex flex-col items-center justify-center"
-    >
+    // <ScrollerMotion>
+    <main className="flex flex-col items-center justify-center">
       <Hero />
       <Work />
       <About />
       <Contact />
       <Footer />
     </main>
+    // </ScrollerMotion>
   );
 }

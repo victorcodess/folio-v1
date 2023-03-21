@@ -28,3 +28,8 @@
     @apply font-semibold;
   }
 }
+
+html,
+body {
+  overscroll-behavior: none;
+}
