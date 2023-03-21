@@ -46,9 +46,6 @@ export default function Home() {
       <About />
       <Contact />
       <Footer />
-      <div className="text-green-500">
-        {" "}
-      </div>
     </main>
     // </ScrollerMotion>
   );
