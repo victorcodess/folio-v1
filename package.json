@@ -17,9 +17,11 @@
     "blobity": "^0.2.3",
     "eslint": "8.35.0",
     "eslint-config-next": "13.2.3",
+    "framer-motion": "^10.6.1",
     "next": "13.2.3",
-    "react": "18.2.0",
+    "react": "^18.2.0",
     "react-dom": "18.2.0",
+    "scroller-motion": "^1.2.3",
     "touch-cli": "^0.0.1"
   },
   "devDependencies": {
