@@ -3,7 +3,9 @@ import Link from "next/link";
 import Image from "next/image";
 import Footer from "../footer/Footer";
 import { monaSans } from "../fonts/monaSans";
-import "../animate.css";
+import "../animations/animate.css";
+import AnimatedBody from "../animations/AnimatedBody";
+import AnimatedTitle from "../animations/AnimatedTitle";
 
 const Contact = () => {
   return (
@@ -28,32 +30,68 @@ const Contact = () => {
 
         <div className="mt-20 flex w-full flex-col items-end justify-center gap-8 md:mt-40 md:flex-row md:items-start md:justify-between lg:mt-40">
           <div className=" text-right text-[16px] font-semibold text-[#e4ded7] md:w-[310px] md:text-left md:text-[16px] lg:w-[350px] lg:text-[18px]">
-            <p>
-              Got a question, proposal or project or want to work together on
-              something? Feel free to reach out.
-            </p>
+            <AnimatedBody
+              text={
+                "Got a question, proposal or project or want to work together on something? Feel free to reach out."
+              }
+            />
           </div>
 
-          <ul className="flex gap-10 text-[16px] font-bold text-[#e4ded7]  md:gap-10 md:text-[16px] lg:gap-20 lg:text-[28px]">
+          <div className="flex gap-10 text-[16px] font-bold text-[#e4ded7]  md:gap-10 md:text-[16px] lg:gap-20 lg:text-[28px]">
             <Link href="https://github.com/victorcodess" target="_blank">
-              <li className=" ">GH</li>
+              <AnimatedTitle
+                text={"GH"}
+                className={
+                  "text-[16px] font-bold text-[#e4ded7] md:text-[16px] lg:text-[28px]"
+                }
+                wordSpace={"mr-[0.25em]"}
+                charSpace={"mr-[0.01em]"}
+              />
             </Link>
             <Link
               href="https://www.linkedin.com/in/victor-williams-chukwudi/"
               target="_blank"
             >
-              <li className=" ">LN</li>
+              <AnimatedTitle
+                text={"LN"}
+                className={
+                  "text-[16px] font-bold text-[#e4ded7] md:text-[16px] lg:text-[28px]"
+                }
+                wordSpace={"mr-[0.25em]"}
+                charSpace={"mr-[0.01em]"}
+              />
             </Link>
             <Link href="https://twitter.com/victorwill__" target="_blank">
-              <li className=" ">TW</li>
+              <AnimatedTitle
+                text={"TW"}
+                className={
+                  "text-[16px] font-bold text-[#e4ded7] md:text-[16px] lg:text-[28px]"
+                }
+                wordSpace={"mr-[0.25em]"}
+                charSpace={"mr-[0.01em]"}
+              />
             </Link>
             <Link href="https://www.instagram.com/victorr_w22/" target="_blank">
-              <li className=" ">IG</li>
+              <AnimatedTitle
+                text={"IG"}
+                className={
+                  "text-[16px] font-bold text-[#e4ded7] md:text-[16px] lg:text-[28px]"
+                }
+                wordSpace={"mr-[0.25em]"}
+                charSpace={"mr-[0.01em]"}
+              />
             </Link>
             <Link href="https://victorcodess.hashnode.dev/" target="_blank">
-              <li className=" ">HN</li>
+              <AnimatedTitle
+                text={"HN"}
+                className={
+                  "text-[16px] font-bold text-[#e4ded7] md:text-[16px] lg:text-[28px]"
+                }
+                wordSpace={"mr-[0.25em]"}
+                charSpace={"mr-[0.01em]"}
+              />
             </Link>
-          </ul>
+          </div>
         </div>
       </div>
     </section>

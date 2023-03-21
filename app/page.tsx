@@ -44,11 +44,10 @@ export default function Home() {
       {/* <Hero /> */}
       <Work />
       <About />
-      {/* <Contact /> */}
+      <Contact />
       {/* <Footer /> */}
       <div className="text-green-500">
         {" "}
-        <AnimatedTitle text={"Hello"} />
       </div>
     </main>
     // </ScrollerMotion>
