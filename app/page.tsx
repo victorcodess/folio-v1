@@ -1,12 +1,16 @@
 "use client";
+import "./globals.css";
 import Hero from "./hero-section/Hero";
 import Work from "./work-section/Work";
 import About from "./about-section/About";
 import Contact from "./contact-section/Contact";
+import Footer from "./footer/Footer";
 import useBlobity from "blobity/lib/react/useBlobity";
 import { useEffect } from "react";
 
 export default function Home() {
+  
+
   const blobity = useBlobity({
     licenseKey: "gmrchk",
     focusableElementsOffsetX: 5,
@@ -35,11 +39,14 @@ export default function Home() {
   }, [blobity]);
 
   return (
-    <main className="flex flex-col items-center justify-center">
+    <main
+      className="flex flex-col items-center justify-center"
+    >
       <Hero />
       <Work />
       <About />
       <Contact />
+      <Footer />
     </main>
   );
 }
