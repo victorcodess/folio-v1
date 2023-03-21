@@ -9,6 +9,7 @@ import AnimatedTitle from "./animations/AnimatedTitle";
 import useBlobity from "blobity/lib/react/useBlobity";
 import { useEffect } from "react";
 import { ScrollerMotion } from "scroller-motion";
+import SmoothScroll from "./utils/SmoothScroll";
 
 export default function Home() {
   const blobity = useBlobity({
@@ -40,13 +41,13 @@ export default function Home() {
 
   return (
     // <ScrollerMotion>
-    <main className="flex flex-col items-center justify-center">
-      <Hero />
-      <Work />
-      <About />
-      <Contact />
-      <Footer />
-    </main>
+      <main className="flex flex-col items-center justify-center">
+        <Hero />
+        <Work />
+        <About />
+        <Contact />
+        <Footer />
+      </main>
     // </ScrollerMotion>
   );
 }
