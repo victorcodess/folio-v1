@@ -1,12 +1,22 @@
 import Link from "next/link";
 import Image from "next/image";
 import { monaSans } from "../fonts/monaSans";
+import { motion } from "framer-motion";
+import {
+  riseWithFade,
+  imageAnimation,
+  staggerChildren,
+  wordAnimation,
+} from "../animations/animations";
+import AnimatedTitle from "../animations/AnimatedTitle";
 
 const Hero = () => {
   return (
-    <section
+    <motion.section
       className="relative z-10 flex h-[80vh] w-full items-stretch justify-center bg-[url('.//../public/hero.jpg')] bg-cover  bg-center py-0  md:h-[100vh]"
       id="home"
+      initial="initial"
+      animate="animate"
     >
       <div className="absolute left-0 top-0 right-0 bottom-0 h-full w-full bg-[#0E1016] mix-blend-color "></div>
 
@@ -45,17 +55,34 @@ const Hero = () => {
           className={`relative flex flex-col items-center justify-center ${monaSans.className}   `}
         >
           <h1 className="max-w-[500px] text-center text-[96px] font-extrabold leading-[0.8em] text-[#e4ded7] md:max-w-[900px] md:text-[155.5px]  lg:text-[215px] ">
+            {/* <AnimatedWords
+            title="VICTOR WILLIAMS"
+            className="inline-block max-w-[500px] overflow-hidden text-center text-[96px] font-extrabold leading-[0.8em] text-[#e4ded7]  md:max-w-[900px] md:text-[155.5px] lg:text-[215px]"
+          /> */}
             VICTOR WILLIAMS
           </h1>
-          <Image
-            src="/../public/profile.png"
-            alt="Picture of the author"
-            width={600}
-            height={600}
-            data-blobity-tooltip="Fine boy"
-            data-blobity-invert="false"
-            className="absolute bottom-[-110px] w-[150px] rounded-[16px] grayscale hover:grayscale-0 md:bottom-[-130px] md:w-[200px] md:rounded-[32px] lg:bottom-[-150px] lg:w-[245px]"
-          />
+
+          {/* <AnimatedTitle
+            text={"VICTOR WILLIAMS"}
+            className={
+              "max-w-[500px] text-center text-[96px] font-extrabold leading-[0.8em] text-[#e4ded7] md:max-w-[900px] md:text-[155.5px]  lg:text-[215px]"
+            }
+          /> */}
+          <motion.div
+            className="absolute bottom-[-110px] md:bottom-[-130px] lg:bottom-[-150px]"
+            variants={imageAnimation}
+          >
+            {" "}
+            <Image
+              src="/../public/profile.png"
+              alt="Picture of the author"
+              width={600}
+              height={600}
+              data-blobity-tooltip="Fine boy"
+              data-blobity-invert="false"
+              className="w-[150px] rounded-[16px] grayscale hover:grayscale-0 md:w-[200px] md:rounded-[32px]  lg:w-[245px]"
+            />
+          </motion.div>
         </div>
       </div>
 
@@ -64,7 +91,10 @@ const Hero = () => {
       justify-center
       md:bottom-10 lg:w-[90%] lg:max-w-[1440px] lg:justify-between"
       >
-        <div className="  max-w-[350px] md:max-w-[400px] lg:max-w-[400px] ">
+        <motion.div
+          className="  max-w-[350px] md:max-w-[400px] lg:max-w-[400px]"
+          variants={riseWithFade}
+        >
           <p className="z-50 text-center text-[16px] font-medium text-[#e4ded7] md:text-[20px] lg:text-left">
             Frontend Engineer and Product Designer, currently at{" "}
             <Link
@@ -75,7 +105,7 @@ const Hero = () => {
               Crown Branding Agency.
             </Link>
           </p>
-        </div>
+        </motion.div>
 
         <div className="  hidden max-w-[500px] lg:block lg:max-w-[420px]">
           <p className="text-right text-[16px] font-semibold text-[#e4ded7] md:text-[20px]">
@@ -84,7 +114,29 @@ const Hero = () => {
           </p>
         </div>
       </div>
-    </section>
+    </motion.section>
+  );
+};
+
+type AnimatedWordsProps = {
+  title: string;
+  className?: string;
+};
+
+const AnimatedWords: React.FC<AnimatedWordsProps> = ({ title, className }) => {
+  return (
+    <motion.span variants={staggerChildren}>
+      {title.split(" ").map((word, index) => (
+        <div key={index} className={className}>
+          <motion.span
+            className="inline-block overflow-hidden"
+            variants={wordAnimation}
+          >
+            {word + "\u00A0"}
+          </motion.span>
+        </div>
+      ))}
+    </motion.span>
   );
 };
 

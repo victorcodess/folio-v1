@@ -5,6 +5,7 @@ import Work from "./work-section/Work";
 import About from "./about-section/About";
 import Contact from "./contact-section/Contact";
 import Footer from "./footer/Footer";
+import AnimatedTitle from "./animations/AnimatedTitle";
 import useBlobity from "blobity/lib/react/useBlobity";
 import { useEffect } from "react";
 import { ScrollerMotion } from "scroller-motion";
@@ -40,11 +41,15 @@ export default function Home() {
   return (
     // <ScrollerMotion>
     <main className="flex flex-col items-center justify-center">
-      <Hero />
+      {/* <Hero /> */}
       <Work />
-      <About />
-      <Contact />
-      <Footer />
+      {/* <About /> */}
+      {/* <Contact /> */}
+      {/* <Footer /> */}
+      <div className="text-green-500">
+        {" "}
+        <AnimatedTitle text={"Hello"} />
+      </div>
     </main>
     // </ScrollerMotion>
   );

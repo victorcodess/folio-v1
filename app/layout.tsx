@@ -26,7 +26,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
       <body className={`${syne.className}`}>
-        <NavBar />
+        {/* <NavBar /> */}
         {children}
       </body>
     </html>

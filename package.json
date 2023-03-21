@@ -21,6 +21,7 @@
     "next": "13.2.3",
     "react": "^18.2.0",
     "react-dom": "18.2.0",
+    "react-intersection-observer": "^9.4.3",
     "scroller-motion": "^1.2.3",
     "touch-cli": "^0.0.1"
   },

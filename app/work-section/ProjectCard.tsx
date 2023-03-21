@@ -5,6 +5,10 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { ProjectProps } from "./projectDetails";
 import Link from "next/link";
 import Image from "next/image";
+import AnimatedTitle from "../animations/AnimatedTitle";
+import AnimatedBody from "../animations/AnimatedBody";
+import { riseWithFade } from "../animations/animations";
+import { motion } from "framer-motion";
 
 const ProjectCard = ({
   id,
@@ -18,7 +22,7 @@ const ProjectCard = ({
   available,
 }: ProjectProps) => {
   return (
-    <div
+    <motion.div
       style={
         {
           // backgroundImage: `url(${image})`,
@@ -32,6 +36,8 @@ const ProjectCard = ({
         } as React.CSSProperties
       }
       className={`relative z-10 h-[550px]  w-full items-stretch justify-center overflow-hidden rounded-3xl bg-center py-0 md:h-[650px] md:w-[100%] lg:h-[500px]`}
+      initial="initial"
+      animate="animate"
     >
       <Image
         src={image}
@@ -77,24 +83,56 @@ const ProjectCard = ({
             : "left-10 top-32 ml-0 md:mr-12 lg:top-52 lg:ml-4"
         } mb-10  md:mb-16 lg:mb-14 `}
       >
-        <h3 className="max-w-[90%] text-[40px] leading-none text-white md:text-[44px] md:leading-none lg:max-w-[450px] lg:text-[48px] lg:leading-none">
+        {/* <h3 className="max-w-[90%] text-[40px] leading-none text-white md:text-[44px] md:leading-none lg:max-w-[450px] lg:text-[48px] lg:leading-none">
           {name}
-        </h3>
-        <p className="mt-4 w-[90%] max-w-[457px]  text-[16px] font-semibold text-[#95979D] ">
+        </h3> */}
+        <AnimatedTitle
+          text={name}
+          className={
+            "max-w-[90%] text-[40px] leading-none text-white md:text-[44px] md:leading-none lg:max-w-[450px] lg:text-[48px] lg:leading-none"
+          }
+          wordSpace={"mr-[0.25em]"}
+          charSpace={"-mr-[0.01em]"}
+        />
+        {/* <AnimatedTitle
+          text={description}
+          className={
+            "mt-4 w-[90%] max-w-[457px]  text-[16px] font-semibold text-[#95979D] "
+          }
+        /> */}
+        {/* <motion.p
+          className="mt-4 w-[90%] max-w-[457px]  text-[16px] font-semibold text-[#95979D] "
+          variants={riseWithFade}
+        >
           {description}
-        </p>
+        </motion.p> */}
+        <AnimatedBody
+          text={description}
+          className={
+            "mt-4 w-[90%] max-w-[457px]  text-[16px] font-semibold text-[#95979D] "
+          }
+        />
         <div className="mt-9 flex gap-4">
           {technologies.map((tech, id) => (
-            <span
+            // <span
+            //   key={id}
+            //   className="text-[14px] font-bold uppercase md:text-[16px] lg:text-[18px] "
+            // >
+            //   {tech}
+            // </span>
+            <AnimatedTitle
+              text={tech}
+              wordSpace={"mr-[0.25em]"}
+              charSpace={"mr-[0.01em]"}
               key={id}
-              className="text-[14px] font-bold uppercase md:text-[16px] lg:text-[18px] "
-            >
-              {tech}
-            </span>
+              className={
+                "text-[14px] font-bold uppercase md:text-[16px] lg:text-[18px] "
+              }
+            />
           ))}
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
