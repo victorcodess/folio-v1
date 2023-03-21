@@ -7,8 +7,10 @@ import {
   imageAnimation,
   staggerChildren,
   wordAnimation,
+  bodyAnimation,
 } from "../animations/animations";
 import AnimatedTitle from "../animations/AnimatedTitle";
+import AnimatedBody from "../animations/AnimatedBody";
 
 const Hero = () => {
   return (
@@ -26,28 +28,44 @@ const Hero = () => {
             href="https://drive.google.com/file/d/1sMiS1LMK23WjcYlh2irXnoeFpWpDapWq/view?usp=share_link"
             target="_blank"
           >
-            <button className="hidden rounded-md border-2 border-[#e4ded7] py-2 px-4 text-[16px] font-semibold text-[#e4ded7] md:text-[16px] lg:block">
+            <motion.button
+              className="hidden rounded-md border-2 border-[#e4ded7] py-2 px-4 text-[16px] font-semibold text-[#e4ded7] md:text-[16px] lg:block"
+              variants={bodyAnimation}
+            >
               VIEW RESUME
-            </button>
+            </motion.button>
           </Link>
         </div>
-        <ul className="flex gap-10 text-[16px] font-bold text-[#e4ded7]  md:gap-8 md:text-[20px] lg:gap-14">
+
+        <div className="flex gap-10 text-[#e4ded7] md:gap-8 lg:gap-14">
           <Link href="https://github.com/victorcodess" target="_blank">
-            <li className=" ">GH</li>
+            <AnimatedTitle
+              text={"GH"}
+              className={"text-[#e4ded7]md:text-[20px] text-[16px] font-bold"}
+              wordSpace={"mr-[0.25em]"}
+              charSpace={"mr-[0.01em]"}
+            />
           </Link>
           <Link
             href="https://www.linkedin.com/in/victor-williams-chukwudi/"
             target="_blank"
           >
-            <li className=" ">LN</li>
+            <AnimatedTitle
+              text={"LN"}
+              className={"text-[#e4ded7]md:text-[20px] text-[16px] font-bold"}
+              wordSpace={"mr-[0.25em]"}
+              charSpace={"mr-[0.01em]"}
+            />
           </Link>
           <Link href="https://twitter.com/victorwill__" target="_blank">
-            <li className=" ">TW</li>
+            <AnimatedTitle
+              text={"TW"}
+              className={"text-[#e4ded7]md:text-[20px] text-[16px] font-bold"}
+              wordSpace={"mr-[0.25em]"}
+              charSpace={"mr-[0.01em]"}
+            />
           </Link>
-          {/* <Link href="https://www.instagram.com/victorr_w22/" target="_blank">
-            <li className=" ">IG</li>
-          </Link> */}
-        </ul>
+        </div>
       </div>
 
       <div className="-mt-36 flex flex-col items-center justify-center lg:my-40 lg:-mt-2 lg:py-40 ">
@@ -93,7 +111,7 @@ const Hero = () => {
       >
         <motion.div
           className="  max-w-[350px] md:max-w-[400px] lg:max-w-[400px]"
-          variants={riseWithFade}
+          variants={bodyAnimation}
         >
           <p className="z-50 text-center text-[16px] font-medium text-[#e4ded7] md:text-[20px] lg:text-left">
             Frontend Engineer and Product Designer, currently at{" "}
@@ -107,12 +125,15 @@ const Hero = () => {
           </p>
         </motion.div>
 
-        <div className="  hidden max-w-[500px] lg:block lg:max-w-[420px]">
+        <motion.div
+          className="  hidden max-w-[500px] lg:block lg:max-w-[420px]"
+          variants={bodyAnimation}
+        >
           <p className="text-right text-[16px] font-semibold text-[#e4ded7] md:text-[20px]">
             Focused on interfaces and experiences, working remotely from Lagos,
             Nigeria.
           </p>
-        </div>
+        </motion.div>
       </div>
     </motion.section>
   );

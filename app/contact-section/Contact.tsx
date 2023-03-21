@@ -20,7 +20,7 @@ const Contact = () => {
           <div className="w-[340px] md:w-full lg:w-[1200px] ">
             {" "}
             <h1 className="max-w-[500px] text-left text-[150px] font-extrabold uppercase leading-[0.9em] text-[#e4ded7] md:max-w-full md:text-center md:text-[200px] lg:text-center lg:text-[343.1px] ">
-              Let's Talk
+              Let&apos;s Talk
             </h1>
             <p className="heartbeat absolute -bottom-5 right-10 text-[120px] md:-bottom-24 md:right-56 md:text-[150px] lg:right-[37%] lg:text-[230px]">
               🫶🏿

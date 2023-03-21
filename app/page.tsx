@@ -41,11 +41,11 @@ export default function Home() {
   return (
     // <ScrollerMotion>
     <main className="flex flex-col items-center justify-center">
-      {/* <Hero /> */}
+      <Hero />
       <Work />
       <About />
       <Contact />
-      {/* <Footer /> */}
+      <Footer />
       <div className="text-green-500">
         {" "}
       </div>

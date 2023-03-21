@@ -15,17 +15,18 @@ export const riseWithFade = {
 
 export const imageAnimation = {
   initial: {
-    y: 100,
+    y: 50,
     opacity: 0,
     scale: 0.8,
   },
   animate: {
-    y: 0,
     opacity: 1,
     scale: 1,
+    y: `0em`,
     transition: {
-      ease: [0.65, 0, 0.35, 1],
+      delay: 0.1,
       duration: 1,
+      ease: [0.2, 0.65, 0.3, 0.9],
     },
   },
 };
@@ -48,6 +49,22 @@ export const wordAnimation = {
     transition: {
       ease: [0.65, 0, 0.35, 1],
       duration: 0.7,
+    },
+  },
+};
+
+export const bodyAnimation = {
+  initial: {
+    opacity: 0,
+    y: `1em`,
+  },
+  animate: {
+    opacity: 1,
+    y: `0em`,
+    transition: {
+      delay: 0.1,
+      duration: 1,
+      ease: [0.2, 0.65, 0.3, 0.9],
     },
   },
 };
