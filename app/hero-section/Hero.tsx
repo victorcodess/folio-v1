@@ -12,9 +12,14 @@ const Hero = () => {
 
       <div className=" absolute top-10 flex justify-between  lg:w-[90%] lg:max-w-[1440px]">
         <div>
-          <button className="hidden rounded-md border-2 border-[#e4ded7] py-2 px-4 text-[16px] font-semibold text-[#e4ded7] md:text-[16px] lg:block">
-            VIEW RESUME
-          </button>
+          <Link
+            href="https://drive.google.com/file/d/1sMiS1LMK23WjcYlh2irXnoeFpWpDapWq/view?usp=share_link"
+            target="_blank"
+          >
+            <button className="hidden rounded-md border-2 border-[#e4ded7] py-2 px-4 text-[16px] font-semibold text-[#e4ded7] md:text-[16px] lg:block">
+              VIEW RESUME
+            </button>
+          </Link>
         </div>
         <ul className="flex gap-10 text-[16px] font-bold text-[#e4ded7]  md:gap-8 md:text-[20px] lg:gap-14">
           <Link href="https://github.com/victorcodess" target="_blank">
