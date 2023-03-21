@@ -5,7 +5,7 @@ import { type } from "os";
 
 type AnimatedBodyProps = {
   text: string;
-  className: string;
+  className?: string;
   wordSpace?: string;
   charSpace?: string;
 };
@@ -48,7 +48,7 @@ export default function AnimatedBody({
       opacity: 1,
       y: `0em`,
       transition: {
-        delay: 0.5,
+        delay: 0.1,
         duration: 1,
         ease: [0.2, 0.65, 0.3, 0.9],
       },
