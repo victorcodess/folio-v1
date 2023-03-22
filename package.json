@@ -22,6 +22,7 @@
     "react": "^18.2.0",
     "react-dom": "18.2.0",
     "react-intersection-observer": "^9.4.3",
+    "react-scrollbars-custom": "^4.1.1",
     "resize-observer-polyfill": "^1.5.1",
     "scroller-motion": "^1.2.3",
     "touch-cli": "^0.0.1"

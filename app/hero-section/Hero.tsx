@@ -12,7 +12,7 @@ import {
 import AnimatedTitle from "../animations/AnimatedTitle";
 import AnimatedBody from "../animations/AnimatedBody";
 
-const Hero = () => {
+const Hero = ({ loading }) => {
   return (
     <motion.section
       className="relative z-10 flex h-[80vh] w-full items-stretch justify-center bg-[url('.//../public/hero.jpg')] bg-cover  bg-center py-0  md:h-[100vh]"
@@ -20,7 +20,13 @@ const Hero = () => {
       initial="initial"
       animate="animate"
     >
-      <div className="absolute left-0 top-0 right-0 bottom-0 h-full w-full bg-[#0E1016] mix-blend-color "></div>
+      {!loading && (
+        <motion.div
+          className="absolute left-0 top-0 right-0 bottom-0 h-full w-full bg-[#0E1016] mix-blend-color "
+          layoutId="dark-bg"
+          transition={{ ease: [0.2, 0.65, 0.3, 0.9], duration: 1, delay: 0 }}
+        ></motion.div>
+      )}
 
       <div className=" absolute top-10 flex justify-between  lg:w-[90%] lg:max-w-[1440px]">
         <div>
@@ -72,7 +78,7 @@ const Hero = () => {
         <div
           className={`relative flex flex-col items-center justify-center ${monaSans.className}   `}
         >
-          <h1 className="max-w-[500px] text-center text-[96px] font-extrabold leading-[0.8em] text-[#e4ded7] md:max-w-[900px] md:text-[155.5px]  lg:text-[215px] ">
+          <h1 className="hidden max-w-[500px] text-center text-[96px] font-extrabold leading-[0.8em] text-[#e4ded7] md:max-w-[900px]  md:text-[155.5px] lg:text-[215px]">
             {/* <AnimatedWords
             title="VICTOR WILLIAMS"
             className="inline-block max-w-[500px] overflow-hidden text-center text-[96px] font-extrabold leading-[0.8em] text-[#e4ded7]  md:max-w-[900px] md:text-[155.5px] lg:text-[215px]"

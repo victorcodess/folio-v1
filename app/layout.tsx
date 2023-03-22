@@ -1,11 +1,9 @@
-
 import "./globals.css";
 import { ReactNode } from "react";
 import type { Metadata } from "next";
 import { Syne } from "@next/font/google";
 import NavBar from "./navbar/NavBar";
 import Footer from "./footer/Footer";
-
 
 const syne = Syne({
   subsets: ["latin"],
@@ -25,7 +23,7 @@ type RootLayoutProps = {
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
-      <body className={`${syne.className}`}>
+      <body className={`${syne.className} scrollbar-hide`}>
         {/* <NavBar /> */}
         {children}
       </body>

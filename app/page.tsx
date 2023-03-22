@@ -7,11 +7,15 @@ import Contact from "./contact-section/Contact";
 import Footer from "./footer/Footer";
 import AnimatedTitle from "./animations/AnimatedTitle";
 import useBlobity from "blobity/lib/react/useBlobity";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import { motion, LayoutGroup, AnimatePresence } from "framer-motion";
 import { ScrollerMotion } from "scroller-motion";
 import SmoothScroll from "./utils/SmoothScroll";
+import Loader from "./Loader";
 
 export default function Home() {
+  const [loading, setLoading] = useState(true);
+
   const blobity = useBlobity({
     licenseKey: "gmrchk",
     focusableElementsOffsetX: 5,
@@ -39,15 +43,45 @@ export default function Home() {
     }
   }, [blobity]);
 
+  interface IProps {
+    loading: boolean;
+    setLoading: (loading: boolean) => void;
+  }
+
   return (
-    // <ScrollerMotion>
-      <main className="flex flex-col items-center justify-center">
-        <Hero />
-        <Work />
-        <About />
-        <Contact />
-        <Footer />
-      </main>
-    // </ScrollerMotion>
+    <LayoutGroup>
+      <AnimatePresence>
+        {loading ? (
+          <motion.div key={"loader"}>
+            {" "}
+            <Loader setLoading={setLoading} loading={loading} />
+          </motion.div>
+        ) : (
+          <main className="flex flex-col items-center justify-center ">
+            {!loading && (
+              <motion.div
+                className="absolute left-0 top-0 right-0 bottom-0 h-full w-full bg-[#0E1016] mix-blend-color "
+                layoutId="dark-bg"
+                transition={{
+                  ease: [0.2, 0.65, 0.3, 0.9],
+                  duration: 1,
+                  delay: 5,
+                }}
+                // exit={{ opacity: 0 }}
+              ></motion.div>
+            )}
+            <Hero loading={loading} />
+            <Work />
+            <About />
+            <Contact />
+            <Footer />
+          </main>
+        )}
+        {/* <ScrollerMotion> */}
+        {/* <Loader setLoading={setLoading} /> */}
+
+        {/* </ScrollerMotion> */}
+      </AnimatePresence>
+    </LayoutGroup>
   );
 }
