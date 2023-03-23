@@ -29,12 +29,21 @@ const Contact = () => {
         </div>
 
         <div className="mt-20 flex w-full flex-col items-end justify-center gap-8 md:mt-40 md:flex-row md:items-start md:justify-between lg:mt-40">
-          <div className=" text-right text-[16px] font-semibold text-[#e4ded7] md:w-[310px] md:text-left md:text-[16px] lg:w-[350px] lg:text-[18px]">
+          <div className=" flex w-[340px] flex-col items-end text-right text-[16px] font-semibold text-[#e4ded7] md:w-[310px] md:text-left md:text-[16px] lg:w-[350px] lg:items-start lg:text-[18px]">
             <AnimatedBody
               text={
-                "Got a question, proposal or project or want to work together on something? Feel free to reach out."
+                "Got a question, proposal or project or want to work together on something?"
               }
+              className={""}
             />
+            <Link
+              href="mailto:victor.williams@stu.cu.edu.ng?subject=Lets%20work%20together!&amp;body=Hello%2C%20I%20think%20we%20need%20you%20to%20work%20on%2Fcollaborate%20this%20particular%20product...%20Reach%20out%20as%20soon%20as%20you%20can."
+              target="_blank"
+              aria-label="Send me an email"
+              className="w-[180px] md:w-[200px] flex-1 underline underline-offset-2 hover:no-underline"
+            >
+              <p>Feel free to reach out.</p>
+            </Link>
           </div>
 
           <div className="flex gap-10 text-[16px] font-bold text-[#e4ded7]  md:gap-10 md:text-[16px] lg:gap-20 lg:text-[28px]">
