@@ -40,19 +40,16 @@ export default function Home() {
     }
   }, [blobity]);
 
-
   return (
-   
     <>
-      {/* <PreLoader /> */}
+      <PreLoader />
 
       <main className="flex flex-col items-center justify-center ">
-       
-        {/* <Hero/> */}
-        {/* <Work /> */}
+        <Hero />
+        <Work />
         <About />
-        {/* <Contact /> */}
-        {/* <Footer /> */}
+        <Contact />
+        <Footer />
       </main>
     </>
   );
