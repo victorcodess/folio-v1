@@ -12,8 +12,67 @@ const syne = Syne({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio",
-  description: "Victor's Portfolio",
+  title: "Victor Williams — Frontend Engineer",
+  description:
+    "Frontend Engineer and Product Designer, currently at Crown Branding Agency. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
+  generator: "Next.js",
+  applicationName: "Victor Williams",
+  keywords: [
+    "frontend",
+    "engineer",
+    "product",
+    "designer",
+    "crown",
+    "branding",
+    "agency",
+    "interfaces",
+    "experiences",
+    "remote",
+    "lagos",
+    "nigeria",
+  ],
+  colorScheme: "dark",
+  openGraph: {
+    title: "Victor Williams — Frontend Engineer",
+    description:
+      "Frontend Engineer and Product Designer, currently at Crown Branding Agency. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
+    url: "https://nextjs.org",
+    siteName: "Portfolio Website",
+    images: [
+      {
+        url: "https://nextjs.org/og.png",
+        width: 800,
+        height: 600,
+        alt: "Victor Williams — Frontend Engineer",
+      },
+    ],
+    locale: "en-US",
+    type: "website",
+  },
+  robots: {
+    index: false,
+    follow: true,
+    nocache: true,
+    googleBot: {
+      index: true,
+      follow: false,
+      noimageindex: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  icons: {
+    icon: "/icon.png",
+    shortcut: "/shortcut-icon.png",
+    apple: "/apple-icon.png",
+    other: {
+      rel: "apple-touch-icon-precomposed",
+      url: "/apple-touch-icon-precomposed.png",
+    },
+  },
+  manifest: "https://nextjs.org/manifest.json",
+  category: 'technology',
 };
 
 type RootLayoutProps = {
