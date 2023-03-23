@@ -18,18 +18,23 @@ export const metadata: Metadata = {
   generator: "Next.js",
   applicationName: "Victor Williams",
   keywords: [
+    "freelance",
+    "developer",
+    "freelance developer",
     "frontend",
-    "engineer",
-    "product",
-    "designer",
-    "crown",
-    "branding",
-    "agency",
-    "interfaces",
-    "experiences",
-    "remote",
-    "lagos",
+    "react",
+    "frontend developer",
+    "frontend engineer",
+    "creative",
+    "creative developer",
+    "creative engineer",
+    "tech",
     "nigeria",
+    "software",
+    "software developer",
+    "portfolio",
+    "frontend developer portfolio",
+    "creative developer portfolio",
   ],
   colorScheme: "dark",
   openGraph: {
@@ -72,7 +77,8 @@ export const metadata: Metadata = {
     },
   },
   manifest: "https://nextjs.org/manifest.json",
-  category: 'technology',
+  category: "technology",
+ 
 };
 
 type RootLayoutProps = {
