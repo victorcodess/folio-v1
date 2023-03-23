@@ -12,7 +12,7 @@ export const songs = [
     title: "Lie Again",
     artist: "Giveon",
     image:
-      "https://static.stereogum.com/uploads/2022/04/Giveon-Lie-Again-1651244357.jpeg",
+      "/_next/image?url=%2F..%2Fpublic%2Fsongs%2Flie-again.jpeg&w=1920&q=100",
     link: "https://open.spotify.com/album/11q4Tt1RzwrFzF2Vddc2yO",
   },
   {
@@ -20,7 +20,7 @@ export const songs = [
     title: "Martin's Sofa",
     artist: "Headie One",
     image:
-      "https://images.genius.com/9050d393a7d45d0ccc452223588d19f0.1000x1000x1.jpg",
+      "/_next/image?url=%2F..%2Fpublic%2Fsongs%2Fmartins-sofa.jpg&w=1920&q=100",
     link: "https://open.spotify.com/album/5ywIBJnydB9IMqgg0XDU6O",
   },
   {
@@ -28,23 +28,21 @@ export const songs = [
     title: "Let Me Go",
     artist: "Daniel Ceasar",
     image:
-      "https://images.genius.com/ba068b23b4efa7314d047cea7874b97e.1000x1000x1.jpg",
+      "/_next/image?url=%2F..%2Fpublic%2Fsongs%2Flet-me-go.jpg&w=1920&q=100",
     link: "https://open.spotify.com/track/4AwJSk491AvHk2AAJReGzZ",
   },
   {
     id: 8,
     title: "One Up",
     artist: "Central Cee",
-    image:
-      "https://images.genius.com/f5d09d35ca920b55cc5c98ba5ee43c60.1000x1000x1.png",
+    image: "/_next/image?url=%2F..%2Fpublic%2Fsongs%2Fone-up.png&w=1920&q=100",
     link: "https://open.spotify.com/album/51A9bnCs9oq6vjFZIDza97",
   },
   {
     id: 3,
     title: "Glitter",
     artist: "BENEE",
-    image:
-      "https://images.genius.com/76e098638ca194bfa2499adb620c17a6.1000x1000x1.jpg",
+    image: "/_next/image?url=%2F..%2Fpublic%2Fsongs%2Fglitter.jpg&w=1920&q=100",
     link: "https://open.spotify.com/track/23TPP1eeElFfvYVznskwCY",
   },
   {
@@ -52,15 +50,14 @@ export const songs = [
     title: "Lemme Land?",
     artist: "Canking, Ess2Mad",
     image:
-      "https://images.genius.com/cdacf7c25c4db6c60045eccb0b9727a4.1000x1000x1.jpg",
+      "/_next/image?url=%2F..%2Fpublic%2Fsongs%2Flemme-land.jpg&w=1920&q=100",
     link: "https://open.spotify.com/track/4Fmr4dbY1sZiX77ZbljNFC",
   },
   {
     id: 4,
     title: "Floods",
     artist: "Lucky Daye",
-    image:
-      "https://images.genius.com/0b496fc0575f8d7156710b8cd99f74bc.640x640x1.jpg",
+    image: "/_next/image?url=%2F..%2Fpublic%2Fsongs%2Ffloods.jpg&w=1920&q=100",
     link: "https://open.spotify.com/track/4GBjdj1z74h8RVr1Us6YFc",
   },
   {
@@ -68,15 +65,14 @@ export const songs = [
     title: "Nice & Good",
     artist: "SL, Knucks",
     image:
-      "https://images.genius.com/ea64ea19479577b1807343a38abc9c49.700x700x1.jpg",
+      "/_next/image?url=%2F..%2Fpublic%2Fsongs%2Fnice-and-good.jpg&w=1920&q=100",
     link: "https://open.spotify.com/album/2nZHGm0LbyWb9SQ48RWFdO",
   },
   {
     id: 5,
     title: "Care",
     artist: "Sonder",
-    image:
-      "http://images.genius.com/54472cf3996d41502565e3a485ea9209.1000x1000x1.jpg",
+    image: "/_next/image?url=%2F..%2Fpublic%2Fsongs%2Fcare.jpg&w=1920&q=100",
     link: "https://open.spotify.com/track/3tkxfORwPo2zydAf25YFOc",
   },
   {
@@ -84,7 +80,7 @@ export const songs = [
     title: "22 Double 0",
     artist: "Unknown T",
     image:
-      "https://images.genius.com/6ec8dec049f4a8f0288448e65dc7ba47.1000x1000x1.jpg",
+      "/_next/image?url=%2F..%2Fpublic%2Fsongs%2F22-double-0.jpg&w=1920&q=100",
     link: "https://open.spotify.com/track/0L0sXaqVYGpvXWcikG6zlk",
   },
 ];

@@ -19,7 +19,8 @@ export const devProjects = [
     technologies: ["React", "CSS", "Chart.js"],
     github: "https://github.com/victorcodess/weather-forecast-website",
     demo: "https://sky-watch.vercel.app/",
-    image: "/_next/image?url=%2F..%2Fpublic%2Fskywatch-new.png&w=1920&q=100",
+    image:
+      "/_next/image?url=%2F..%2Fpublic%2Fprojects%2Fskywatch-new.webp&w=1920&q=100",
     bgColor: "#5b6c5d",
     available: true,
   },
@@ -31,9 +32,9 @@ export const devProjects = [
     technologies: ["React", "CSS", "Merge Images"],
     github: "https://github.com/victorcodess/alpaca-image-generator",
     demo: "http://alpaca-image-generator-beta.vercel.app",
-    image: "/_next/image?url=%2F..%2Fpublic%2Falpaca-new.png&w=1920&q=100",
+    image:
+      "/_next/image?url=%2F..%2Fpublic%2Fprojects%2Falpaca-new.webp&w=1920&q=100",
     bgColor: "#A4778B",
-
     available: true,
   },
   {
@@ -44,9 +45,9 @@ export const devProjects = [
     technologies: ["JavaScript", "CSS", "Bit.ly's API"],
     github: "https://github.com/victorcodess/url-shortener",
     demo: "https://url-shortener-nine-delta.vercel.app",
-    image: "/_next/image?url=%2F..%2Fpublic%2Fshortener-new.png&w=1920&q=100",
+    image:
+      "/_next/image?url=%2F..%2Fpublic%2Fprojects%2Fshortener-new.webp&w=1920&q=100",
     bgColor: "#9E2A2B",
-
     available: true,
   },
   {
@@ -57,9 +58,9 @@ export const devProjects = [
     technologies: ["Material UI", "React", "Formik"],
     github: "https://github.com/victorcodess/carpooling-service",
     demo: "",
-    image: "/_next/image?url=%2F..%2Fpublic%2Fcarpool-new.png&w=1920&q=100",
+    image:
+      "/_next/image?url=%2F..%2Fpublic%2Fprojects%2Fcarpool-new.webp&w=1920&q=100",
     bgColor: "#5b6c5d",
-
     available: false,
   },
 ];
@@ -73,9 +74,8 @@ export const designProjects = [
     technologies: ["UX Research", "UI Design", "Prototyping"],
     github: "",
     demo: "",
-    image: "/_next/image?url=%2F..%2Fpublic%2Fhsl.png&w=1920&q=75",
+    image: "/_next/image?url=%2F..%2Fpublic%2Fprojects%2Fhsl.webp&w=1920&q=75",
     bgColor: "#9E2A2B",
-
     available: false,
   },
   {
@@ -86,9 +86,8 @@ export const designProjects = [
     technologies: ["UX Research", "UI Design", "Prototyping"],
     github: "",
     demo: "",
-    image: "/_next/image?url=%2F..%2Fpublic%2Frags.png&w=1920&q=75",
+    image: "/_next/image?url=%2F..%2Fpublic%2Fprojects%2Frags.webp&w=1920&q=75",
     bgColor: "#A4778B",
-
     available: false,
   },
   {
@@ -99,22 +98,21 @@ export const designProjects = [
     technologies: ["UX Research", "UI Design", "Prototyping"],
     github: "",
     demo: "",
-    image: "/_next/image?url=%2F..%2Fpublic%2Fcrown.png&w=1920&q=75",
+    image:
+      "/_next/image?url=%2F..%2Fpublic%2Fprojects%2Fcrown.webp&w=1920&q=75",
     bgColor: "#9E2A2B",
-
     available: false,
   },
   {
     id: 4,
     name: "Titi Mobile App",
     description:
-      "TMTM helps you find people who are headed to the same location as you, so you can share a ride and split the cost with them ",
+      "TMTM helps you find people who are headed to the same location as you, so you can share a ride and split the cost with them.",
     technologies: ["UX Research", "UI Design", "Prototyping"],
     github: "",
     demo: "",
-    image: "/_next/image?url=%2F..%2Fpublic%2Ftiti.png&w=1920&q=75",
+    image: "/_next/image?url=%2F..%2Fpublic%2Fprojects%2Ftiti.webp&w=1920&q=75",
     bgColor: "#9E2A2B",
-
     available: false,
   },
 ];

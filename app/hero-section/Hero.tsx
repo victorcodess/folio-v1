@@ -82,8 +82,8 @@ const Hero = () => {
           >
             {" "}
             <Image
-              src="/../public/profile.png"
-              alt="Picture of the author"
+              src="/../public/profile.webp"
+              alt="Victor's headshot"
               width={600}
               height={600}
               data-blobity-tooltip="Fine boy"
