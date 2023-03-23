@@ -25,9 +25,6 @@ const ProjectCard = ({
     <motion.div
       style={
         {
-          // backgroundImage: `url(${image})`,
-          // height: "100vh",
-          // backgroundColor: bgColor,
           backgroundColor: "#212531",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
@@ -83,9 +80,6 @@ const ProjectCard = ({
             : "left-10 top-32 ml-0 md:mr-12 lg:top-52 lg:ml-4"
         } mb-10  md:mb-16 lg:mb-14 `}
       >
-        {/* <h3 className="max-w-[90%] text-[40px] leading-none text-white md:text-[44px] md:leading-none lg:max-w-[450px] lg:text-[48px] lg:leading-none">
-          {name}
-        </h3> */}
         <AnimatedTitle
           text={name}
           className={
@@ -94,18 +88,6 @@ const ProjectCard = ({
           wordSpace={"mr-[0.25em]"}
           charSpace={"-mr-[0.01em]"}
         />
-        {/* <AnimatedTitle
-          text={description}
-          className={
-            "mt-4 w-[90%] max-w-[457px]  text-[16px] font-semibold text-[#95979D] "
-          }
-        /> */}
-        {/* <motion.p
-          className="mt-4 w-[90%] max-w-[457px]  text-[16px] font-semibold text-[#95979D] "
-          variants={riseWithFade}
-        >
-          {description}
-        </motion.p> */}
         <AnimatedBody
           text={description}
           className={
@@ -114,12 +96,6 @@ const ProjectCard = ({
         />
         <div className="mt-9 flex gap-4">
           {technologies.map((tech, id) => (
-            // <span
-            //   key={id}
-            //   className="text-[14px] font-bold uppercase md:text-[16px] lg:text-[18px] "
-            // >
-            //   {tech}
-            // </span>
             <AnimatedTitle
               text={tech}
               wordSpace={"mr-[0.25em]"}
