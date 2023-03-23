@@ -8,7 +8,7 @@ const ProjectGrid = () => {
 
   return (
     <>
-      <div className="mb-10 flex gap-16 text-[#e4ded7] md:mb-16  lg:mb-20 ">
+      {/* <div className="mb-10 flex gap-16 text-[#e4ded7] md:mb-16  lg:mb-20 ">
         <h4
           className={`text-[16px] md:text-[20px] lg:text-[24px] ${
             filter ? "text-[#e4ded7]" : "text-[#e4ded7]/30"
@@ -25,7 +25,7 @@ const ProjectGrid = () => {
         >
           Design
         </h4>
-      </div>
+      </div> */}
 
       {filter ? (
         <div className="grid w-[90%] grid-cols-1 grid-rows-2 gap-y-8 gap-x-6 lg:max-w-[1200px] lg:grid-cols-1">

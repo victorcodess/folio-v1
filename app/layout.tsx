@@ -50,9 +50,9 @@ export const metadata: Metadata = {
     type: "website",
   },
   robots: {
-    index: false,
+    index: true,
     follow: true,
-    nocache: true,
+    nocache: false,
     googleBot: {
       index: true,
       follow: false,

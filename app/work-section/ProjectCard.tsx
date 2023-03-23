@@ -52,13 +52,13 @@ const ProjectCard = ({
       >
         {available ? (
           <>
-            <Link href={github} target="_blank" className="rounded-full">
+            <Link href={github} target="_blank" className="rounded-full" aria-label="Open GitHub Repository">
               <FontAwesomeIcon
                 icon={faGithub}
                 className=" w-[20px] rounded-full bg-white p-5 text-[20px] md:w-[25px] md:text-[24px] lg:w-[30px] lg:text-[28px]"
               />
             </Link>
-            <Link href={demo} target="_blank">
+            <Link href={demo} target="_blank" aria-label="Open Live Demo">
               <FontAwesomeIcon
                 icon={faLink}
                 className=" w-[20px] rounded-full bg-white p-5 text-[20px] md:w-[25px] md:text-[24px] lg:w-[30px] lg:text-[28px]"
