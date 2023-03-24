@@ -87,7 +87,7 @@ type RootLayoutProps = {
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
-      <body className={`${syne.className} scrollbar-hide`}>
+      <body className={`${syne.className} scrollbar-hide scroll-smooth`}>
         {/* <NavBar /> */}
         {children}
       </body>

@@ -41,8 +41,8 @@ export default function Home() {
 
   return (
     <>
-      <ScrollerMotion>
-        <PreLoader />
+      {/* <ScrollerMotion> */}
+        {/* <PreLoader /> */}
 
         <main className="flex flex-col items-center justify-center ">
           <Hero />
@@ -51,7 +51,7 @@ export default function Home() {
           <Contact />
           <Footer />
         </main>
-      </ScrollerMotion>
+      {/* </ScrollerMotion> */}
     </>
   );
 }
