@@ -13,7 +13,7 @@ const About = () => {
       <div className="mx-auto flex w-[90%] flex-col lg:max-w-[1200px] lg:flex-row lg:gap-36">
         <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-medium  leading-relaxed text-[#e4ded7]/80 md:mb-16 md:gap-6 md:text-[24px] md:leading-relaxed lg:mb-16 lg:max-w-[70%]  lg:text-[24px]">
           <AnimatedTitle
-            text={"Hi there!"}
+            text={"Hello there!"}
             className={
               "text-[40px] font-bold text-[#e4ded7] md:text-[44px] lg:text-[48px]"
             }
@@ -38,7 +38,7 @@ const About = () => {
           />
         </div>
 
-        <div className="mb-24 flex w-[100%] flex-col gap-4 text-[18px] font-medium leading-relaxed text-[#e4ded7]/80 sm:mb-32 md:mb-40 md:gap-10 md:text-[24px] md:leading-normal lg:mt-24 lg:mb-16 lg:max-w-[30%] lg:text-[18px]">
+        <div className="mb-24 flex w-[100%] flex-col gap-4 text-[18px] font-medium leading-relaxed text-[#e4ded7]/80 sm:mb-32 md:mb-40 md:gap-10 md:text-[24px] md:leading-normal lg:mt-16 lg:mb-16 lg:max-w-[30%] lg:text-[18px]">
           <div className="flex flex-col gap-4 md:gap-6">
             <AnimatedTitle
               text={"Frontend Tools"}

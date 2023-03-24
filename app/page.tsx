@@ -11,7 +11,6 @@ import { ScrollerMotion } from "scroller-motion";
 import PreLoader from "./animations/PreLoader/PreLoader";
 
 export default function Home() {
-  const [loading, setLoading] = useState(true);
 
   const blobity = useBlobity({
     licenseKey: "gmrchk",
@@ -42,15 +41,17 @@ export default function Home() {
 
   return (
     <>
-      {/* <PreLoader /> */}
+      <ScrollerMotion>
+        <PreLoader />
 
-      <main className="flex flex-col items-center justify-center ">
-        <Hero />
-        <Work />
-        <About />
-        <Contact />
-        <Footer />
-      </main>
+        <main className="flex flex-col items-center justify-center ">
+          <Hero />
+          <Work />
+          <About />
+          <Contact />
+          <Footer />
+        </main>
+      </ScrollerMotion>
     </>
   );
 }

@@ -22,7 +22,7 @@ const Hero = () => {
     >
       <motion.div className="absolute left-0 top-0 right-0 bottom-0 h-full w-full bg-[#0E1016] mix-blend-color "></motion.div>
 
-      <div className=" absolute top-10 flex justify-between  lg:w-[90%] lg:max-w-[1440px]">
+      <div className="absolute top-10 flex justify-between lg:w-[90%] lg:max-w-[1440px]">
         <div>
           <Link
             href="https://drive.google.com/file/d/1sMiS1LMK23WjcYlh2irXnoeFpWpDapWq/view?usp=share_link"

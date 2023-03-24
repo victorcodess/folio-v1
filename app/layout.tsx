@@ -78,7 +78,6 @@ export const metadata: Metadata = {
   },
   manifest: "https://nextjs.org/manifest.json",
   category: "technology",
- 
 };
 
 type RootLayoutProps = {
