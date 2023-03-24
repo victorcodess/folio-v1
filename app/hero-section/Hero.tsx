@@ -15,21 +15,21 @@ import AnimatedBody from "../animations/AnimatedBody";
 const Hero = () => {
   return (
     <motion.section
-      className="relative z-10 flex h-[80vh] w-full items-stretch justify-center bg-[url('.//../public/hero.jpg')] bg-cover  bg-center py-0  md:h-[100vh]"
+      className="relative z-10 flex h-[80vh] w-full items-stretch justify-center bg-[url('.//../public/hero.jpg')] bg-cover  bg-center py-0 sm:h-[90vh]  md:h-[100vh]"
       id="home"
       initial="initial"
       animate="animate"
     >
       <motion.div className="absolute left-0 top-0 right-0 bottom-0 h-full w-full bg-[#0E1016] mix-blend-color "></motion.div>
 
-      <div className="absolute top-10 flex justify-between lg:w-[90%] lg:max-w-[1440px]">
+      <div className="absolute top-10 flex justify-between sm:w-[90%] lg:max-w-[1440px]">
         <div>
           <Link
             href="https://drive.google.com/file/d/1sMiS1LMK23WjcYlh2irXnoeFpWpDapWq/view?usp=share_link"
             target="_blank"
           >
             <motion.button
-              className="hidden rounded-md border-2 border-[#e4ded7] py-2 px-4 text-[16px] font-semibold text-[#e4ded7] md:text-[16px] lg:block"
+              className="hidden rounded-md border-2 border-[#e4ded7] py-2 px-4 text-[14px] font-semibold text-[#e4ded7] sm:block md:text-[16px] lg:block"
               variants={bodyAnimation}
             >
               VIEW RESUME
@@ -37,11 +37,11 @@ const Hero = () => {
           </Link>
         </div>
 
-        <div className="flex gap-10 text-[#e4ded7] md:gap-8 lg:gap-14">
+        <div className="flex gap-10 sm:gap-12 text-[#e4ded7] md:gap-8 lg:gap-14">
           <Link href="https://github.com/victorcodess" target="_blank">
             <AnimatedTitle
               text={"GH"}
-              className={"text-[#e4ded7]md:text-[20px] text-[16px] font-bold"}
+              className={"text-[16px] font-bold text-[#e4ded7] md:text-[20px]"}
               wordSpace={"mr-[0.25em]"}
               charSpace={"mr-[0.01em]"}
             />
@@ -52,7 +52,7 @@ const Hero = () => {
           >
             <AnimatedTitle
               text={"LN"}
-              className={"text-[#e4ded7]md:text-[20px] text-[16px] font-bold"}
+              className={"text-[16px] font-bold text-[#e4ded7] md:text-[20px]"}
               wordSpace={"mr-[0.25em]"}
               charSpace={"mr-[0.01em]"}
             />
@@ -60,7 +60,7 @@ const Hero = () => {
           <Link href="https://twitter.com/victorwill__" target="_blank">
             <AnimatedTitle
               text={"TW"}
-              className={"text-[#e4ded7]md:text-[20px] text-[16px] font-bold"}
+              className={"text-[16px] font-bold text-[#e4ded7] md:text-[20px]"}
               wordSpace={"mr-[0.25em]"}
               charSpace={"mr-[0.01em]"}
             />
@@ -68,16 +68,16 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="-mt-36 flex flex-col items-center justify-center lg:my-40 lg:-mt-2 lg:py-40 ">
+      <div className="-mt-36 flex flex-col items-center justify-center lg:my-40 sm:-mt-20 lg:-mt-2 lg:py-40 ">
         <div
           className={`relative flex flex-col items-center justify-center ${monaSans.className}   `}
         >
-          <h1 className=" max-w-[500px] text-center text-[96px] font-extrabold leading-[0.8em] text-[#e4ded7] md:max-w-[900px]  md:text-[155.5px] lg:text-[215px]">
+          <h1 className=" max-w-[500px] text-center text-[96px] font-extrabold leading-[0.8em] sm:leading-[0.85em] text-[#e4ded7] md:max-w-[900px] sm:text-[120px]  md:text-[155.5px] lg:text-[215px]">
             VICTOR WILLIAMS
           </h1>
 
           <motion.div
-            className="absolute bottom-[-110px] md:bottom-[-130px] lg:bottom-[-150px]"
+            className="absolute bottom-[-110px] sm:bottom-[-100px] md:bottom-[-130px] lg:bottom-[-150px]"
             variants={imageAnimation}
           >
             {" "}
