@@ -11,6 +11,7 @@ import {
 } from "../animations/animations";
 import AnimatedTitle from "../animations/AnimatedTitle";
 import AnimatedBody from "../animations/AnimatedBody";
+import AnimatedWords from "../animations/AnimatedWords";
 
 const Hero = () => {
   return (
@@ -72,9 +73,11 @@ const Hero = () => {
         <div
           className={`relative flex flex-col items-center justify-center ${monaSans.className}   `}
         >
-          <h1 className=" max-w-[500px] text-center text-[96px] font-extrabold leading-[0.8em] text-[#e4ded7] sm:text-[120px] sm:leading-[0.85em] md:max-w-[900px]  md:text-[155.5px] lg:text-[215px]">
-            VICTOR WILLIAMS
-          </h1>
+          {/* <h1 className=" max-w-[500px] text-center text-[96px] font-extrabold leading-[0.8em] text-[#e4ded7] sm:text-[120px] sm:leading-[0.85em] md:max-w-[900px]  md:text-[155.5px] lg:text-[215px]"></h1> */}
+          <AnimatedWords
+            title="VICTOR WILLIAMS"
+            style="inline-block overflow-hidden pt-1 -mb-1 sm:-mb-2 md:-mb-3 lg:-mb-4"
+          />
 
           <motion.div
             className="absolute bottom-[-110px] sm:bottom-[-100px] md:bottom-[-130px] lg:bottom-[-150px]"
@@ -126,28 +129,6 @@ const Hero = () => {
         </motion.div>
       </div>
     </motion.section>
-  );
-};
-
-type AnimatedWordsProps = {
-  title: string;
-  className?: string;
-};
-
-const AnimatedWords: React.FC<AnimatedWordsProps> = ({ title, className }) => {
-  return (
-    <motion.span variants={staggerChildren}>
-      {title.split(" ").map((word, index) => (
-        <div key={index} className={className}>
-          <motion.span
-            className="inline-block overflow-hidden"
-            variants={wordAnimation}
-          >
-            {word + "\u00A0"}
-          </motion.span>
-        </div>
-      ))}
-    </motion.span>
   );
 };
 

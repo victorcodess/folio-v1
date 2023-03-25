@@ -1,5 +1,5 @@
 export const initialBlobityOptions = {
-    licenseKey: "gmrchk",
+    licenseKey: "opensource",
     focusableElementsOffsetX: 5,
     focusableElementsOffsetY: 5,
     color: "#e4ded7",

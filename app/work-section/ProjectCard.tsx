@@ -65,7 +65,7 @@ const ProjectCard = ({
                 data-blobity-radius="38"
                 data-blobity-offset-x="4"
                 data-blobity-offset-y="4"
-                data-blobity-magnetic="false"
+                data-blobity-magnetic="true"
               />
             </Link>
             <Link href={demo} target="_blank" aria-label="Open Live Demo">
@@ -76,7 +76,7 @@ const ProjectCard = ({
                 data-blobity-radius="38"
                 data-blobity-offset-x="4"
                 data-blobity-offset-y="4"
-                data-blobity-magnetic="false"
+                data-blobity-magnetic="trues"
               />
             </Link>
           </>

@@ -42,13 +42,16 @@ export const staggerChildren = {
 
 export const wordAnimation = {
   initial: {
-    y: 100,
+    opacity: 0,
+    y: 150,
   },
   animate: {
+    opacity: 1,
     y: 0,
     transition: {
-      ease: [0.65, 0, 0.35, 1],
-      duration: 0.7,
+      delay: 1,
+      ease: [0.2, 0.65, 0.3, 0.9],
+      duration: 1,
     },
   },
 };
@@ -62,7 +65,7 @@ export const bodyAnimation = {
     opacity: 1,
     y: `0em`,
     transition: {
-      delay: 0.1,
+      // delay: 0.1,
       duration: 1,
       ease: [0.2, 0.65, 0.3, 0.9],
     },
