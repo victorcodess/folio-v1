@@ -32,7 +32,7 @@ const ProjectCard = ({
           position: "relative",
         } as React.CSSProperties
       }
-      className={`relative z-10 h-[550px]  w-full items-stretch justify-center overflow-hidden rounded-3xl bg-center py-0 md:h-[650px] md:w-[100%] lg:h-[500px]`}
+      className={`relative z-10 h-[550px]  w-full items-stretch justify-center overflow-hidden rounded-3xl bg-center py-0 sm:h-[700px] sm:w-[100%] md:h-[650px] md:w-[100%] lg:h-[500px]`}
       initial="initial"
       animate="animate"
     >
@@ -41,7 +41,7 @@ const ProjectCard = ({
         alt={name}
         width={2159}
         height={1451}
-        className={`absolute -bottom-2 w-[70%] md:w-[60%] lg:max-w-[55%] ${
+        className={`absolute -bottom-2 w-[70%] sm:w-[85%] md:w-[60%] lg:max-w-[55%] ${
           id % 2 === 0 ? "right-0" : "left-0"
         }`}
       />
@@ -52,7 +52,12 @@ const ProjectCard = ({
       >
         {available ? (
           <>
-            <Link href={github} target="_blank" className="rounded-full" aria-label="Open GitHub Repository">
+            <Link
+              href={github}
+              target="_blank"
+              className="rounded-full"
+              aria-label="Open GitHub Repository"
+            >
               <FontAwesomeIcon
                 icon={faGithub}
                 className=" w-[20px] rounded-full bg-white p-5 text-[20px] md:w-[25px] md:text-[24px] lg:w-[30px] lg:text-[28px]"
