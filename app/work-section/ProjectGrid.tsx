@@ -28,7 +28,7 @@ const ProjectGrid = () => {
       </div> */}
 
       {filter ? (
-        <div className="grid w-[90%] grid-cols-1 grid-rows-2 gap-y-8 gap-x-6 lg:max-w-[1200px] lg:grid-cols-1">
+        <div className="grid w-[90%] grid-cols-1 grid-rows-2 gap-y-10 gap-x-6 lg:max-w-[1200px] lg:grid-cols-1">
           {devProjects.map((project: ProjectProps) => (
             <ProjectCard
               id={project.id}
