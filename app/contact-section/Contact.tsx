@@ -19,17 +19,17 @@ const Contact = () => {
         >
           <div className="w-[340px]  sm:w-full lg:w-[1200px] ">
             {" "}
-            <h1 className="max-w-[500px] text-left text-[150px] font-extrabold uppercase leading-[0.9em] text-[#e4ded7] sm:max-w-full sm:text-center sm:text-[160px] md:text-[200px] lg:text-center lg:text-[343.1px] ">
+            <h1 className="max-w-[500px] text-left text-[150px] font-extrabold uppercase leading-[0.9em] text-[#e4ded7] sm:max-w-full sm:text-center sm:text-[160px] md:text-[190px] lg:text-center lg:text-[343.1px] ">
               Let&apos;s Talk
             </h1>
-            <p className="heartbeat absolute -bottom-5 right-10 text-[120px] sm:-bottom-14 sm:right-52 md:-bottom-24 md:right-56 md:text-[150px] lg:right-[37%] lg:text-[230px]">
+            <p className="heartbeat absolute -bottom-5 right-10 text-[120px] sm:-bottom-14 sm:right-52 md:-bottom-18 md:right-56 md:text-[150px] lg:right-[37%] lg:text-[230px]">
               🫶🏿
             </p>
           </div>
         </div>
 
-        <div className="mt-20 sm:mt-32 sm:gap-12 flex w-full flex-col items-end justify-center gap-8 md:mt-40 md:flex-row md:items-start md:justify-between lg:mt-40">
-          <div className=" flex w-[340px] flex-col items-end text-right text-[16px] font-semibold text-[#e4ded7] sm:text-[18px] sm:w-[350px] md:w-[310px] md:text-left md:text-[16px] lg:w-[350px] lg:items-start lg:text-[18px]">
+        <div className="mt-20 flex w-full flex-col items-end justify-center gap-8 sm:mt-32 sm:gap-12 md:mt-40 md:flex-row md:items-start md:justify-between lg:mt-40">
+          <div className=" flex w-[340px] flex-col items-end text-right text-[16px] font-semibold text-[#e4ded7] sm:w-[350px] sm:text-[18px] md:w-[310px] md:text-left md:text-[16px] lg:w-[350px] md:items-start lg:text-[18px]">
             <AnimatedBody
               text={
                 "Got a question, proposal or project or want to work together on something?"

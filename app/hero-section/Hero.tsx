@@ -29,7 +29,7 @@ const Hero = () => {
             target="_blank"
           >
             <motion.button
-              className="hidden rounded-md border-2 border-[#e4ded7] py-2 px-4 text-[14px] font-semibold text-[#e4ded7] sm:block md:text-[16px] lg:block"
+              className="hidden rounded-md border-2 border-[#e4ded7] py-2 px-4 text-[14px] font-semibold text-[#e4ded7] sm:block  md:text-[16px] lg:block"
               variants={bodyAnimation}
             >
               VIEW RESUME
@@ -37,11 +37,11 @@ const Hero = () => {
           </Link>
         </div>
 
-        <div className="flex gap-10 sm:gap-12 text-[#e4ded7] md:gap-8 lg:gap-14">
+        <div className="flex gap-10 text-[#e4ded7] sm:gap-12 md:gap-14 lg:gap-14">
           <Link href="https://github.com/victorcodess" target="_blank">
             <AnimatedTitle
               text={"GH"}
-              className={"text-[16px] font-bold text-[#e4ded7] md:text-[20px]"}
+              className={"text-[16px] font-bold text-[#e4ded7] md:text-[16px]"}
               wordSpace={"mr-[0.25em]"}
               charSpace={"mr-[0.01em]"}
             />
@@ -52,7 +52,7 @@ const Hero = () => {
           >
             <AnimatedTitle
               text={"LN"}
-              className={"text-[16px] font-bold text-[#e4ded7] md:text-[20px]"}
+              className={"text-[16px] font-bold text-[#e4ded7] md:text-[16px]"}
               wordSpace={"mr-[0.25em]"}
               charSpace={"mr-[0.01em]"}
             />
@@ -60,7 +60,7 @@ const Hero = () => {
           <Link href="https://twitter.com/victorwill__" target="_blank">
             <AnimatedTitle
               text={"TW"}
-              className={"text-[16px] font-bold text-[#e4ded7] md:text-[20px]"}
+              className={"text-[16px] font-bold text-[#e4ded7] md:text-[16px]"}
               wordSpace={"mr-[0.25em]"}
               charSpace={"mr-[0.01em]"}
             />
@@ -68,11 +68,11 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="-mt-36 flex flex-col items-center justify-center lg:my-40 sm:-mt-20 lg:-mt-2 lg:py-40 ">
+      <div className="-mt-36 flex flex-col items-center justify-center sm:-mt-20 lg:my-40 lg:-mt-2 lg:py-40 ">
         <div
           className={`relative flex flex-col items-center justify-center ${monaSans.className}   `}
         >
-          <h1 className=" max-w-[500px] text-center text-[96px] font-extrabold leading-[0.8em] sm:leading-[0.85em] text-[#e4ded7] md:max-w-[900px] sm:text-[120px]  md:text-[155.5px] lg:text-[215px]">
+          <h1 className=" max-w-[500px] text-center text-[96px] font-extrabold leading-[0.8em] text-[#e4ded7] sm:text-[120px] sm:leading-[0.85em] md:max-w-[900px]  md:text-[155.5px] lg:text-[215px]">
             VICTOR WILLIAMS
           </h1>
 

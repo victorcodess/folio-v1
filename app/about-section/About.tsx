@@ -10,8 +10,8 @@ const About = () => {
       className="relative z-10 w-full items-center justify-center overflow-hidden bg-[#0E1016] bg-cover bg-center pt-16 pb-24 md:pt-20 md:pb-44 lg:pt-20 lg:pb-52"
       id="about"
     >
-      <div className="mx-auto flex w-[90%] flex-col lg:max-w-[1200px] lg:flex-row lg:gap-36">
-        <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-medium  leading-relaxed tracking-wide text-[#e4ded7]/80 md:mb-16 md:gap-6 md:text-[24px] md:leading-relaxed lg:mb-16  lg:max-w-[70%] lg:text-[24px]">
+      <div className="mx-auto flex w-[90%] flex-col lg:max-w-[1200px] lg:flex-row lg:gap-28">
+        <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-medium  leading-relaxed tracking-wide text-[#e4ded7]/80 md:mb-16 md:gap-6 md:text-[20px] md:leading-relaxed lg:mb-16  lg:max-w-[90%] lg:text-[20px]">
           <AnimatedTitle
             text={"Hello there!"}
             className={
@@ -23,22 +23,32 @@ const About = () => {
 
           <AnimatedBody
             text={
-              "I'm a software engineer based in Lagos, Nigeria. I'm passionate about building software that solves real-world problems. I'm currently working on a few projects that I hope to launch soon. In the meantime, I'm open to new opportunities. Feel free to reach out to me on any of the platforms below."
+              "I’m a front-end engineer and product designer based in Lagos, Nigeria. My passion lies in creating software that solves real-world problems and positively impacts people’s lives."
             }
           />
           <AnimatedBody
             text={
-              "I enjoy watching anime and I am very into the Marvel franchise. I listen to lots of music — RnB, UK Drill, and Chill Rap are some of my favourite genres. Let's not forget the guys at Snarky Puppy, they are magical. I spend most of my free time with my family."
+              "Whether I’m designing a sleek user interface or coding a complex application, I’m always striving to create something unique and innovative. I love experimenting with new technologies and staying up-to-date with the latest trends in the tech world."
             }
           />
           <AnimatedBody
             text={
-              "You can find below, some of my favourite songs. I'll update them periodically."
+              "In addition to my work in software development, I’m also an active member of tech communities on campus, including GDSC and MLSA. I’m always eager to collaborate with other passionate individuals to build solutions for local problems and gain new skills through hands-on workshops, events, talks, and project-building activities."
+            }
+          />
+          <AnimatedBody
+            text={
+              "I also love indulging in my hobbies when I’m not busy in VSCode or Figma. Whether it’s binge-watching my favorite anime series, cheering on Manchester United, hanging out with friends, or discovering new music in my favorite genres like RnB, UK Drill, and Chill Rap, I’m always looking for ways to relax and unwind."
+            }
+          />
+          <AnimatedBody
+            text={
+              "Right now, I’m working on some exciting projects that I can’t wait to share with you. But I’m always open to new opportunities and collaborations. If you’re a hiring manager or startup founder/CTO who’s looking for someone with both technical skills and a creative edge, then look no further. Get in touch with me on any of the platforms listed below, and let’s chat!"
             }
           />
         </div>
 
-        <div className="mb-24 flex w-[100%] flex-col gap-4 text-[18px] font-medium leading-relaxed text-[#e4ded7]/80 sm:mb-32 md:mb-40 md:gap-10 md:text-[24px] md:leading-normal lg:mt-16 lg:mb-16 lg:max-w-[30%] lg:text-[18px] tracking-wide">
+        <div className="mb-24 flex w-[100%] flex-col gap-4 text-[18px] font-medium leading-relaxed tracking-wide text-[#e4ded7]/80 sm:mb-32 md:mb-40 md:gap-10 md:text-[20px] md:leading-normal lg:mt-16 lg:mb-16 lg:max-w-[30%] lg:text-[18px]">
           <div className="flex flex-col gap-4 md:gap-6">
             <AnimatedTitle
               text={"Frontend Tools"}

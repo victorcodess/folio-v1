@@ -11,7 +11,7 @@ const Footer = () => {
       initial="initial"
       animate="animate"
     >
-      <motion.div className="mx-auto flex w-[90%] flex-row items-center justify-between text-center text-[12px] text-[#e4ded7] sm:text-[12px] md:text-[16px] lg:text-[14px]">
+      <motion.div className="mx-auto flex w-[90%] flex-row items-center justify-between text-center text-[12px] text-[#e4ded7] sm:text-[12px] md:text-[14px] lg:text-[14px]">
         <AnimatedBody text={"Copyright 2023"} className={"m-0 p-0"} />
         <div className="flex flex-col sm:flex-row  sm:gap-1 md:gap-2">
           <AnimatedBody
