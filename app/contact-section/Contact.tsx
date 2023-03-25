@@ -17,19 +17,19 @@ const Contact = () => {
         <div
           className={`relative flex flex-col items-start justify-center lg:justify-center ${monaSans.className}  w-full max-w-[1200px]`}
         >
-          <div className="w-[340px] md:w-full lg:w-[1200px] ">
+          <div className="w-[340px]  sm:w-full lg:w-[1200px] ">
             {" "}
-            <h1 className="max-w-[500px] text-left text-[150px] font-extrabold uppercase leading-[0.9em] text-[#e4ded7] md:max-w-full md:text-center md:text-[200px] lg:text-center lg:text-[343.1px] ">
+            <h1 className="max-w-[500px] text-left text-[150px] font-extrabold uppercase leading-[0.9em] text-[#e4ded7] sm:max-w-full sm:text-center sm:text-[160px] md:text-[200px] lg:text-center lg:text-[343.1px] ">
               Let&apos;s Talk
             </h1>
-            <p className="heartbeat absolute -bottom-5 right-10 text-[120px] md:-bottom-24 md:right-56 md:text-[150px] lg:right-[37%] lg:text-[230px]">
+            <p className="heartbeat absolute -bottom-5 right-10 text-[120px] sm:-bottom-14 sm:right-52 md:-bottom-24 md:right-56 md:text-[150px] lg:right-[37%] lg:text-[230px]">
               🫶🏿
             </p>
           </div>
         </div>
 
-        <div className="mt-20 flex w-full flex-col items-end justify-center gap-8 md:mt-40 md:flex-row md:items-start md:justify-between lg:mt-40">
-          <div className=" flex w-[340px] flex-col items-end text-right text-[16px] font-semibold text-[#e4ded7] md:w-[310px] md:text-left md:text-[16px] lg:w-[350px] lg:items-start lg:text-[18px]">
+        <div className="mt-20 sm:mt-32 sm:gap-12 flex w-full flex-col items-end justify-center gap-8 md:mt-40 md:flex-row md:items-start md:justify-between lg:mt-40">
+          <div className=" flex w-[340px] flex-col items-end text-right text-[16px] font-semibold text-[#e4ded7] sm:text-[18px] sm:w-[350px] md:w-[310px] md:text-left md:text-[16px] lg:w-[350px] lg:items-start lg:text-[18px]">
             <AnimatedBody
               text={
                 "Got a question, proposal or project or want to work together on something?"
@@ -40,18 +40,18 @@ const Contact = () => {
               href="mailto:victor.williams@stu.cu.edu.ng?subject=Lets%20work%20together!&amp;body=Hello%2C%20I%20think%20we%20need%20you%20to%20work%20on%2Fcollaborate%20this%20particular%20product...%20Reach%20out%20as%20soon%20as%20you%20can."
               target="_blank"
               aria-label="Send me an email"
-              className="w-[180px] md:w-[200px] flex-1 underline underline-offset-2 hover:no-underline"
+              className="w-[180px] flex-1 underline underline-offset-2 hover:no-underline sm:w-[200px] md:w-[200px]"
             >
               <p>Feel free to reach out.</p>
             </Link>
           </div>
 
-          <div className="flex gap-10 text-[16px] font-bold text-[#e4ded7]  md:gap-10 md:text-[16px] lg:gap-20 lg:text-[28px]">
+          <div className="flex gap-10 text-[16px] font-bold text-[#e4ded7]  sm:gap-14 sm:text-[24px] md:gap-10 md:text-[16px] lg:gap-20 lg:text-[28px]">
             <Link href="https://github.com/victorcodess" target="_blank">
               <AnimatedTitle
                 text={"GH"}
                 className={
-                  "text-[16px] font-bold text-[#e4ded7] md:text-[16px] lg:text-[28px]"
+                  "text-[16px] font-bold text-[#e4ded7] sm:text-[20px] md:text-[16px] lg:text-[28px]"
                 }
                 wordSpace={"mr-[0.25em]"}
                 charSpace={"mr-[0.01em]"}
@@ -64,7 +64,7 @@ const Contact = () => {
               <AnimatedTitle
                 text={"LN"}
                 className={
-                  "text-[16px] font-bold text-[#e4ded7] md:text-[16px] lg:text-[28px]"
+                  "text-[16px] font-bold text-[#e4ded7] sm:text-[20px] md:text-[16px] lg:text-[28px]"
                 }
                 wordSpace={"mr-[0.25em]"}
                 charSpace={"mr-[0.01em]"}
@@ -74,7 +74,7 @@ const Contact = () => {
               <AnimatedTitle
                 text={"TW"}
                 className={
-                  "text-[16px] font-bold text-[#e4ded7] md:text-[16px] lg:text-[28px]"
+                  "text-[16px] font-bold text-[#e4ded7] sm:text-[20px] md:text-[16px] lg:text-[28px]"
                 }
                 wordSpace={"mr-[0.25em]"}
                 charSpace={"mr-[0.01em]"}
@@ -84,7 +84,7 @@ const Contact = () => {
               <AnimatedTitle
                 text={"IG"}
                 className={
-                  "text-[16px] font-bold text-[#e4ded7] md:text-[16px] lg:text-[28px]"
+                  "text-[16px] font-bold text-[#e4ded7] sm:text-[20px] md:text-[16px] lg:text-[28px]"
                 }
                 wordSpace={"mr-[0.25em]"}
                 charSpace={"mr-[0.01em]"}
@@ -94,7 +94,7 @@ const Contact = () => {
               <AnimatedTitle
                 text={"HN"}
                 className={
-                  "text-[16px] font-bold text-[#e4ded7] md:text-[16px] lg:text-[28px]"
+                  "text-[16px] font-bold text-[#e4ded7] sm:text-[20px] md:text-[16px] lg:text-[28px]"
                 }
                 wordSpace={"mr-[0.25em]"}
                 charSpace={"mr-[0.01em]"}
