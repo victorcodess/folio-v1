@@ -44,12 +44,29 @@ export const wordAnimation = {
   initial: {
     opacity: 0,
     y: 150,
+    // y: 100,
   },
   animate: {
     opacity: 1,
     y: 0,
     transition: {
       delay: 1,
+      ease: [0.2, 0.65, 0.3, 0.9],
+      duration: 1,
+    },
+  },
+};
+
+export const wordAnimation2 = {
+  initial: {
+    opacity: 0,
+    y: 150,
+  },
+  animate: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      // delay: 1,
       ease: [0.2, 0.65, 0.3, 0.9],
       duration: 1,
     },

@@ -11,9 +11,7 @@ import { ScrollerMotion } from "scroller-motion";
 import PreLoader from "./animations/PreLoader/PreLoader";
 import { initialBlobityOptions } from "./utils/BlobityConfig";
 
-
 export default function Home() {
-  
   const blobityInstance = useBlobity(initialBlobityOptions);
 
   useEffect(() => {
@@ -23,8 +21,6 @@ export default function Home() {
     }
   }, [blobityInstance]);
 
-  
-
   return (
     <>
       <ScrollerMotion>
@@ -32,10 +28,10 @@ export default function Home() {
 
         <main className="flex flex-col items-center justify-center ">
           <Hero />
-          {/* <Work /> */}
-          {/* <About /> */}
-          {/* <Contact /> */}
-          {/* <Footer /> */}
+          <Work />
+          <About />
+          <Contact />
+          <Footer />
         </main>
       </ScrollerMotion>
     </>

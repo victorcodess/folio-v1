@@ -1,19 +1,20 @@
 import { motion } from "framer-motion";
+// import { staggerChildren, wordAnimation2 } from "./animations";
 import { useEffect } from "react";
 import { useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { type } from "os";
 
-type AnimatedWordsProps = {
+type AnimatedWords2Props = {
   title: string;
   style: string;
 };
 
-const AnimatedWords: React.FC<AnimatedWordsProps> = ({ title, style }) => {
+const AnimatedWords2: React.FC<AnimatedWords2Props> = ({ title, style }) => {
   const ctrls = useAnimation();
 
   const { ref, inView } = useInView({
-    threshold: 0.1,
+    threshold: 0.5,
     triggerOnce: true,
   });
 
@@ -28,17 +29,16 @@ const AnimatedWords: React.FC<AnimatedWordsProps> = ({ title, style }) => {
     }
   }, [ctrls, inView]);
 
-  const wordAnimation = {
+  const wordAnimation2 = {
     initial: {
       opacity: 0,
       y: 150,
-      // y: 100,
     },
     animate: {
       opacity: 1,
       y: 0,
       transition: {
-        delay: 1,
+        // delay: 1,
         ease: [0.2, 0.65, 0.3, 0.9],
         duration: 1,
       },
@@ -56,22 +56,22 @@ const AnimatedWords: React.FC<AnimatedWordsProps> = ({ title, style }) => {
 
   return (
     <motion.span
+      className="flex max-w-[500px] flex-col items-start sm:items-center sm:justify-center  text-left text-[150px] font-extrabold uppercase leading-[0.9em] text-[#e4ded7] sm:max-w-full sm:flex-row sm:text-center sm:text-[160px] md:text-[190px] lg:text-center lg:text-[343.1px]"
       ref={ref}
-      className="flex max-w-[500px] flex-col overflow-hidden  text-center text-[96px] font-extrabold  leading-[0.8em] text-[#e4ded7] sm:text-[120px] sm:leading-[0.85em] md:max-w-[900px] md:text-[155.5px] lg:text-[215px]"
     >
       {title.split(" ").map((word, index) => (
         <motion.div
           key={index}
           initial="initial"
           animate={ctrls}
-          // variants={staggerChildren}
+          //   variants={staggerChildren}
+          className="flex items-center justify-center overflow-hidden"
           transition={{
             delayChildren: index * 0.25,
             staggerChildren: 0.05,
           }}
-          className="flex items-center justify-center overflow-hidden"
         >
-          <motion.span className={style} variants={wordAnimation}>
+          <motion.span className={style} variants={wordAnimation2}>
             {word + "\u00A0"}
           </motion.span>
         </motion.div>
@@ -80,4 +80,4 @@ const AnimatedWords: React.FC<AnimatedWordsProps> = ({ title, style }) => {
   );
 };
 
-export default AnimatedWords;
+export default AnimatedWords2;
