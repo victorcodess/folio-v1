@@ -23,7 +23,7 @@ export default function Home() {
 
   return (
     <>
-      <ScrollerMotion>
+      {/* <ScrollerMotion> */}
         {/* <PreLoader /> */}
 
         <main className="flex flex-col items-center justify-center ">
@@ -33,7 +33,7 @@ export default function Home() {
           <Contact />
           <Footer />
         </main>
-      </ScrollerMotion>
+      {/* </ScrollerMotion> */}
     </>
   );
 }

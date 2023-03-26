@@ -19,8 +19,6 @@ const AnimatedWords2: React.FC<AnimatedWords2Props> = ({ title, style }) => {
   });
 
   useEffect(() => {
-    console.log("inView", inView);
-
     if (inView) {
       ctrls.start("animate");
     }

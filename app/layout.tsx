@@ -90,7 +90,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <body
         className={`${syne.className}  scroll-smooth scrollbar-thin  scrollbar-track-[#0E1016] scrollbar-thumb-[#212531]`}
       >
-        {/* <NavBar /> */}
+        <NavBar />
         {children}
       </body>
     </html>
