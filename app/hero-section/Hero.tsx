@@ -45,6 +45,7 @@ const Hero = () => {
               className={"text-[16px] font-bold text-[#e4ded7] md:text-[16px]"}
               wordSpace={"mr-[0.25em]"}
               charSpace={"mr-[0.01em]"}
+              delay={6}
             />
           </Link>
           <Link
@@ -56,6 +57,7 @@ const Hero = () => {
               className={"text-[16px] font-bold text-[#e4ded7] md:text-[16px]"}
               wordSpace={"mr-[0.25em]"}
               charSpace={"mr-[0.01em]"}
+              delay={6}
             />
           </Link>
           <Link href="https://twitter.com/victorwill__" target="_blank">
@@ -64,6 +66,7 @@ const Hero = () => {
               className={"text-[16px] font-bold text-[#e4ded7] md:text-[16px]"}
               wordSpace={"mr-[0.25em]"}
               charSpace={"mr-[0.01em]"}
+              delay={6}
             />
           </Link>
         </div>
