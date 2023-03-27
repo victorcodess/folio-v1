@@ -11,7 +11,7 @@ const About = () => {
       id="about"
     >
       <div className="mx-auto flex w-[90%] flex-col lg:max-w-[1200px] lg:flex-row lg:gap-28">
-        <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-medium  leading-relaxed tracking-wide text-[#e4ded7]/80 md:mb-16 md:gap-6 md:text-[20px] md:leading-relaxed lg:mb-16  lg:max-w-[90%] lg:text-[20px] hidden">
+        <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-medium  leading-relaxed tracking-wide text-[#e4ded7]/80 md:mb-16 md:gap-6 md:text-[20px] md:leading-relaxed lg:mb-16  lg:max-w-[90%] lg:text-[20px] ">
           <AnimatedTitle
             text={"Hello there!"}
             className={

@@ -25,16 +25,16 @@ export default function Home() {
   return (
     <>
       {/* <ScrollerMotion> */}
-      <PreLoader />
+        <PreLoader />
 
-      <main className="flex flex-col items-center justify-center">
-        <Hero />
-        <Work />
-        <About />
-        <Blog />
-        <Contact />
-        <Footer />
-      </main>
+        <main className="flex flex-col items-center justify-center">
+          <Hero />
+          <Work />
+          <About />
+          <Blog />
+          <Contact />
+          <Footer />
+        </main>
       {/* </ScrollerMotion> */}
     </>
   );
