@@ -5,7 +5,7 @@ const nextConfig = {
   },
   optimizeFonts: true,
   images: {
-    domains: ["user-images.githubusercontent.com"],
+    domains: ["user-images.githubusercontent.com", "cdn.hashnode.com"],
   },
   fontLoaders: [
     {

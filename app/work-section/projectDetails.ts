@@ -54,7 +54,7 @@ export const devProjects = [
     id: 4,
     name: "Carpooling Service",
     description:
-      "TMTM helps you find people who are headed to the same location as you, so you can share a ride and split the cost with them; I was responsible for bulding the frontend. ",
+      "TMTM helps you find people who are headed to the same location as you, so you can share a ride and split the cost with them.",
     technologies: ["Material UI", "React", "Formik"],
     github: "https://github.com/victorcodess/carpooling-service",
     demo: "",
