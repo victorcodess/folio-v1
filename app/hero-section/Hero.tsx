@@ -40,34 +40,31 @@ const Hero = () => {
 
         <div className="flex gap-10 text-[#e4ded7] sm:gap-12 md:gap-14 lg:gap-14">
           <Link href="https://github.com/victorcodess" target="_blank">
-            <AnimatedTitle
-              text={"GH"}
-              className={"text-[16px] font-bold text-[#e4ded7] md:text-[16px]"}
-              wordSpace={"mr-[0.25em]"}
-              charSpace={"mr-[0.01em]"}
-              delay={6}
-            />
+            <motion.p
+              className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
+              variants={bodyAnimation}
+            >
+              GH
+            </motion.p>
           </Link>
           <Link
             href="https://www.linkedin.com/in/victor-williams-chukwudi/"
             target="_blank"
           >
-            <AnimatedTitle
-              text={"LN"}
-              className={"text-[16px] font-bold text-[#e4ded7] md:text-[16px]"}
-              wordSpace={"mr-[0.25em]"}
-              charSpace={"mr-[0.01em]"}
-              delay={6}
-            />
+            <motion.p
+              className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
+              variants={bodyAnimation}
+            >
+              LN
+            </motion.p>
           </Link>
           <Link href="https://twitter.com/victorwill__" target="_blank">
-            <AnimatedTitle
-              text={"TW"}
-              className={"text-[16px] font-bold text-[#e4ded7] md:text-[16px]"}
-              wordSpace={"mr-[0.25em]"}
-              charSpace={"mr-[0.01em]"}
-              delay={6}
-            />
+            <motion.p
+              className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
+              variants={bodyAnimation}
+            >
+              TW
+            </motion.p>
           </Link>
         </div>
       </div>
