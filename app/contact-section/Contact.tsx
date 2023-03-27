@@ -8,7 +8,6 @@ import AnimatedBody from "../animations/AnimatedBody";
 import AnimatedTitle from "../animations/AnimatedTitle";
 import AnimatedWords2 from "../animations/AnimatedWords2";
 import { motion } from "framer-motion";
-import { staggerChildren, wordAnimation2 } from "../animations/animations";
 
 const Contact = () => {
   return (
@@ -20,24 +19,17 @@ const Contact = () => {
     >
       <div className="mx-auto  flex w-[90%] flex-col items-center justify-center pt-10 md:pt-0">
         <div
-          className={`relative flex flex-col items-start justify-center lg:justify-center ${monaSans.className}  w-full max-w-[1200px]`}
+          className={`flex flex-col items-start justify-center ${monaSans.className} relative w-full max-w-[1200px] sm:items-center  lg:w-[1200px] `}
         >
-          <div className="w-[340px]  sm:w-full lg:w-[1200px] ">
-            {" "}
-            {/* <h1 className="max-w-[500px] text-left text-[150px] font-extrabold uppercase leading-[0.9em] text-[#e4ded7] sm:max-w-full sm:text-center sm:text-[160px] md:text-[190px] lg:text-center lg:text-[343.1px] ">
-              Let&apos;s Talk
-            </h1> */}
-            <AnimatedWords2
-              title={"Let's Talk"}
-              style={
-                " inline-block overflow-hidden pt-1 -mb-4 sm:-mb-2 md:-mb-3 lg:-mb-4"
-              }
-            />
-            {/* <AnimatedWords2 title="Helper robots for a better everyday" /> */}
-            <p className="heartbeat md:-bottom-18 absolute -bottom-9 right-10 text-[120px] sm:-bottom-14 sm:right-52 md:right-56 md:text-[150px] lg:-bottom-24 lg:right-[37%] lg:text-[230px]">
-              🫶🏿
-            </p>
-          </div>
+          <AnimatedWords2
+            title={"Let's Talk"}
+            style={
+              " inline-block overflow-hidden pt-1 -mb-4 sm:-mb-2 md:-mb-3 lg:-mb-4"
+            }
+          />
+          <p className="heartbeat md:-bottom-18 absolute -bottom-9 left-60 text-[120px] sm:-bottom-14 sm:left-64 md:left-[35%] md:text-[150px] lg:-bottom-24 lg:left-[38%] lg:text-[230px]">
+            🫶🏿
+          </p>
         </div>
 
         <div className="mt-20 flex w-full flex-col items-end justify-center gap-16 sm:mt-32 sm:gap-12 md:mt-40 md:flex-row md:items-start md:justify-between lg:mt-40">
