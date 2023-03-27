@@ -49,7 +49,6 @@ const Contact = () => {
               className="mt-1 w-[180px] flex-1 underline underline-offset-2 hover:no-underline sm:mt-2 sm:w-[200px] md:mt-3 md:w-[200px] lg:mt-4"
             >
               <AnimatedBody text={"Feel free to reach out."} className={""} />
-              {/* <p>Feel free to reach out.</p> */}
             </Link>
           </div>
 

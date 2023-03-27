@@ -41,7 +41,7 @@ const AnimatedWords2: React.FC<AnimatedWords2Props> = ({ title, style }) => {
         duration: 1,
       },
     },
-  };
+  }; 
 
   const staggerChildren = {
     animate: {

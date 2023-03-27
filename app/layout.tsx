@@ -41,11 +41,11 @@ export const metadata: Metadata = {
     title: "Victor Williams — Frontend Engineer",
     description:
       "Frontend Engineer and Product Designer, currently at Crown Branding Agency. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
-    url: "https://nextjs.org",
+    url: "https://folio-v1-seven.vercel.app/",
     siteName: "Portfolio Website",
     images: [
       {
-        url: "https://nextjs.org/og.png",
+        url: "https://user-images.githubusercontent.com/84178696/227930048-ad77feaa-a4d5-474b-a0c8-83bae830864b.png",
         width: 800,
         height: 600,
         alt: "Victor Williams — Frontend Engineer",
@@ -67,15 +67,6 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  icons: {
-    icon: "/icon.png",
-    shortcut: "/shortcut-icon.png",
-    apple: "/apple-icon.png",
-    other: {
-      rel: "apple-touch-icon-precomposed",
-      url: "/apple-touch-icon-precomposed.png",
-    },
-  },
   manifest: "https://nextjs.org/manifest.json",
   category: "technology",
 };
@@ -90,7 +81,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <body
         className={`${syne.className}  scroll-smooth scrollbar-thin  scrollbar-track-[#0E1016] scrollbar-thumb-[#212531]`}
       >
-        <NavBar />
+        {/* <NavBar /> */}
         {children}
       </body>
     </html>

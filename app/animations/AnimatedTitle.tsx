@@ -16,7 +16,6 @@ export default function AnimatedTitle({
   className,
   wordSpace,
   charSpace,
-  delay,
 }: AnimatedTitleProps) {
   //   const text = "Animated Text"; // This would normally be passed into this component as a prop!
 
@@ -50,7 +49,6 @@ export default function AnimatedTitle({
       opacity: 1,
       y: `0em`,
       transition: {
-        delay: delay,
         duration: 1,
         ease: [0.2, 0.65, 0.3, 0.9],
       },
