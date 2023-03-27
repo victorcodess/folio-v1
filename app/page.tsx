@@ -10,6 +10,7 @@ import { useEffect, useState, useRef } from "react";
 import { ScrollerMotion } from "scroller-motion";
 import PreLoader from "./animations/PreLoader/PreLoader";
 import { initialBlobityOptions } from "./utils/BlobityConfig";
+import Blog from "./blog-section/Blog";
 
 export default function Home() {
   const blobityInstance = useBlobity(initialBlobityOptions);
@@ -24,15 +25,15 @@ export default function Home() {
   return (
     <>
       {/* <ScrollerMotion> */}
-        <PreLoader />
+        {/* <PreLoader /> */}
 
         <main className="flex flex-col items-center justify-center">
-          <Hero />
-          <Work />
-          <About />
+          {/* <Hero /> */}
+          {/* <Work /> */}
+          {/* <About /> */}
+          <Blog/>
           <Contact />
           <Footer />
-
         </main>
       {/* </ScrollerMotion> */}
     </>
