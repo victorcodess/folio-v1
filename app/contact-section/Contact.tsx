@@ -12,7 +12,7 @@ import { motion } from "framer-motion";
 const Contact = () => {
   return (
     <motion.section
-      className=" relative flex z-10 h-[85vh] w-full items-center justify-center overflow-hidden bg-[#0E1016] bg-cover bg-center py-16 md:h-[80vh] md:py-20 lg:h-[90vh] lg:pt-20 lg:pb-28"
+      className=" relative z-10 flex h-[85vh] w-full items-center justify-center overflow-hidden bg-[#0E1016] bg-cover bg-center py-16 md:h-[80vh] md:py-20 lg:h-[90vh] lg:pt-20 lg:pb-28"
       id="contact"
       initial="initial"
       animate="animate"
@@ -27,9 +27,13 @@ const Contact = () => {
               " inline-block overflow-hidden pt-1 -mb-4 sm:-mb-2 md:-mb-3 lg:-mb-4"
             }
           />
-          <p className="heartbeat md:-bottom-18 absolute -bottom-9 left-60 text-[120px] sm:-bottom-14 sm:left-64 md:left-[35%] md:text-[150px] lg:-bottom-24 lg:left-[38%] lg:text-[230px]">
-            🫶🏿
-          </p>
+          <Image
+            src="/../public/heart icon.png"
+            alt="Victor's headshot"
+            width={616}
+            height={617}
+            className="heartbeat md:-bottom-18 absolute -bottom-5 left-64 w-[120px] sm:-bottom-14 sm:left-[40%] md:left-[40%] md:w-[150px] lg:-bottom-24 lg:left-[42%] lg:w-[230px]"
+          />
         </div>
 
         <div className="mt-20 flex w-full flex-col items-end justify-center gap-16 sm:mt-32 sm:gap-12 md:mt-40 md:flex-row md:items-start md:justify-between lg:mt-40">

@@ -21,7 +21,7 @@ const Hero = () => {
       initial="initial"
       animate="animate"
     >
-      <motion.div className="absolute left-0 top-0 right-0 bottom-0 h-full w-full bg-[#0E1016] mix-blend-color "></motion.div>
+      <motion.div className="absolute left-0 top-0 right-0 bottom-0 h-full w-full bg-[#0E1016] mix-blend-color"></motion.div>
 
       <div className="absolute top-10 flex justify-between sm:w-[90%] lg:max-w-[1440px]">
         <div>
@@ -73,7 +73,6 @@ const Hero = () => {
         <div
           className={`relative flex flex-col items-center justify-center ${monaSans.className}   `}
         >
-          {/* <h1 className=" max-w-[500px] text-center text-[96px] font-extrabold leading-[0.8em] text-[#e4ded7] sm:text-[120px] sm:leading-[0.85em] md:max-w-[900px]  md:text-[155.5px] lg:text-[215px]"></h1> */}
           <AnimatedWords
             title="VICTOR WILLIAMS"
             style="inline-block overflow-hidden pt-1 -mb-1 sm:-mb-2 md:-mb-3 lg:-mb-4"

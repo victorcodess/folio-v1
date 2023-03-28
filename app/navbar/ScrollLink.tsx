@@ -20,7 +20,7 @@ const ScrollLink = ({ children, ...props }: ScrollLinkProps) => {
     });
   };
   return (
-    <Link {...props} onClick={handleScroll}>
+    <Link {...props} onClick={handleScroll} data-blobity-magnetic="false">
       {children}
     </Link>
   );

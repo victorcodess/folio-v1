@@ -16,9 +16,8 @@ export const blogDetails = [
     available: true,
   },
   {
-    title: "Reflecting on My 18th Year: A Personal Review of 2022",
-    image:
-      "https://cdn.hashnode.com/res/hashnode/image/upload/v1672494063925/1ee2925f-e529-4a8b-9dd7-6eea996a34eb.png",
+    title: "Building Form Fields with Material UI, Formik, and Yup.",
+    image: "/_next/image?url=%2F..%2Fpublic%2Fhero.webp&w=1920&q=100",
     date: "12/31/2022",
     url: "",
     available: false,
@@ -26,7 +25,7 @@ export const blogDetails = [
   {
     title: "Reflecting on My 18th Year: A Personal Review of 2022",
     image:
-      "https://cdn.hashnode.com/res/hashnode/image/upload/v1672494063925/1ee2925f-e529-4a8b-9dd7-6eea996a34eb.png",
+      "/_next/image?url=%2F..%2Fpublic%2Fhero.webp&w=1920&q=100",
     date: "12/31/2022",
     url: "",
     available: false,

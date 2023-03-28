@@ -63,6 +63,19 @@ export const devProjects = [
     bgColor: "#5b6c5d",
     available: false,
   },
+  {
+    id: 5,
+    name: "MLSC.ng",
+    description:
+      "This is platform for Microsoft Learn Student Ambassadors to shorten links, append their sharing IDs and generate event certificates.",
+    technologies: ["Next.js", "Next Auth", "Tailwind CSS"],
+    github: "https://github.com/msp-nigeria/mlsc.ng-frontend",
+    demo: "",
+    image:
+      "/_next/image?url=%2F..%2Fpublic%2Fprojects%2Fskywatch-new.webp&w=1920&q=100",
+    bgColor: "#5b6c5d",
+    available: false,
+  },
 ];
 
 export const designProjects = [
