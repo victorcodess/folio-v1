@@ -20,7 +20,7 @@ const SongCard = ({ id, title, artist, image, link }: SongProps) => {
 
         <div className="absolute bottom-3 left-5 hidden">
           <p className="text-[14px] text-white">{artist}</p>
-          <h1 className="text-[30px] text-white">{title}</h1>
+          <h4 className="text-[30px] text-white">{title}</h4>
         </div>
       </div>
     </Link>

@@ -53,28 +53,30 @@ const AnimatedWords2: React.FC<AnimatedWords2Props> = ({ title, style }) => {
   };
 
   return (
-    <motion.span
-      className="flex max-w-[500px] flex-col items-start text-left text-[150px]  font-extrabold uppercase leading-[0.9em] text-[#e4ded7] sm:max-w-full sm:flex-row sm:items-center sm:justify-center sm:text-center sm:text-[160px] md:text-[190px] lg:text-center lg:text-[390px]"
-      ref={ref}
-    >
-      {title.split(" ").map((word, index) => (
-        <motion.div
-          key={index}
-          initial="initial"
-          animate={ctrls}
-          //   variants={staggerChildren}
-          className="flex items-center justify-center overflow-hidden"
-          transition={{
-            delayChildren: index * 0.25,
-            staggerChildren: 0.05,
-          }}
-        >
-          <motion.span className={style} variants={wordAnimation2}>
-            {word + "\u00A0"}
-          </motion.span>
-        </motion.div>
-      ))}
-    </motion.span>
+    <h1 aria-label={title} role="heading">
+      <motion.span
+        className="flex max-w-[500px] flex-col items-start text-left text-[150px]  font-extrabold uppercase leading-[0.9em] text-[#e4ded7] sm:max-w-full sm:flex-row sm:items-center sm:justify-center sm:text-center sm:text-[160px] md:text-[190px] lg:text-center lg:text-[390px]"
+        ref={ref}
+      >
+        {title.split(" ").map((word, index) => (
+          <motion.div
+            key={index}
+            initial="initial"
+            animate={ctrls}
+            //   variants={staggerChildren}
+            className="flex items-center justify-center overflow-hidden"
+            transition={{
+              delayChildren: index * 0.25,
+              staggerChildren: 0.05,
+            }}
+          >
+            <motion.span className={style} variants={wordAnimation2}>
+              {word + "\u00A0"}
+            </motion.span>
+          </motion.div>
+        ))}
+      </motion.span>
+    </h1>
   );
 };
 

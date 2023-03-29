@@ -4,7 +4,7 @@ import { devProjects, designProjects, ProjectProps } from "./projectDetails";
 import { useState } from "react";
 
 const ProjectGrid = () => {
-  const [filter, setFilter] = useState(true);
+  // const [filter, setFilter] = useState(true);
 
   return (
     <>
@@ -27,7 +27,7 @@ const ProjectGrid = () => {
         </h4>
       </div> */}
 
-      {filter ? (
+      {/* {filter ? ( */}
         <div className="grid w-[90%] grid-cols-1 grid-rows-2 gap-y-10 gap-x-6 lg:max-w-[1200px] lg:grid-cols-1">
           {devProjects.map((project: ProjectProps) => (
             <ProjectCard
@@ -44,7 +44,7 @@ const ProjectGrid = () => {
             />
           ))}
         </div>
-      ) : (
+      {/* ) : (
         <div className="grid w-[90%] grid-cols-1 grid-rows-2 gap-y-6 gap-x-6 lg:max-w-[1200px] lg:grid-cols-1">
           {designProjects.map((project: ProjectProps) => (
             <ProjectCard
@@ -61,7 +61,7 @@ const ProjectGrid = () => {
             />
           ))}
         </div>
-      )}
+      )} */}
     </>
   );
 };
