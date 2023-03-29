@@ -52,6 +52,17 @@ export const metadata: Metadata = {
     locale: "en-US",
     type: "website",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Victor Williams — Frontend Engineer",
+    description:
+      "Frontend Engineer and Product Designer, currently at Crown Branding Agency. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
+    creator: "victorwill__",
+    creatorId: "1243720976552144897",
+    images: [
+      "https://user-images.githubusercontent.com/84178696/227943215-a5b93611-01e0-4a58-9e85-984c2ecaaa85.png",
+    ],
+  },
   robots: {
     index: true,
     follow: true,
