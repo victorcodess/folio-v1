@@ -14,8 +14,8 @@ const AnimatedWords2: React.FC<AnimatedWords2Props> = ({ title, style }) => {
   const ctrls = useAnimation();
 
   const { ref, inView } = useInView({
-    threshold: 0.5,
-    triggerOnce: true,
+    threshold: 1,
+    triggerOnce: false,
   });
 
   useEffect(() => {
@@ -38,10 +38,10 @@ const AnimatedWords2: React.FC<AnimatedWords2Props> = ({ title, style }) => {
       transition: {
         // delay: 1,
         ease: [0.2, 0.65, 0.3, 0.9],
-        duration: 1,
+        duration: 0.8,
       },
     },
-  }; 
+  };
 
   const staggerChildren = {
     animate: {
@@ -54,7 +54,7 @@ const AnimatedWords2: React.FC<AnimatedWords2Props> = ({ title, style }) => {
 
   return (
     <motion.span
-      className="flex max-w-[500px] flex-col items-start sm:items-center sm:justify-center  text-left text-[150px] font-extrabold uppercase leading-[0.9em] text-[#e4ded7] sm:max-w-full sm:flex-row sm:text-center sm:text-[160px] md:text-[190px] lg:text-center lg:text-[343.1px]"
+      className="flex max-w-[500px] flex-col items-start text-left text-[150px]  font-extrabold uppercase leading-[0.9em] text-[#e4ded7] sm:max-w-full sm:flex-row sm:items-center sm:justify-center sm:text-center sm:text-[160px] md:text-[190px] lg:text-center lg:text-[390px]"
       ref={ref}
     >
       {title.split(" ").map((word, index) => (

@@ -71,8 +71,7 @@ export const devProjects = [
     technologies: ["Next.js", "Next Auth", "Tailwind CSS"],
     github: "https://github.com/msp-nigeria/mlsc.ng-frontend",
     demo: "",
-    image:
-      "/_next/image?url=%2F..%2Fpublic%2Fprojects%2Fskywatch-new.webp&w=1920&q=100",
+    image: "/_next/image?url=%2F..%2Fpublic%2Fprojects%2Fmlsc.png&w=1920&q=100",
     bgColor: "#5b6c5d",
     available: false,
   },

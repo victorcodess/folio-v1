@@ -2,8 +2,6 @@ import "./globals.css";
 import { ReactNode } from "react";
 import type { Metadata } from "next";
 import { Syne } from "@next/font/google";
-import NavBar from "./navbar/NavBar";
-import Footer from "./footer/Footer";
 
 const syne = Syne({
   subsets: ["latin"],
@@ -81,7 +79,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <body
         className={`${syne.className}  scroll-smooth scrollbar-thin  scrollbar-track-[#0E1016] scrollbar-thumb-[#212531]`}
       >
-        <NavBar />
         {children}
       </body>
     </html>

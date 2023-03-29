@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const NavBar = () => {
   return (
-    <nav className="fixed bottom-10 left-[55%] z-50 ml-[-222px] flex items-center justify-center gap-1 rounded-lg bg-black px-1 py-1 text-[#e4ded7] backdrop-blur-md md:left-[56%] md:ml-[-256.5px] md:p-2 lg:left-[53.6%]">
+    <nav className="fixed bottom-10 left-[55%] z-50 ml-[-222px] flex items-center justify-center gap-1 rounded-lg bg-[#07070a]/90 px-1 py-1 text-[#e4ded7] backdrop-blur-md md:left-[56%] md:ml-[-256.5px] md:p-2 lg:left-[54.1%]">
       <Link
         href="https://drive.google.com/file/d/1sMiS1LMK23WjcYlh2irXnoeFpWpDapWq/view?usp=share_link"
         target="_blank"

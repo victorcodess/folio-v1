@@ -6,11 +6,12 @@ import About from "./about-section/About";
 import Contact from "./contact-section/Contact";
 import Footer from "./footer/Footer";
 import useBlobity from "blobity/lib/react/useBlobity";
-import { useEffect, useState, useRef } from "react";
+import { useEffect} from "react";
 import { ScrollerMotion } from "scroller-motion";
 import PreLoader from "./animations/PreLoader/PreLoader";
 import { initialBlobityOptions } from "./utils/BlobityConfig";
 import Blog from "./blog-section/BlogGrid";
+import NavBar from "./navbar/NavBar";
 
 export default function Home() {
   const blobityInstance = useBlobity(initialBlobityOptions);
@@ -24,17 +25,19 @@ export default function Home() {
 
   return (
     <>
-      {/* <ScrollerMotion> */}
-        <PreLoader />
+      <PreLoader />
 
-        <main className="flex flex-col items-center justify-center">
-          <Hero />
-          <Work />
-          <About />
-          <Blog />
-          <Contact />
-          <Footer />
-        </main>
+      <NavBar />
+
+      {/* <ScrollerMotion> */}
+      <main className="flex flex-col items-center justify-center">
+        <Hero />
+        <Work />
+        <About />
+        <Blog />
+        <Contact />
+        <Footer />
+      </main>
       {/* </ScrollerMotion> */}
     </>
   );

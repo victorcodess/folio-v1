@@ -12,14 +12,14 @@ import { motion } from "framer-motion";
 const Contact = () => {
   return (
     <motion.section
-      className=" relative z-10 flex h-[85vh] w-full items-center justify-center overflow-hidden bg-[#0E1016] bg-cover bg-center py-16 md:h-[80vh] md:py-20 lg:h-[90vh] lg:pt-20 lg:pb-28"
+      className=" relative z-10 flex h-[85vh] w-full items-center justify-center overflow-hidden bg-[#0E1016] bg-cover bg-center py-16 md:h-[80vh] md:py-20 lg:h-[90vh] lg:pt-0 lg:pb-28"
       id="contact"
       initial="initial"
       animate="animate"
     >
       <div className="mx-auto  flex w-[90%] flex-col items-center justify-center pt-10 md:pt-0">
         <div
-          className={`flex flex-col items-start justify-center ${monaSans.className} relative w-full max-w-[1200px] sm:items-center  lg:w-[1200px] `}
+          className={`flex flex-col items-start justify-center ${monaSans.className} relative w-full sm:items-center  lg:max-w-[1440px] `}
         >
           <AnimatedWords2
             title={"Let's Talk"}
@@ -36,7 +36,7 @@ const Contact = () => {
           />
         </div>
 
-        <div className="mt-20 flex w-full flex-col items-end justify-center gap-16 sm:mt-32 sm:gap-12 md:mt-40 md:flex-row md:items-start md:justify-between lg:mt-40">
+        <div className="mt-20 flex w-full flex-col items-end justify-center gap-16 sm:mt-32 sm:gap-12 md:mt-40 md:flex-row md:items-start md:justify-between lg:mt-20">
           <div className=" flex w-[340px] flex-col items-end text-right text-[16px] font-semibold text-[#e4ded7] sm:w-[350px] sm:text-[18px] md:w-[310px] md:items-start md:text-left md:text-[16px] lg:w-[350px] lg:text-[18px]">
             <AnimatedBody
               text={
@@ -50,9 +50,9 @@ const Contact = () => {
               href="mailto:victor.williams@stu.cu.edu.ng?subject=Lets%20work%20together!&amp;body=Hello%2C%20I%20think%20we%20need%20you%20to%20work%20on%2Fcollaborate%20this%20particular%20product...%20Reach%20out%20as%20soon%20as%20you%20can."
               target="_blank"
               aria-label="Send me an email"
-              className="mt-1 w-[180px] flex-1 underline underline-offset-2 hover:no-underline sm:mt-2 sm:w-[200px] md:mt-3 md:w-[200px] lg:mt-4"
+              className="mt-1 w-[180px] flex-1 underline underline-offset-2 hover:no-underline sm:mt-2 sm:w-[200px] md:mt-3 md:w-[170px] lg:mt-4"
             >
-              <AnimatedBody text={"Feel free to reach out."} className={""} />
+              <AnimatedBody text={"Send me an email."} className={""} />
             </Link>
           </div>
 
