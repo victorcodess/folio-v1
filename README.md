@@ -15,7 +15,7 @@ I created this website to showcase my work. I’m always striving to create some
 
 ## Screenshots & Demo
 
-![App Screenshot](https://user-images.githubusercontent.com/84178696/228678423-34861817-e5cd-426f-8ac5-da391c8331fb.png)
+![App Screenshot](https://user-images.githubusercontent.com/84178696/228679118-47e63775-0635-42b2-8838-a80644ef612b.png)
 
 ![App Screenshot](https://user-images.githubusercontent.com/84178696/228673498-ad33b834-58b3-43e5-b184-b136d01c6e1a.png)
 
