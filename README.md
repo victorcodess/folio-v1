@@ -1,5 +1,5 @@
 
-# Personal Portfolio Website
+# Personal Portfolio Website — v1
 
 My name is Victor Williams, and I’m a front-end engineer and product designer based in Lagos, Nigeria. My passion lies in creating software that solves real-world problems and positively impacts people’s lives.
 
@@ -15,9 +15,13 @@ I created this website to showcase my work. I’m always striving to create some
 
 ## Screenshots & Demo
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://user-images.githubusercontent.com/84178696/228673320-95dc5eee-8c21-41c3-ada4-cd7948d5da26.png)
 
+![App Screenshot](https://user-images.githubusercontent.com/84178696/228673498-ad33b834-58b3-43e5-b184-b136d01c6e1a.png)
 
+![App Screenshot](https://user-images.githubusercontent.com/84178696/228675919-70180c2c-c888-423d-ae85-409ce4645b8b.png)
+
+[View Live Demo](https://folio-v1-victorcodess.vercel.app/)
 ## Run Locally
 
 Clone the project
