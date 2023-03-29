@@ -3,11 +3,12 @@ import React from "react";
 import Link from "next/link";
 import ScrollLink from "./ScrollLink";
 import { faReceipt } from "@fortawesome/free-solid-svg-icons";
+import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const NavBar = () => {
   return (
-    <nav className="fixed bottom-10 left-[55%] z-50 ml-[-222px] flex items-center justify-center gap-1 rounded-lg bg-[#07070a]/90 px-1 py-1 text-[#e4ded7] backdrop-blur-md md:left-[56%] md:ml-[-256.5px] md:p-2 lg:left-[54.1%]">
+    <nav className="fixed bottom-10 left-[55%] z-50 ml-[-222px] flex items-center justify-center gap-1 rounded-lg bg-[#07070a]/90 px-1 py-1 text-[#e4ded7] backdrop-blur-md md:left-[56%] md:ml-[-256.5px] md:p-2 lg:left-[54.0%]">
       <Link
         href="https://drive.google.com/file/d/1sMiS1LMK23WjcYlh2irXnoeFpWpDapWq/view?usp=share_link"
         target="_blank"
@@ -16,9 +17,13 @@ const NavBar = () => {
         data-blobity-tooltip="View Resume"
         data-blobity-magnetic="false"
       >
-        <FontAwesomeIcon
+        {/* <FontAwesomeIcon
           icon={faReceipt}
           className="py-2    px-4 text-[16px] md:py-1"
+        /> */}
+        <FontAwesomeIcon
+          icon={faFilePdf}
+          className="py-2 px-4 text-[16px] md:py-1"
         />
       </Link>
 
