@@ -13,6 +13,7 @@ const PreLoader = () => {
         <span>Developer,</span>
         <span>Designer,</span>
         <span>Driller.</span>
+        <div className="sub hidden"></div>
       </div>
     </div>
   );

@@ -16,16 +16,18 @@ export const blogDetails = [
     available: true,
   },
   {
-    title: "Building Form Fields with Material UI, Formik, and Yup.",
-    image: "/_next/image?url=%2F..%2Fpublic%2Fhero.webp&w=1920&q=100",
+    title: "Building a Text Field Component with Material UI, Formik, and Yup",
+    image:
+      "https://cdn.hashnode.com/res/hashnode/image/upload/v1628442954056/OHNFYAzz4.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp",
     date: "12/31/2022",
     url: "",
     available: false,
   },
   {
-    title: "Reflecting on My 18th Year: A Personal Review of 2022",
+    title:
+      "Creating a Select Field Component with Material UI, Formik, and Yup",
     image:
-      "/_next/image?url=%2F..%2Fpublic%2Fhero.webp&w=1920&q=100",
+      "https://cdn.hashnode.com/res/hashnode/image/upload/v1624616590157/N4Hvd8NfZ.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp",
     date: "12/31/2022",
     url: "",
     available: false,

@@ -76,7 +76,6 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  manifest: "/../public/site.webmanifest",
   category: "technology",
 };
 

@@ -7,13 +7,16 @@ const BlogCard = ({ title, image, url, date, available }: blogProps) => {
   return (
     <div className="relative flex h-[430px] w-[100%] max-w-[400px] flex-col items-center justify-start rounded-2xl bg-[#212531]">
       <div className="mt-4 h-[100%] w-[90%] lg:mt-5 lg:w-[92%]">
-        <Image
-          src={image}
-          alt={title}
-          width={1000}
-          height={1000}
-          className="h-[60%] w-full items-stretch rounded-lg bg-cover bg-center md:h-[60%]"
-        />
+        <div className="h-[60%] w-full md:h-[60%]">
+          <Image
+            src={image}
+            alt={title}
+            width={1000}
+            height={1000}
+            className="rounded-lg bg-contain bg-center"
+          />
+        </div>
+
         <h3 className="mt-3 break-all uppercase leading-[1em] tracking-tight line-clamp-2">
           {title}
         </h3>

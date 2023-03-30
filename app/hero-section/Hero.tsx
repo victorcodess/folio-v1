@@ -85,6 +85,7 @@ const Hero = () => {
             {" "}
             <Image
               src="/../public/profile.webp"
+              priority
               alt="Victor's headshot"
               width={600}
               height={600}
