@@ -43,9 +43,9 @@ export const metadata: Metadata = {
     siteName: "Portfolio Website",
     images: [
       {
-        url: "https://user-images.githubusercontent.com/84178696/227943215-a5b93611-01e0-4a58-9e85-984c2ecaaa85.png",
+        url: "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",
         width: 1200,
-        height: 900,
+        height: 630,
         alt: "Victor Williams — Frontend Engineer",
       },
     ],
