@@ -34,11 +34,3 @@ body {
   overscroll-behavior: none;
 }
 
-.trunctext {
-  overflow: hidden;
-  max-height: 4rem;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 5;
-  text-overflow: ellipsis;
-  display: block;
-}
