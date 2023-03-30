@@ -14,8 +14,8 @@ const AnimatedWords2: React.FC<AnimatedWords2Props> = ({ title, style }) => {
   const ctrls = useAnimation();
 
   const { ref, inView } = useInView({
-    threshold: 1,
-    triggerOnce: false,
+    threshold: 0.5,
+    triggerOnce: true,
   });
 
   useEffect(() => {

@@ -11,7 +11,6 @@ export const preLoaderAnim = () => {
     opacity: 1,
     ease: "Power3.easeOut",
   })
-
     .from(".texts-container span", {
       duration: 1.5,
       delay: 1,
@@ -28,7 +27,11 @@ export const preLoaderAnim = () => {
       stagger: 0.2,
       ease: "Power3.easeOut",
     })
-
+    .to("body", {
+      duration: 0.01,
+      css: { overflowY: "scroll" },
+      ease: "power3.inOut",
+    })
     .from(".sub", {
       duration: 1,
       opacity: 0,
