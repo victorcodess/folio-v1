@@ -2,7 +2,6 @@
 import React from "react";
 import Link from "next/link";
 import ScrollLink from "./ScrollLink";
-import { faReceipt } from "@fortawesome/free-solid-svg-icons";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -17,10 +16,6 @@ const NavBar = () => {
         data-blobity-tooltip="View Resume"
         data-blobity-magnetic="false"
       >
-        {/* <FontAwesomeIcon
-          icon={faReceipt}
-          className="py-2    px-4 text-[16px] md:py-1"
-        /> */}
         <FontAwesomeIcon
           icon={faFilePdf}
           className="py-2 px-4 text-[16px] md:py-1"
