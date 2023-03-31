@@ -13,7 +13,7 @@ const BlogCard = ({ title, image, url, date, available }: blogProps) => {
             alt={title}
             width={1000}
             height={1000}
-            className="rounded-lg bg-contain bg-center"
+            className="rounded-lg bg-contain bg-center w-full h-full"
           />
         </div>
 

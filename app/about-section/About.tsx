@@ -3,6 +3,7 @@ import SongCarousel from "./SongCarousel";
 import "../animations/animate.css";
 import AnimatedBody from "../animations/AnimatedBody";
 import AnimatedTitle from "../animations/AnimatedTitle";
+import AnimatedWords2 from "../animations/AnimatedWords2";
 
 const About = () => {
   return (

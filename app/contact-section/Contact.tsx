@@ -24,7 +24,7 @@ const Contact = () => {
           <AnimatedWords2
             title={"Let's Talk"}
             style={
-              " inline-block overflow-hidden pt-1 -mb-4 sm:-mb-2 md:-mb-3 lg:-mb-4"
+             "flex max-w-[500px] flex-col items-start text-left text-[150px]  font-extrabold uppercase leading-[0.9em] text-[#e4ded7] sm:max-w-full sm:flex-row sm:items-center sm:justify-center sm:text-center sm:text-[160px] md:text-[190px] lg:text-center lg:text-[390px]"
             }
           />
           <Image
