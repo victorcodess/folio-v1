@@ -8,7 +8,6 @@ const NotFound = () => {
       <p className="text-[25px] sm:text-[30px] md:text-[35px] lg:text-[40px] uppercase">Egbon, you don miss road oh!</p>
       <Image
         src="https://user-images.githubusercontent.com/84178696/228884970-66a9687c-b364-48e4-91ca-05332dadbba9.png"
-        priority
         alt="Funny Meme"
         width={858}
         height={483}
