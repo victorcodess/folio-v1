@@ -19,8 +19,7 @@ export const devProjects = [
     technologies: ["React", "CSS", "Chart.js"],
     github: "https://github.com/victorcodess/weather-forecast-website",
     demo: "https://sky-watch.vercel.app/",
-    image:
-      "/../../public/projects/skywatch-new.webp",
+    image: require(".//../../public/projects/skywatch-new.webp"),
     bgColor: "#5b6c5d",
     available: true,
   },
@@ -32,8 +31,7 @@ export const devProjects = [
     technologies: ["React", "CSS", "Merge Images"],
     github: "https://github.com/victorcodess/alpaca-image-generator",
     demo: "http://alpaca-image-generator-beta.vercel.app",
-    image:
-      "/_next/image?url=%2F..%2Fpublic%2Fprojects%2Falpaca-new.webp&w=1920&q=100",
+    image: require(".//../../public/projects/alpaca-new.webp"),
     bgColor: "#A4778B",
     available: true,
   },
@@ -45,8 +43,7 @@ export const devProjects = [
     technologies: ["JavaScript", "CSS", "Bit.ly's API"],
     github: "https://github.com/victorcodess/url-shortener",
     demo: "https://url-shortener-nine-delta.vercel.app",
-    image:
-      "/_next/image?url=%2F..%2Fpublic%2Fprojects%2Fshortener-new.webp&w=1920&q=100",
+    image: require(".//../../public/projects/shortener-new.webp"),
     bgColor: "#9E2A2B",
     available: true,
   },
@@ -58,8 +55,7 @@ export const devProjects = [
     technologies: ["Material UI", "React", "Formik"],
     github: "https://github.com/victorcodess/carpooling-service",
     demo: "",
-    image:
-      "/_next/image?url=%2F..%2Fpublic%2Fprojects%2Fcarpool-new.webp&w=1920&q=100",
+    image: require(".//../../public/projects/carpool-new.webp"),
     bgColor: "#5b6c5d",
     available: false,
   },
@@ -71,7 +67,7 @@ export const devProjects = [
     technologies: ["Next.js", "Next Auth", "Tailwind CSS"],
     github: "https://github.com/msp-nigeria/mlsc.ng-frontend",
     demo: "",
-    image: "/_next/image?url=%2F..%2Fpublic%2Fprojects%2Fmlsc.png&w=1920&q=100",
+    image: require(".//../../public/projects/mlsc.png"),
     bgColor: "#5b6c5d",
     available: false,
   },
