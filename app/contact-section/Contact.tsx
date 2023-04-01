@@ -24,7 +24,7 @@ const Contact = () => {
           <AnimatedWords2
             title={"Let's Talk"}
             style={
-             "flex max-w-[500px] flex-col items-start text-left text-[150px]  font-extrabold uppercase leading-[0.9em] text-[#e4ded7] sm:max-w-full sm:flex-row sm:items-center sm:justify-center sm:text-center sm:text-[160px] md:text-[190px] lg:text-center lg:text-[390px]"
+              "flex max-w-[500px] flex-col items-start text-left text-[150px] font-extrabold uppercase leading-[0.9em] text-[#e4ded7] sm:max-w-full sm:flex-row sm:items-center sm:justify-center sm:text-center sm:text-[170px] md:text-[200px] lg:text-center lg:text-[390px]"
             }
           />
           <Image
@@ -37,10 +37,10 @@ const Contact = () => {
         </div>
 
         <div className="mt-20 flex w-full flex-col items-end justify-center gap-16 sm:mt-32 sm:gap-12 md:mt-40 md:flex-row md:items-start md:justify-between lg:mt-12">
-          <div className=" flex w-[340px] flex-col items-end text-right text-[16px] font-semibold text-[#e4ded7] sm:w-[350px] sm:text-[18px] md:w-[310px] md:items-start md:text-left md:text-[16px] lg:w-[450px] lg:text-[18px] uppercase">
+          <div className=" flex w-[350px] flex-col items-end text-right text-[14px] font-semibold uppercase text-[#e4ded7] sm:w-[350px] sm:text-[14px] md:w-[310px] md:items-start md:text-left md:text-[16px] lg:w-[450px] lg:text-[16px]">
             <AnimatedBody
               text={
-                "Got a question, proposal or project or want to work together on something?"
+                "Got a question, proposal, project, or want to work together on something?"
               }
               className={
                 "-mb-1 inline-block overflow-hidden pt-1 sm:-mb-2 md:-mb-3 lg:-mb-4"
@@ -50,9 +50,9 @@ const Contact = () => {
               href="mailto:victor.williams@stu.cu.edu.ng?subject=Lets%20work%20together!&amp;body=Hello%2C%20I%20think%20we%20need%20you%20to%20work%20on%2Fcollaborate%20this%20particular%20product...%20Reach%20out%20as%20soon%20as%20you%20can."
               target="_blank"
               aria-label="Send me an email"
-              className="mt-1 w-[180px] flex-1 underline underline-offset-2 hover:no-underline sm:mt-2 sm:w-[200px] md:mt-3 md:w-[193px] lg:mt-4"
+              className="mt-1 w-[147px] flex-1 underline underline-offset-2 hover:no-underline sm:mt-2 sm:w-[147px] md:mt-3 md:w-[193px] lg:mt-4"
             >
-              <AnimatedBody text={"Send me an email."} className={""} />
+              <AnimatedBody text={"Send me an email"} className={""} />
             </Link>
           </div>
 

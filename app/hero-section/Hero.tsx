@@ -12,6 +12,7 @@ import {
 import AnimatedTitle from "../animations/AnimatedTitle";
 import AnimatedBody from "../animations/AnimatedBody";
 import AnimatedWords from "../animations/AnimatedWords";
+import profile from "../../public/profile.webp";
 
 const Hero = () => {
   return (
@@ -84,7 +85,7 @@ const Hero = () => {
           >
             {" "}
             <Image
-              src="/../public/profile.webp"
+              src={profile}
               priority
               alt="Victor's headshot"
               width={600}
