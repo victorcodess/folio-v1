@@ -20,7 +20,7 @@ export const devProjects = [
     github: "https://github.com/victorcodess/weather-forecast-website",
     demo: "https://sky-watch.vercel.app/",
     image:
-      "/_next/image?url=%2F..%2Fpublic%2Fprojects%2Fskywatch-new.webp&w=1920&q=100",
+      "/../../public/projects/skywatch-new.webp",
     bgColor: "#5b6c5d",
     available: true,
   },
