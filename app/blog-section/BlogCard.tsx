@@ -1,6 +1,9 @@
 import React from "react";
 import { blogProps } from "./blogDetails";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
+import Link from "next/link";
 import "../globals.css";
 
 const BlogCard = ({ title, image, url, date, available }: blogProps) => {
@@ -13,7 +16,7 @@ const BlogCard = ({ title, image, url, date, available }: blogProps) => {
             alt={title}
             width={1000}
             height={1000}
-            className="rounded-lg bg-contain bg-center w-full h-full object-cover"
+            className="h-full w-full rounded-lg bg-contain bg-center object-cover"
           />
         </div>
 
@@ -22,9 +25,34 @@ const BlogCard = ({ title, image, url, date, available }: blogProps) => {
         </h3>
       </div>
 
-      <div className="absolute bottom-0 mb-5 flex w-[90%] justify-between text-[14px] font-bold text-[#7A7C83]">
-        <p></p>
-        {available ? <p>{date}</p> : <p>Coming soon</p>}
+      <div className="absolute bottom-0 mb-5 flex w-[90%] items-center justify-between text-[14px] font-bold text-[#7A7C83]">
+        {available ? (
+          <>
+            {" "}
+            <p>{date}</p>{" "}
+            <Link
+              href={url}
+              target="_blank"
+              className="rounded-full"
+              aria-label="Open GitHub Repository"
+            >
+              <FontAwesomeIcon
+                icon={faArrowRight}
+                className=" w-[16px] rounded-full bg-[#0E1016] p-3 text-[16px] text-[#fff] md:w-[20px] md:text-[20px] lg:w-[18px] lg:p-4 lg:text-[18px]"
+                data-blobity
+                data-blobity-radius="30"
+                data-blobity-offset-x="4"
+                data-blobity-offset-y="4"
+                data-blobity-magnetic="false"
+              />
+            </Link>
+          </>
+        ) : (
+          <>
+            <p>Coming soon</p>
+            <div className="mb-10 md:mb-14"></div>
+          </>
+        )}
       </div>
     </div>
   );
