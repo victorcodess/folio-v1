@@ -8,6 +8,7 @@ import AnimatedBody from "../animations/AnimatedBody";
 import AnimatedTitle from "../animations/AnimatedTitle";
 import AnimatedWords2 from "../animations/AnimatedWords2";
 import { motion } from "framer-motion";
+import heartIcon from "../../public/heart icon.png";
 
 const Contact = () => {
   return (
@@ -28,7 +29,7 @@ const Contact = () => {
             }
           />
           <Image
-            src="/../public/heart icon.png"
+            src={heartIcon}
             alt="Heart Icon"
             width={616}
             height={617}
