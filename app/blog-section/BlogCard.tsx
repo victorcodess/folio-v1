@@ -13,8 +13,8 @@ const BlogCard = ({ title, image, url, date, available }: blogProps) => {
           <Image
             src={image}
             alt={title}
-            width={1000}
-            height={1000}
+            width={1600}
+            height={840}
             className="h-full w-full rounded-lg bg-contain bg-center object-cover"
           />
         </div>
