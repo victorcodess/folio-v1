@@ -1,4 +1,3 @@
-"use client";
 import ProjectCard from "./ProjectCard";
 import { devProjects, designProjects, ProjectProps } from "./projectDetails";
 import { useState } from "react";
@@ -39,7 +38,6 @@ const ProjectGrid = () => {
               github={project.github}
               demo={project.demo}
               image={project.image}
-              bgColor={project.bgColor}
               available={project.available}
             />
           ))}

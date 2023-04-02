@@ -26,6 +26,7 @@
     "react-intersection-observer": "^9.4.3",
     "resize-observer-polyfill": "^1.5.1",
     "scroller-motion": "^1.2.3",
+    "sharp": "^0.32.0",
     "touch-cli": "^0.0.1"
   },
   "devDependencies": {

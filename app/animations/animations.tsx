@@ -44,7 +44,6 @@ export const wordAnimation = {
   initial: {
     opacity: 0,
     y: 150,
-    // y: 100,
   },
   animate: {
     opacity: 1,

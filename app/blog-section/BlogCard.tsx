@@ -1,4 +1,3 @@
-import React from "react";
 import { blogProps } from "./blogDetails";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
@@ -25,7 +24,7 @@ const BlogCard = ({ title, image, url, date, available }: blogProps) => {
         </h3>
       </div>
 
-      <div className="absolute bottom-0 mb-5 flex w-[90%] items-center justify-between text-[14px] font-bold text-[#7A7C83]">
+      <div className="absolute bottom-0 mb-5 flex w-[90%] items-center justify-between text-[14px] font-bold text-[#95979D]">
         {available ? (
           <>
             {" "}

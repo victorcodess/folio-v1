@@ -3,7 +3,7 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
-  optimizeFonts: true,
+  optimizeFonts: false,
   images: {
     domains: ["user-images.githubusercontent.com", "cdn.hashnode.com"],
   },

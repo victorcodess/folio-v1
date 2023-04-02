@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { type } from "os";
 
 type AnimatedBodyProps = {
   text: string;

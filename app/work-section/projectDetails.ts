@@ -6,7 +6,6 @@ export type ProjectProps = {
   github: string;
   demo: string;
   image: string;
-  bgColor: string;
   available: boolean;
 };
 
@@ -20,7 +19,6 @@ export const devProjects = [
     github: "https://github.com/victorcodess/weather-forecast-website",
     demo: "https://sky-watch.vercel.app/",
     image: require(".//../../public/projects/skywatch-new.webp"),
-    bgColor: "#5b6c5d",
     available: true,
   },
   {
@@ -32,7 +30,6 @@ export const devProjects = [
     github: "https://github.com/victorcodess/alpaca-image-generator",
     demo: "http://alpaca-image-generator-beta.vercel.app",
     image: require(".//../../public/projects/alpaca-new.webp"),
-    bgColor: "#A4778B",
     available: true,
   },
   {
@@ -44,7 +41,6 @@ export const devProjects = [
     github: "https://github.com/victorcodess/url-shortener",
     demo: "https://url-shortener-nine-delta.vercel.app",
     image: require(".//../../public/projects/shortener-new.webp"),
-    bgColor: "#9E2A2B",
     available: true,
   },
   {
@@ -56,7 +52,6 @@ export const devProjects = [
     github: "https://github.com/victorcodess/carpooling-service",
     demo: "",
     image: require(".//../../public/projects/carpool-new.webp"),
-    bgColor: "#5b6c5d",
     available: false,
   },
   {
@@ -68,7 +63,6 @@ export const devProjects = [
     github: "https://github.com/msp-nigeria/mlsc.ng-frontend",
     demo: "",
     image: require(".//../../public/projects/mlsc.png"),
-    bgColor: "#5b6c5d",
     available: false,
   },
 ];
@@ -83,7 +77,6 @@ export const designProjects = [
     github: "",
     demo: "",
     image: "/_next/image?url=%2F..%2Fpublic%2Fprojects%2Fhsl.webp&w=1920&q=75",
-    bgColor: "#9E2A2B",
     available: false,
   },
   {
@@ -95,7 +88,6 @@ export const designProjects = [
     github: "",
     demo: "",
     image: "/_next/image?url=%2F..%2Fpublic%2Fprojects%2Frags.webp&w=1920&q=75",
-    bgColor: "#A4778B",
     available: false,
   },
   {
@@ -108,7 +100,6 @@ export const designProjects = [
     demo: "",
     image:
       "/_next/image?url=%2F..%2Fpublic%2Fprojects%2Fcrown.webp&w=1920&q=75",
-    bgColor: "#9E2A2B",
     available: false,
   },
   {
@@ -120,7 +111,6 @@ export const designProjects = [
     github: "",
     demo: "",
     image: "/_next/image?url=%2F..%2Fpublic%2Fprojects%2Ftiti.webp&w=1920&q=75",
-    bgColor: "#9E2A2B",
     available: false,
   },
 ];

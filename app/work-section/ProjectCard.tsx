@@ -1,4 +1,3 @@
-import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -7,7 +6,6 @@ import Link from "next/link";
 import Image from "next/image";
 import AnimatedTitle from "../animations/AnimatedTitle";
 import AnimatedBody from "../animations/AnimatedBody";
-import { riseWithFade } from "../animations/animations";
 import { motion } from "framer-motion";
 
 const ProjectCard = ({
@@ -18,7 +16,6 @@ const ProjectCard = ({
   github,
   demo,
   image,
-  bgColor,
   available,
 }: ProjectProps) => {
   return (

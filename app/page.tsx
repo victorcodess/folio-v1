@@ -1,17 +1,22 @@
 "use client";
-import "./globals.css";
 import Hero from "./hero-section/Hero";
-import Work from "./work-section/Work";
-import About from "./about-section/About";
-import Contact from "./contact-section/Contact";
-import Footer from "./footer/Footer";
+// import Work from "./work-section/Work";
+// import About from "./about-section/About";
+// import Contact from "./contact-section/Contact";
+// import Footer from "./footer/Footer";
 import useBlobity from "blobity/lib/react/useBlobity";
-import { useEffect} from "react";
+import { useEffect } from "react";
 import { ScrollerMotion } from "scroller-motion";
 import PreLoader from "./animations/PreLoader/PreLoader";
 import { initialBlobityOptions } from "./utils/BlobityConfig";
 import Blog from "./blog-section/BlogGrid";
 import NavBar from "./navbar/NavBar";
+
+import dynamic from "next/dynamic";
+const Work = dynamic(() => import("./work-section/Work"));
+const About = dynamic(() => import("./about-section/About"));
+const Contact = dynamic(() => import("./contact-section/Contact"));
+const Footer = dynamic(() => import("./footer/Footer"));
 
 export default function Home() {
   const blobityInstance = useBlobity(initialBlobityOptions);
@@ -22,6 +27,13 @@ export default function Home() {
       window.blobity = blobityInstance.current;
     }
   }, [blobityInstance]);
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+    });
+  }, []);
 
   return (
     <>

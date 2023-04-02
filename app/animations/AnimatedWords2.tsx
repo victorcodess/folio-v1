@@ -1,9 +1,7 @@
 import { motion } from "framer-motion";
-// import { staggerChildren, wordAnimation2 } from "./animations";
 import { useEffect } from "react";
 import { useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { type } from "os";
 
 type AnimatedWords2Props = {
   title: string;

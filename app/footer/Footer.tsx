@@ -1,7 +1,5 @@
-import React from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { bodyAnimation } from "../animations/animations";
 import AnimatedBody from "../animations/AnimatedBody";
 
 const Footer = () => {

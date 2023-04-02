@@ -2,15 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { monaSans } from "../fonts/monaSans";
 import { motion } from "framer-motion";
-import {
-  riseWithFade,
-  imageAnimation,
-  staggerChildren,
-  wordAnimation,
-  bodyAnimation,
-} from "../animations/animations";
-import AnimatedTitle from "../animations/AnimatedTitle";
-import AnimatedBody from "../animations/AnimatedBody";
+import { imageAnimation, bodyAnimation } from "../animations/animations";
 import AnimatedWords from "../animations/AnimatedWords";
 import profile from "../../public/profile.webp";
 
@@ -76,14 +68,12 @@ const Hero = () => {
         >
           <AnimatedWords
             title="VICTOR WILLIAMS"
-            style="inline-block overflow-hidden pt-1 -mb-1 sm:-mb-2 md:-mb-3 lg:-mb-4"
+            style="inline-block overflow-hidden pt-1 -mr-4 sm:-mr-5 md:-mr-7 lg:-mr-9 -mb-1 sm:-mb-2 md:-mb-3 lg:-mb-4"
           />
-
           <motion.div
-            className="absolute bottom-[-110px] sm:bottom-[-100px] md:bottom-[-130px] lg:bottom-[-150px]"
+            className="absolute bottom-[-110px] mx-auto sm:bottom-[-100px] md:bottom-[-130px] lg:bottom-[-150px]"
             variants={imageAnimation}
           >
-            {" "}
             <Image
               src={profile}
               priority
@@ -92,7 +82,7 @@ const Hero = () => {
               height={600}
               data-blobity-tooltip="Fine boy"
               data-blobity-invert="false"
-              className="w-[150px] rounded-[16px] grayscale hover:grayscale-0 md:w-[200px] md:rounded-[32px]  lg:w-[245px]"
+              className=" w-[150px] rounded-[16px] grayscale hover:grayscale-0 md:w-[200px] md:rounded-[32px] lg:w-[245px]"
             />
           </motion.div>
         </div>

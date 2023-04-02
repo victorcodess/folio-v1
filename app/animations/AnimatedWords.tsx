@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import { useEffect } from "react";
 import { useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { type } from "os";
 
 type AnimatedWordsProps = {
   title: string;

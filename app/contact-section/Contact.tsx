@@ -1,7 +1,5 @@
-import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import Footer from "../footer/Footer";
 import { monaSans } from "../fonts/monaSans";
 import "../animations/animate.css";
 import AnimatedBody from "../animations/AnimatedBody";

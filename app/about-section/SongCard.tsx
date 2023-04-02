@@ -1,9 +1,8 @@
-import React from "react";
 import Image from "next/image";
 import { SongProps } from "./songDetails";
 import Link from "next/link";
 
-const SongCard = ({ id, title, artist, image, link }: SongProps) => {
+const SongCard = ({ title, artist, image, link }: SongProps) => {
   return (
     <Link href={link} target="_blank">
       <div
