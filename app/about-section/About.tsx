@@ -11,7 +11,7 @@ const About = () => {
       id="about"
     >
       <div className="mx-auto flex w-[90%] flex-col lg:max-w-[1200px]">
-        <h2 className="mb-20 text-[40px] font-bold leading-[0.9em] tracking-tighter text-[#e4ded7] md:text-[44px] lg:text-[80px]">
+        <h2 className="mb-10 md:mb-16 text-left text-[40px] sm:text-[45px] font-bold leading-[0.9em] tracking-tighter text-[#e4ded7] md:text-[60px] lg:text-[80px]">
           I MAKE BRANDS BEAUTIFUL, WEBSITES POWERFUL AND CONTENT CAPTIVATING.
         </h2>
         <div className="mx-auto flex w-[100%] flex-col lg:max-w-[1200px] lg:flex-row lg:gap-20">

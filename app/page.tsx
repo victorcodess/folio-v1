@@ -1,9 +1,5 @@
 "use client";
 import Hero from "./hero-section/Hero";
-// import Work from "./work-section/Work";
-// import About from "./about-section/About";
-// import Contact from "./contact-section/Contact";
-// import Footer from "./footer/Footer";
 import useBlobity from "blobity/lib/react/useBlobity";
 import { useEffect } from "react";
 import { ScrollerMotion } from "scroller-motion";
