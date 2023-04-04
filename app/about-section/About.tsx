@@ -2,12 +2,11 @@ import SongCarousel from "./SongCarousel";
 import "../animations/animate.css";
 import AnimatedBody from "../animations/AnimatedBody";
 import AnimatedTitle from "../animations/AnimatedTitle";
-import AnimatedWords2 from "../animations/AnimatedWords2";
 
 const About = () => {
   return (
     <section
-      className=" relative z-10 w-full items-center justify-center overflow-hidden bg-[#0E1016] bg-cover bg-center pt-16 pb-24 md:pt-20 md:pb-44 lg:pt-20 lg:pb-52"
+      className="relative z-10 w-full items-center justify-center overflow-hidden bg-[#0E1016] bg-cover bg-center pt-16 pb-36 md:pt-20 md:pb-44 lg:pt-20 lg:pb-56"
       id="about"
     >
       <div className="mx-auto flex w-[90%] flex-col items-center justify-center lg:max-w-[1212.8px]">
@@ -100,8 +99,12 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="mt-10 md:-mt-0 lg:mt-28">
+        <div className="mt-10 flex flex-col md:-mt-0 lg:mt-28">
           <SongCarousel />
+          <AnimatedBody
+            text="A carousel of some of my favourite songs :)"
+            className="absolute bottom-10 right-0 left-0 mx-auto w-[90%] text-center text-[14px] font-semibold uppercase text-[#e4ded7] sm:w-[500px] md:bottom-12 md:w-[550px] md:text-[16px] "
+          />
         </div>
       </div>
     </section>
