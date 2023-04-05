@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const SongCard = ({ title, artist, image, link }: SongProps) => {
   return (
-    <Link href={link} target="_blank">
+    <Link href={link} target="_blank" aria-label="Check out song on Spotify">
       <div
         className={`relative flex h-[138px] w-[195px] items-center justify-center overflow-hidden rounded-xl py-0 sm:h-[140px] sm:w-[200px] md:h-[160px] md:w-[250px] lg:h-[190px] lg:w-[270px]`}
       >

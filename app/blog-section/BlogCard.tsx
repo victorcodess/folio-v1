@@ -33,7 +33,7 @@ const BlogCard = ({ title, image, url, date, available }: blogProps) => {
               href={url}
               target="_blank"
               className="rounded-full"
-              aria-label="Open GitHub Repository"
+              aria-label="Open Blog Post"
             >
               <FontAwesomeIcon
                 icon={faArrowRight}

@@ -21,6 +21,7 @@ const Hero = () => {
           <Link
             href="https://drive.google.com/file/d/1sMiS1LMK23WjcYlh2irXnoeFpWpDapWq/view?usp=share_link"
             target="_blank"
+            aria-label="View Resume"
           >
             <motion.button
               className="hidden rounded-md border-2 border-[#e4ded7] py-2 px-4 text-[14px] font-semibold text-[#e4ded7] sm:block  md:text-[16px] lg:block"
@@ -32,7 +33,11 @@ const Hero = () => {
         </div>
 
         <div className="flex gap-10 text-[#e4ded7] sm:gap-12 md:gap-14 lg:gap-14">
-          <Link href="https://github.com/victorcodess" target="_blank">
+          <Link
+            href="https://github.com/victorcodess"
+            target="_blank"
+            aria-label="View GitHub Profile"
+          >
             <motion.p
               className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
               variants={bodyAnimation}
@@ -43,6 +48,7 @@ const Hero = () => {
           <Link
             href="https://www.linkedin.com/in/victor-williams-chukwudi/"
             target="_blank"
+            aria-label="View LinkedIn Profile"
           >
             <motion.p
               className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
@@ -51,7 +57,11 @@ const Hero = () => {
               LN
             </motion.p>
           </Link>
-          <Link href="https://twitter.com/victorwill__" target="_blank">
+          <Link
+            href="https://twitter.com/victorwill__"
+            target="_blank"
+            aria-label="View Twitter Profile"
+          >
             <motion.p
               className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
               variants={bodyAnimation}
@@ -101,6 +111,7 @@ const Hero = () => {
               href="https://crownbrandingagency.com/ "
               target="_blank"
               className="underline underline-offset-2 hover:no-underline"
+              aria-label="Crown Branding Agency Website"
             >
               Crown Branding Agency.
             </Link>

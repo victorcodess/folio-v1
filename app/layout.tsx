@@ -40,8 +40,8 @@ export const metadata: Metadata = {
     title: "Victor Williams — Frontend Engineer",
     description:
       "Frontend Engineer and Product Designer, currently at Crown Branding Agency. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
-    url: "https://folio-v1-seven.vercel.app/",
-    siteName: "Portfolio Website",
+    url: "https://www.victorwilliams.me/",
+    siteName: "www.victorwilliams.me",
     images: [
       {
         url: "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",

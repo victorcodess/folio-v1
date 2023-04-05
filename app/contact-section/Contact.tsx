@@ -54,7 +54,7 @@ const Contact = () => {
           </div>
 
           <div className="flex gap-10 text-[16px] font-bold text-[#e4ded7]  sm:gap-14 sm:text-[24px] md:gap-10 md:text-[16px] lg:gap-20 lg:text-[28px]">
-            <Link href="https://github.com/victorcodess" target="_blank">
+            <Link href="https://github.com/victorcodess" target="_blank" aria-label="View GitHub Profile">
               <AnimatedTitle
                 text={"GH"}
                 className={
@@ -67,6 +67,7 @@ const Contact = () => {
             <Link
               href="https://www.linkedin.com/in/victor-williams-chukwudi/"
               target="_blank"
+              aria-label="View LinkedIn Profile"
             >
               <AnimatedTitle
                 text={"LN"}
@@ -77,7 +78,7 @@ const Contact = () => {
                 charSpace={"mr-[0.01em]"}
               />
             </Link>
-            <Link href="https://twitter.com/victorwill__" target="_blank">
+            <Link href="https://twitter.com/victorwill__" target="_blank" aria-label="View Twitter Profile">
               <AnimatedTitle
                 text={"TW"}
                 className={
@@ -87,7 +88,7 @@ const Contact = () => {
                 charSpace={"mr-[0.01em]"}
               />
             </Link>
-            <Link href="https://www.instagram.com/victorr_w22/" target="_blank">
+            <Link href="https://www.instagram.com/victorr_w22/" target="_blank" aria-label="View Instagram Profile">
               <AnimatedTitle
                 text={"IG"}
                 className={
@@ -97,7 +98,7 @@ const Contact = () => {
                 charSpace={"mr-[0.01em]"}
               />
             </Link>
-            <Link href="https://victorcodess.hashnode.dev/" target="_blank">
+            <Link href="https://victorcodess.hashnode.dev/" target="_blank" aria-label="View Hashnode Profile">
               <AnimatedTitle
                 text={"HN"}
                 className={

@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Link from "next/link";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -33,14 +33,29 @@ const NavBar = () => {
         />
       </Link>
 
-      <Link href="#home" data-blobity-magnetic="false" onClick={handleScroll}>
+      <Link
+        href="#home"
+        data-blobity-magnetic="false"
+        onClick={handleScroll}
+        aria-label="Scroll to Home Section"
+      >
         <h4 className="rounded py-2 px-4 text-[14px] md:py-1 md:px-4">Home</h4>
       </Link>
-      <Link href="#work" data-blobity-magnetic="false" onClick={handleScroll}>
+      <Link
+        href="#work"
+        data-blobity-magnetic="false"
+        onClick={handleScroll}
+        aria-label="Scroll to Work Section"
+      >
         <h4 className="rounded py-2 px-4 text-[14px] md:py-1 md:px-4">Work</h4>
       </Link>
 
-      <Link href="#about" data-blobity-magnetic="false" onClick={handleScroll}>
+      <Link
+        href="#about"
+        data-blobity-magnetic="false"
+        onClick={handleScroll}
+        aria-label="Scroll to About Section"
+      >
         <h4 className="rounded py-2 px-4 text-[14px] md:py-1 md:px-4">About</h4>
       </Link>
 
@@ -48,6 +63,7 @@ const NavBar = () => {
         href="#contact"
         data-blobity-magnetic="false"
         onClick={handleScroll}
+        aria-label="Scroll to Contact Section"
       >
         <h4 className="rounded py-2 px-4 text-[14px] md:py-1 md:px-4">
           Contact
