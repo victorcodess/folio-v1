@@ -16,7 +16,7 @@ const Blog = () => {
           style={`flex max-w-[500px] flex-col items-start text-left text-[126px] ${monaSans.className} font-extrabold uppercase leading-[0.9em] text-[#e4ded7] sm:max-w-full sm:flex-row sm:items-center sm:justify-center sm:text-center sm:text-[160px] md:text-[190px] lg:text-center lg:text-[215.04px]`}
         />
         <AnimatedBody
-          text="I write articles to reinfornce my knowledge and help out others who might be building something similar."
+          text="I write articles to reinforce my knowledge and help out others who might be building something similar."
           className="w-[90%] text-center text-[14px] font-semibold uppercase sm:w-[500px] md:w-[550px] md:text-[16px]"
         />
       </div>
