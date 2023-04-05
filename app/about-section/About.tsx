@@ -36,7 +36,7 @@ const About = () => {
             />
             <AnimatedBody
               text={
-                "In addition to my work in software development, I’m also an active member of tech communities on campus, including GDSC and MLSA."
+                "In addition to my work in software development, I’m also an active leader and member of tech communities on campus, including the Google Developer Student Clubs and Microsoft Learn Student Ambassadors."
               }
             />
             <AnimatedBody
@@ -102,7 +102,7 @@ const About = () => {
         <div className="mt-10 flex flex-col md:-mt-0 lg:mt-28">
           <SongCarousel />
           <AnimatedBody
-            text="A carousel of some of my favourite songs :)"
+            text="A few songs I can recommend if you're looking for some fresh tunes :)"
             className="absolute bottom-10 right-0 left-0 mx-auto w-[90%] text-center text-[14px] font-semibold uppercase text-[#e4ded7] sm:w-[500px] md:bottom-12 md:w-[550px] md:text-[16px] "
           />
         </div>
