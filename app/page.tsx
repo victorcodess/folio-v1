@@ -37,7 +37,7 @@ export default function Home() {
 
       <NavBar />
 
-      <ScrollerMotion>
+      {/* <ScrollerMotion> */}
       <main className="flex flex-col items-center justify-center">
         <Hero />
         <Work />
@@ -46,7 +46,7 @@ export default function Home() {
         <Contact />
         <Footer />
       </main>
-      </ScrollerMotion>
+      {/* </ScrollerMotion> */}
     </>
   );
 }
