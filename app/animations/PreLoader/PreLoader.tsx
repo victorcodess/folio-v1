@@ -9,8 +9,8 @@ const PreLoader = () => {
   }, []);
 
   return (
-    <div className="preloader">
-      <div className="texts-container">
+    <div className="preloader gap-[10px] overflow-hidden text-[20px]">
+      <div className="texts-container w-500 flex h-60 items-center justify-center gap-10 overflow-hidden text-[20px] font-extrabold text-white opacity-0">
         <span>Developer,</span>
         <span>Designer,</span>
         <span>Driller.</span>
