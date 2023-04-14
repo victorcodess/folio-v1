@@ -38,14 +38,14 @@ export default function Home() {
       <NavBar />
 
       {/* <ScrollerMotion> */}
-      {/* <main className="flex flex-col items-center justify-center">
+      <main className="flex flex-col items-center justify-center">
         <Hero />
         <Work />
         <About />
         <Blog />
         <Contact />
         <Footer />
-      </main> */}
+      </main>
       {/* </ScrollerMotion> */}
     </>
   );
