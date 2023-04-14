@@ -15,15 +15,5 @@
 }
 
 .preloader .texts-container {
-  /* display: flex; */
-  /* align-items: center; */
-  /* justify-content: center; */
   height: 60px;
-  /* width: 500px; */
-  /* font-size: 20px; */
-  /* font-weight: 800; */
-  /* overflow: hidden; */
-  /* color: #e4ded7; */
-  gap: 10px;
-  /* opacity: 0; */
 }
