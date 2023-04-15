@@ -11,7 +11,7 @@ import heartIcon from "../../public/heart icon.png";
 const Contact = () => {
   return (
     <motion.section
-      className=" relative z-10 flex h-[85vh] w-full items-center justify-center overflow-hidden bg-[#0E1016] bg-cover bg-center py-16 md:h-[80vh] md:py-20 lg:h-[90vh] lg:pt-0 lg:pb-28"
+      className="relative z-10 flex h-[85vh] w-full items-center justify-center overflow-hidden bg-[#0E1016] bg-cover bg-center py-16 md:h-[80vh] md:py-20 lg:h-[90vh] lg:pt-0 lg:pb-28"
       id="contact"
       initial="initial"
       animate="animate"

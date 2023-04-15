@@ -5,12 +5,12 @@ import { useEffect } from "react";
 import { ScrollerMotion } from "scroller-motion";
 import PreLoader from "./animations/PreLoader/PreLoader";
 import { initialBlobityOptions } from "./utils/BlobityConfig";
-import Blog from "./blog-section/BlogGrid";
 import NavBar from "./navbar/NavBar";
 
 import dynamic from "next/dynamic";
 const Work = dynamic(() => import("./work-section/Work"));
 const About = dynamic(() => import("./about-section/About"));
+const Blog = dynamic(() => import("./blog-section/BlogGrid"));
 const Contact = dynamic(() => import("./contact-section/Contact"));
 const Footer = dynamic(() => import("./footer/Footer"));
 
