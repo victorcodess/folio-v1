@@ -43,28 +43,28 @@ export const devProjects = [
     image: require(".//../../public/projects/shortener-new.webp"),
     available: true,
   },
-  {
-    id: 4,
-    name: "Carpooling Service",
-    description:
-      "TMTM helps you find people who are headed to the same location as you, so you can share a ride and split the cost with them.",
-    technologies: ["Material UI", "React", "Formik"],
-    github: "https://github.com/victorcodess/carpooling-service",
-    demo: "",
-    image: require(".//../../public/projects/carpool-new.webp"),
-    available: false,
-  },
-  {
-    id: 5,
-    name: "MLSC.ng",
-    description:
-      "This is platform for Microsoft Learn Student Ambassadors to shorten links, append their sharing IDs and generate event certificates.",
-    technologies: ["Next.js", "Next Auth", "Tailwind CSS"],
-    github: "https://github.com/msp-nigeria/mlsc.ng-frontend",
-    demo: "",
-    image: require(".//../../public/projects/mlsc.png"),
-    available: false,
-  },
+  // {
+  //   id: 4,
+  //   name: "Carpooling Service",
+  //   description:
+  //     "TMTM helps you find people who are headed to the same location as you, so you can share a ride and split the cost with them.",
+  //   technologies: ["Material UI", "React", "Formik"],
+  //   github: "https://github.com/victorcodess/carpooling-service",
+  //   demo: "",
+  //   image: require(".//../../public/projects/carpool-new.webp"),
+  //   available: false,
+  // },
+  // {
+  //   id: 5,
+  //   name: "MLSC.ng",
+  //   description:
+  //     "This is platform for Microsoft Learn Student Ambassadors to shorten links, append their sharing IDs and generate event certificates.",
+  //   technologies: ["Next.js", "Next Auth", "Tailwind CSS"],
+  //   github: "https://github.com/msp-nigeria/mlsc.ng-frontend",
+  //   demo: "",
+  //   image: require(".//../../public/projects/mlsc.png"),
+  //   available: false,
+  // },
 ];
 
 export const designProjects = [
