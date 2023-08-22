@@ -11,6 +11,17 @@ export type ProjectProps = {
 
 export const devProjects = [
   {
+    id: 0,
+    name: "Flixify",
+    description:
+      "Flixify lets you seamlessly explore movies and TV series, add bookmarks, and search across all pages. It offers user authentication along with a theme switch.",
+    technologies: ["Next.js", "Typescript", "Prisma"],
+    github: "https://github.com/victorcodess/flixify",
+    demo: "https://flixify.victorwilliams.me/",
+    image: require(".//../../public/projects/flixify.png"),
+    available: true,
+  },
+  {
     id: 1,
     name: "SkyWatch",
     description:
@@ -47,7 +58,7 @@ export const devProjects = [
   //   id: 4,
   //   name: "Carpooling Service",
   //   description:
-  //     "TMTM helps you find people who are headed to the same location as you, so you can share a ride and split the cost with them.",
+  //     "TMTM helps Covenant University students find fellow students who are headed to the same location, so they can share a ride and split the cost.",
   //   technologies: ["Material UI", "React", "Formik"],
   //   github: "https://github.com/victorcodess/carpooling-service",
   //   demo: "",
