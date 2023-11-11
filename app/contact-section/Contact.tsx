@@ -97,7 +97,7 @@ const Contact = () => {
               />
             </Link>
             <Link
-              href="https://www.instagram.com/victorr_w22/"
+              href="https://www.instagram.com/victorwill__/"
               target="_blank"
               aria-label="View Instagram Profile"
             >

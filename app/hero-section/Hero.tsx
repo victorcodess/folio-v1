@@ -19,7 +19,7 @@ const Hero = () => {
       <div className="absolute top-10 flex justify-between sm:w-[90%] lg:max-w-[1440px]">
         <div>
           <Link
-            href="https://drive.google.com/file/d/1XZPlj1js43hdIOH63nF0V_n4x_p80vhw/view"
+            href="https://drive.google.com/file/d/1CB3jrLeAUQPxkO1DXyVSs-GFXMQrRSSs/view"
             target="_blank"
             aria-label="View Resume"
           >
@@ -106,15 +106,15 @@ const Hero = () => {
           variants={bodyAnimation}
         >
           <p className="z-50 text-center text-[16px] font-medium text-[#e4ded7] md:text-[20px] lg:text-left">
-            Frontend Engineer and Product Designer, currently at{" "}
-            <Link
+            Frontend Engineer and Product Designer, currently available for work.
+            {/* <Link
               href="https://crownbrandingagency.com/ "
               target="_blank"
               className="underline underline-offset-2 hover:no-underline"
               aria-label="Crown Branding Agency Website"
             >
-              Crown Branding Agency.
-            </Link>
+              Mono.
+            </Link> */}
           </p>
         </motion.div>
 
