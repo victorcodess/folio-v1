@@ -106,15 +106,15 @@ const Hero = () => {
           variants={bodyAnimation}
         >
           <p className="z-50 text-center text-[16px] font-medium text-[#e4ded7] md:text-[20px] lg:text-left">
-            Frontend Engineer and Product Designer, currently available for work.
-            {/* <Link
-              href="https://crownbrandingagency.com/ "
+            Frontend Engineer and Product Designer, prev at{" "}
+            <Link
+              href="https://www.mono.co/"
               target="_blank"
               className="underline underline-offset-2 hover:no-underline"
               aria-label="Crown Branding Agency Website"
             >
-              Mono.
-            </Link> */}
+              Mono,
+            </Link> currently available for work.
           </p>
         </motion.div>
 
