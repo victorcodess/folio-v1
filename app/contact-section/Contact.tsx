@@ -43,28 +43,28 @@ const Contact = () => {
                 "-mb-1 inline-block overflow-hidden pt-1 sm:-mb-2 md:-mb-3 lg:-mb-4"
               }
             />
-            <div className="flex items-center w-[278px] md:w-[290px] gap-1 md:gap-2">
+            <div className="flex items-center w-[298px] md:w-[335px] bor der gap-1 md:gap-2.5">
               <Link
                 href="mailto:victor.will.chuk@gmail.com?subject=Lets%20work%20together!&amp;body=Hello%2C%20I%20think%20we%20need%20you%20to%20work%20on%2Fcollaborate%20this%20particular%20product...%20Reach%20out%20as%20soon%20as%20you%20can."
                 target="_blank"
                 aria-label="Send me an email"
-                className="mt-1 w-[147px] flex-1 underline underline-offset-2 hover:no-underline sm:mt-2 sm:w-[147px] md:mt-3 lg:mt-4"
+                className="mt-1 w-[147px] flex-1 underline underline-offset-2 hover:no-underline sm:mt-2 sm:w-[170px] md:mt-3 bor der lg:mt-4"
               >
-                <AnimatedBody text={"Send me an email"} className={"w-[147px] md:w-[170px] pr-2 md:pr-0"} />
+                <AnimatedBody text={"Send me an email"} className={"w-[190px] bor der md:w-[170px] pr-[40px] md:pr-0"} />
               </Link>
               <AnimatedBody
                 text={"or"}
                 className={
-                  "-mb-1 inline-block overflow-hidden  sm:-mb-2 md:-mb-3 lg:-mb-4"
+                  "-mb-1 inline-block overflow-hidden bor der ml-2 md:-ml-[8px] sm:-mb-2 md:-mb-3 lg:-mb-4"
                 }
               />
               <Link
                 href="https://calendly.com/victor-will-chuk/discovery-call-frontend-dev"
                 target="_blank"
                 aria-label="Send me an email"
-                className="mt-1 w-[129px] flex-1 underline underline-offset-2 hover:no-underline sm:mt-2 sm:w-[147px] md:mt-3 md:w-[50px] lg:mt-4"
+                className="mt-1 w-[110px] flex-1 underline underline-offset-2 hover:no-underline sm:mt-2 sm:w-[147px] md:mt-3 md:w-[120px] md:-ml-[3px] bor der lg:mt-4"
               >
-                <AnimatedBody text={"Book a call"} className={"w-[99px] md:w-auto"} />
+                <AnimatedBody text={"Book a call"} className={"w-[110px] md:w-[120px]"} />
               </Link>
             </div>
           </div>
