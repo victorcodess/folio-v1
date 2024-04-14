@@ -1,7 +1,7 @@
 import "./globals.css";
 import { ReactNode } from "react";
 import type { Metadata } from "next";
-import { Syne } from "@next/font/google";
+import { Syne } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 
 const syne = Syne({
