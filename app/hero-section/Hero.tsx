@@ -111,7 +111,7 @@ const Hero = () => {
               href="https://www.mono.co/"
               target="_blank"
               className="underline underline-offset-2 hover:no-underline"
-              aria-label="Crown Branding Agency Website"
+              aria-label="Mono Website"
             >
               Mono,
             </Link> currently available for work.
