@@ -12,48 +12,60 @@ export type ProjectProps = {
 export const devProjects = [
   {
     id: 0,
+    name: "Propellent",
+    description:
+      "A Landing Page built for software startups and small businesses, to showcase their services and mark their online presence.",
+    technologies: ["React", "Tailwind CSS", "Framer Motion"],
+    github: "https://github.com/victorcodess/propellent",
+    demo: "https://propellent.vercel.app/",
+    image: require(".//../../public/projects/propellent-new-flip.png"),
+    available: true,
+  },
+  {
+    id: 1,
     name: "Flixify",
     description:
       "Flixify lets you seamlessly explore movies and TV series, add bookmarks, and search across all pages. It offers user authentication along with a theme switch.",
     technologies: ["Next.js", "Typescript", "Prisma"],
     github: "https://github.com/victorcodess/flixify",
     demo: "https://flixify.victorwilliams.me/",
-    image: require(".//../../public/projects/flixify.png"),
+    image: require(".//../../public/projects/flixify-flip.png"),
     available: true,
   },
   {
-    id: 1,
+    id: 2,
     name: "SkyWatch",
     description:
       "SkyWatch is a convenient and user-friendly tool that allows you to quickly and easily check the current weather and forecast for the next 2 days in any city.",
     technologies: ["React", "CSS", "Chart.js"],
     github: "https://github.com/victorcodess/weather-forecast-website",
     demo: "https://sky-watch.vercel.app/",
-    image: require(".//../../public/projects/skywatch-new.webp"),
+    image: require(".//../../public/projects/skywatch-flip.png"),
     available: true,
   },
   {
-    id: 2,
+    id: 3,
     name: "Alpaca Image Generator",
     description:
       "An image generator website that allows users to generate, combine, and download images.",
     technologies: ["React", "CSS", "Merge Images"],
     github: "https://github.com/victorcodess/alpaca-image-generator",
     demo: "http://alpaca-image-generator-beta.vercel.app",
-    image: require(".//../../public/projects/alpaca-new.webp"),
+    image: require(".//../../public/projects/alpaca-flip.png"),
     available: true,
   },
-  {
-    id: 3,
-    name: "Link Shortener",
-    description:
-      "A website that reduces the length of your URL using Bit.ly's API",
-    technologies: ["JavaScript", "CSS", "Bit.ly's API"],
-    github: "https://github.com/victorcodess/url-shortener",
-    demo: "https://url-shortener-nine-delta.vercel.app",
-    image: require(".//../../public/projects/shortener-new.webp"),
-    available: true,
-  },
+
+  // {
+  //   id: 3,
+  //   name: "Link Shortener",
+  //   description:
+  //     "A website that reduces the length of your URL using Bit.ly's API",
+  //   technologies: ["JavaScript", "CSS", "Bit.ly's API"],
+  //   github: "https://github.com/victorcodess/url-shortener",
+  //   demo: "https://url-shortener-nine-delta.vercel.app",
+  //   image: require(".//../../public/projects/shortener-new.webp"),
+  //   available: true,
+  // },
   // {
   //   id: 4,
   //   name: "Carpooling Service",
