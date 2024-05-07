@@ -26,6 +26,15 @@ export const blogDetails = [
   // },
   {
     title:
+      "The Importance of Collaboration in Achieving Successful Design",
+    image:
+      "https://github.com/victorcodess/folio-v1/assets/84178696/05656547-3206-42af-b081-83247f9a1063",
+    date: "MAY 2024",
+    url: "https://blog.victorwilliams.me/importance-of-collaboration-in-design",
+    available: true,
+  },
+  {
+    title:
       "Step-by-Step Guide: Adding Google Maps to Your React App Using Vis.gl",
     image:
       "https://github.com/victorcodess/folio-v1/assets/84178696/c2693469-e5c6-43ad-a857-693bbbfe7b9a",
