@@ -25,8 +25,15 @@ export const blogDetails = [
   //   available: false,
   // },
   {
-    title:
-      "The Importance of Collaboration in Achieving Successful Design",
+    title: "How to create exit animations with Framer Motion",
+    image:
+      "https://cdn.hashnode.com/res/hashnode/image/upload/v1715345723909/c71d9691-fe4c-4302-b1cb-d9dca77a99b5.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp",
+    date: "MAY 2024",
+    url: "https://blog.victorwilliams.me/how-to-create-exit-animations-with-framer-motion",
+    available: true,
+  },
+  {
+    title: "The Importance of Collaboration in Achieving Successful Design",
     image:
       "https://github.com/victorcodess/folio-v1/assets/84178696/05656547-3206-42af-b081-83247f9a1063",
     date: "MAY 2024",
