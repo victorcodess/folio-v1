@@ -12,51 +12,62 @@ export type ProjectProps = {
 export const devProjects = [
   {
     id: 0,
+    name: "Synthetix",
+    description:
+      "Built specifically for AI startups, this website lets them present cutting-edge AI data processing solutions tailored to their customers' needs.",
+    technologies: ["React", "Next.js", "Prismic CMS"],
+    github: "https://github.com/victorcodess/synthetix",
+    demo: "https://synthetix-iota.vercel.app/",
+    image: require(".//../../public/projects/synthetix-flip.png"),
+    available: true,
+  },
+  {
+    id: 1,
     name: "Propellent",
     description:
       "A Landing Page built for software startups and small businesses, to showcase their services and mark their online presence.",
     technologies: ["React", "Tailwind CSS", "Framer Motion"],
     github: "https://github.com/victorcodess/propellent",
     demo: "https://propellent.vercel.app/",
-    image: require(".//../../public/projects/propellent-new-flip.png"),
+    image: require(".//../../public/projects/propellent-new.png"),
     available: true,
   },
   {
-    id: 1,
+    id: 2,
     name: "Flixify",
     description:
       "Flixify lets you seamlessly explore movies and TV series, add bookmarks, and search across all pages. It offers user authentication along with a theme switch.",
     technologies: ["Next.js", "Typescript", "Prisma"],
     github: "https://github.com/victorcodess/flixify",
     demo: "https://flixify.victorwilliams.me/",
-    image: require(".//../../public/projects/flixify-flip.png"),
+    image: require(".//../../public/projects/flixify.png"),
     available: true,
   },
   {
-    id: 2,
+    id: 3,
     name: "SkyWatch",
     description:
       "SkyWatch is a convenient and user-friendly tool that allows you to quickly and easily check the current weather and forecast for the next 2 days in any city.",
     technologies: ["React", "CSS", "Chart.js"],
     github: "https://github.com/victorcodess/weather-forecast-website",
     demo: "https://sky-watch.vercel.app/",
-    image: require(".//../../public/projects/skywatch-flip.png"),
+    image: require(".//../../public/projects/skywatch-new.webp"),
     available: true,
   },
-  {
-    id: 3,
-    name: "Alpaca Image Generator",
-    description:
-      "An image generator website that allows users to generate, combine, and download images.",
-    technologies: ["React", "CSS", "Merge Images"],
-    github: "https://github.com/victorcodess/alpaca-image-generator",
-    demo: "http://alpaca-image-generator-beta.vercel.app",
-    image: require(".//../../public/projects/alpaca-flip.png"),
-    available: true,
-  },
+  // {
+  //   id: 4,
+  //   name: "Alpaca Image Generator",
+  //   description:
+  //     "An image generator website that allows users to generate, combine, and download images.",
+  //   technologies: ["React", "CSS", "Merge Images"],
+  //   github: "https://github.com/victorcodess/alpaca-image-generator",
+  //   demo: "http://alpaca-image-generator-beta.vercel.app",
+  //   image: require(".//../../public/projects/alpaca-flip.png"),
+  //   available: true,
+  // },
 
   // {
-  //   id: 3,
+  //   id: 5,
   //   name: "Link Shortener",
   //   description:
   //     "A website that reduces the length of your URL using Bit.ly's API",
@@ -67,7 +78,7 @@ export const devProjects = [
   //   available: true,
   // },
   // {
-  //   id: 4,
+  //   id: 6,
   //   name: "Carpooling Service",
   //   description:
   //     "TMTM helps Covenant University students find fellow students who are headed to the same location, so they can share a ride and split the cost.",
@@ -78,7 +89,7 @@ export const devProjects = [
   //   available: false,
   // },
   // {
-  //   id: 5,
+  //   id: 7,
   //   name: "MLSC.ng",
   //   description:
   //     "This is platform for Microsoft Learn Student Ambassadors to shorten links, append their sharing IDs and generate event certificates.",
