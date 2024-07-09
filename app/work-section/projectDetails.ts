@@ -12,46 +12,57 @@ export type ProjectProps = {
 export const devProjects = [
   {
     id: 0,
+    name: "Interlock",
+    description:
+      "This is a website for a Fintech Startups to showcase their innovative solutions tailored to meet the evolving needs of their clients.",
+    technologies: ["React", "Tailwind CSS", "Framer Motion"],
+    github: "https://github.com/victorcodess/interlock",
+    demo: "https://interlock-teal.vercel.app/",
+    image: require(".//../../public/projects/interlock-flip.png"),
+    available: true,
+  },
+  {
+    id: 1,
     name: "Synthetix",
     description:
       "Built specifically for AI startups, this website lets them present cutting-edge AI data processing solutions tailored to their customers' needs.",
     technologies: ["React", "Next.js", "Prismic CMS"],
     github: "https://github.com/victorcodess/synthetix",
     demo: "https://synthetix-iota.vercel.app/",
-    image: require(".//../../public/projects/synthetix-flip.png"),
-    available: true,
-  },
-  {
-    id: 1,
-    name: "Propellent",
-    description:
-      "A Landing Page built for software startups and small businesses, to showcase their services and mark their online presence.",
-    technologies: ["React", "Tailwind CSS", "Framer Motion"],
-    github: "https://github.com/victorcodess/propellent",
-    demo: "https://propellent.vercel.app/",
-    image: require(".//../../public/projects/propellent-new.png"),
+    image: require(".//../../public/projects/synthetix.png"),
     available: true,
   },
   {
     id: 2,
+    name: "Propellent",
+    description:
+      "A website built for software startups and small businesses, to showcase their services and mark their online presence.",
+    technologies: ["React", "Tailwind CSS", "Framer Motion"],
+    github: "https://github.com/victorcodess/propellent",
+    demo: "https://propellent.vercel.app/",
+    image: require(".//../../public/projects/propellent-new-flip.png"),
+    available: true,
+  },
+  {
+    id: 3,
     name: "Flixify",
     description:
       "Flixify lets you seamlessly explore movies and TV series, add bookmarks, and search across all pages. It offers user authentication along with a theme switch.",
     technologies: ["Next.js", "Typescript", "Prisma"],
     github: "https://github.com/victorcodess/flixify",
     demo: "https://flixify.victorwilliams.me/",
-    image: require(".//../../public/projects/flixify.png"),
+    image: require(".//../../public/projects/flixify-flip.png"),
     available: true,
   },
   {
-    id: 3,
+    id: 4,
     name: "SkyWatch",
     description:
       "SkyWatch is a convenient and user-friendly tool that allows you to quickly and easily check the current weather and forecast for the next 2 days in any city.",
     technologies: ["React", "CSS", "Chart.js"],
     github: "https://github.com/victorcodess/weather-forecast-website",
     demo: "https://sky-watch.vercel.app/",
-    image: require(".//../../public/projects/skywatch-new.webp"),
+    image: require(".//../../public/projects/skywatch-flip.png"),
     available: true,
   },
   // {
