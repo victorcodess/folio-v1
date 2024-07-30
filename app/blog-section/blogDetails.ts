@@ -4,6 +4,7 @@ export type blogProps = {
   date: string;
   url: string;
   available: boolean;
+  index: number;
 };
 
 export const blogDetails = [

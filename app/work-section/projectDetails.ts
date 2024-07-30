@@ -14,18 +14,18 @@ export const devProjects = [
     id: 0,
     name: "Interlock",
     description:
-      "This is a website for a Fintech Startups to showcase their innovative solutions tailored to meet the evolving needs of their clients.",
+      "This is a website for a Fintech Startup to showcase their innovative solutions tailored to meet the evolving needs of their clients.",
     technologies: ["React", "Tailwind CSS", "Framer Motion"],
     github: "https://github.com/victorcodess/interlock",
     demo: "https://interlock-teal.vercel.app/",
-    image: require(".//../../public/projects/interlock-flip.png"),
+    image: require(".//../../public/projects/interlock-flip2.png"),
     available: true,
   },
   {
     id: 1,
     name: "Synthetix",
     description:
-      "Built specifically for AI startups, this website lets them present cutting-edge AI data processing solutions tailored to their customers' needs.",
+      "Built specifically for an AI startup, this website lets them present cutting-edge AI data processing solutions tailored to their customers' needs.",
     technologies: ["React", "Next.js", "Prismic CMS"],
     github: "https://github.com/victorcodess/synthetix",
     demo: "https://synthetix-iota.vercel.app/",
@@ -36,7 +36,7 @@ export const devProjects = [
     id: 2,
     name: "Propellent",
     description:
-      "A website built for software startups and small businesses, to showcase their services and mark their online presence.",
+      "A website built for a software startup and small business, to showcase their services and mark their online presence.",
     technologies: ["React", "Tailwind CSS", "Framer Motion"],
     github: "https://github.com/victorcodess/propellent",
     demo: "https://propellent.vercel.app/",

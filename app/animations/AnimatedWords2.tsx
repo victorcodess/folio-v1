@@ -49,7 +49,7 @@ const AnimatedWords2: React.FC<AnimatedWords2Props> = ({ title, style }) => {
             key={index}
             initial="initial"
             animate={ctrls}
-            className="flex items-center justify-center overflow-hidden last:-mr-10"
+            className="flex items-center justify-center overflow-hidden last:-mr-10 pb-2 sm:pb-0"
             transition={{
               delayChildren: index * 0.25,
               staggerChildren: 0.05,

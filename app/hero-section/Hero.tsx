@@ -9,7 +9,7 @@ import profile from "../../public/profile.webp";
 const Hero = () => {
   return (
     <motion.section
-      className="relative z-10 flex h-[80vh] w-full items-stretch justify-center bg-[url('.//../public/hero.jpg')] bg-cover  bg-center py-0 sm:h-[90vh]  md:h-[100vh]"
+      className="relative z-10 flex h-[80vh] w-full items-stretch justify-center bg-[url('.//../public/hero.jpg')] bg-cover  bg-center py-0 sm:h-[90vh]  md:h-[100vh] 3xl:h-[60vh]"
       id="home"
       initial="initial"
       animate="animate"
@@ -19,15 +19,15 @@ const Hero = () => {
       <div className="absolute top-10 flex justify-between sm:w-[90%] lg:max-w-[1440px]">
         <div>
           <Link
-            href="https://drive.google.com/file/d/1Mmwl-FRGPm5QVe3AjtukJr_Jpc366Ear/view"
+            href="https://cal.com/victorwilliams/30min"
             target="_blank"
-            aria-label="View Resume"
+            aria-label="BOOK A CALL"
           >
             <motion.button
               className="hidden rounded-md border-2 border-[#e4ded7] py-2 px-4 text-[14px] font-semibold text-[#e4ded7] sm:block  md:text-[16px] lg:block"
               variants={bodyAnimation}
             >
-              VIEW RESUME
+              BOOK A CALL
             </motion.button>
           </Link>
         </div>
@@ -69,12 +69,24 @@ const Hero = () => {
               TW
             </motion.p>
           </Link>
+          <Link
+            href="https://contra.com/victorwilliams"
+            target="_blank"
+            aria-label="View Contra Profile"
+          >
+            <motion.p
+              className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
+              variants={bodyAnimation}
+            >
+              CO
+            </motion.p>
+          </Link>
         </div>
       </div>
 
       <div className="-mt-36 flex flex-col items-center justify-center sm:-mt-20 lg:my-40 lg:-mt-2 lg:py-40 ">
         <div
-          className={`relative flex flex-col items-center justify-center ${monaSans.className}   `}
+          className={`relative flex flex-col items-center justify-center ${monaSans.className}`}
         >
           <AnimatedWords
             title="VICTOR WILLIAMS"
@@ -88,7 +100,7 @@ const Hero = () => {
               src={profile}
               priority
               alt="Victor's headshot"
-              data-blobity-tooltip="Fine boy"
+              data-blobity-tooltip="Giga Chad"
               data-blobity-invert="false"
               className=" w-[150px] rounded-[16px] grayscale hover:grayscale-0 md:w-[200px] md:rounded-[32px] lg:w-[245px]"
             />
@@ -106,7 +118,7 @@ const Hero = () => {
           variants={bodyAnimation}
         >
           <p className="z-50 text-center text-[16px] font-medium text-[#e4ded7] md:text-[20px] lg:text-left">
-            Frontend Engineer and Product Designer, prev at{" "}
+            Frontend Engineer and Web Designer, prev at{" "}
             <Link
               href="https://www.mono.co/"
               target="_blank"
@@ -114,7 +126,8 @@ const Hero = () => {
               aria-label="Mono Website"
             >
               Mono,
-            </Link> currently available for work.
+            </Link>{" "}
+            currently available for work.
           </p>
         </motion.div>
 
