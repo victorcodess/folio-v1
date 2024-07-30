@@ -8,6 +8,7 @@ import { initialBlobityOptions } from "./utils/BlobityConfig";
 import NavBar from "./navbar/NavBar";
 
 import dynamic from "next/dynamic";
+import Reviews from "./reviews-section/ReviewGrid";
 const Work = dynamic(() => import("./work-section/Work"));
 const About = dynamic(() => import("./about-section/About"));
 const Blog = dynamic(() => import("./blog-section/BlogGrid"));
@@ -41,6 +42,7 @@ export default function Home() {
       <main className="flex flex-col items-center justify-center">
         <Hero />
         <Work />
+        <Reviews/>
         <About />
         <Blog />
         <Contact />
