@@ -23,20 +23,20 @@ const BlogCard = ({
 
   return (
     <motion.div
-      initial={{ opacity: 0, y: 10 }}
-      whileInView={{
-        opacity: 1,
-        y: 0,
-        transition: {
-          duration: 0.7,
-          delay: 0.1 * index,
-          ease: [0.44, 0, 0.22, 0.99],
-        },
-      }}
-      viewport={{
-        amount: "some",
-        once: true,
-      }}
+    initial={{ opacity: 0, y: 10 }}
+    whileInView={{
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 0.7,
+        delay: 0.1 * index,
+        ease: [0.44, 0, 0.22, 0.99],
+      },
+    }}
+    viewport={{
+      amount: "some",
+      once: true,
+    }}
       className="relative flex h-[473px] w-[100%] flex-col items-start justify-between rounded-[23px] border-[3px] border-[#212531] bg-transparent p-[28px] sm:h-[450px] sm:items-center sm:justify-start lg:h-[393px] lg:max-w-[438px] "
     >
       <Image
