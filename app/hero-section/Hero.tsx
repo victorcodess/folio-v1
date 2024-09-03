@@ -9,7 +9,7 @@ import profile from "../../public/profile.webp";
 const Hero = () => {
   return (
     <motion.section
-      className="relative z-10 flex h-[80vh] w-full items-stretch justify-center bg-[url('.//../public/hero.jpg')] bg-cover  bg-center py-0 sm:h-[90vh]  md:h-[100vh] 3xl:h-[60vh]"
+      className="relative z-10 flex h-[85vh] w-full items-stretch justify-center bg-[url('.//../public/hero.jpg')] bg-cover  bg-center py-0 sm:h-[90vh]  md:h-[100vh] 3xl:h-[85vh]"
       id="home"
       initial="initial"
       animate="animate"
@@ -120,12 +120,12 @@ const Hero = () => {
           <p className="z-50 text-center text-[16px] font-medium text-[#e4ded7] md:text-[20px] lg:text-left">
             Frontend Engineer and Web Designer, prev at{" "}
             <Link
-              href="https://www.mono.co/"
+              href="https://www.korahq.com/"
               target="_blank"
               className="underline underline-offset-2 hover:no-underline"
-              aria-label="Mono Website"
+              aria-label="Kora Website"
             >
-              Mono,
+              Kora,
             </Link>{" "}
             currently available for work.
           </p>
